@@ -93,13 +93,14 @@ class UNet(nn.Module):
 
     def forward_without_last(self, x):
         x, blocks = self.forward_down(x)
+        z = x
         x = self.forward_up_without_last(x, blocks)
-        return x
+        return x, z
 
     def forward(self, x):
-        x = self.get_features(x)
+        x, z = self.get_features(x)
         # return self.last(x)
-        return {'x_hat': self.last(x)}
+        return {'x_hat': self.last(x), 'z': z}
 
     def get_features(self, x):
         return self.forward_without_last(x)
