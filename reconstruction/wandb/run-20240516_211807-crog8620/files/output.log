@@ -1,0 +1,102 @@
+============= Configurations =============
+dataset:brats
+model:ae
+in_channels:1
+input_size:64
+base_width:16
+expansion:1
+mid_num:1024
+latent_size:16
+en_num_layers:1
+de_num_layers:1
+epochs:250
+batch_size:64
+lr:0.001
+weight_decay:0
+seed:931515
+num_params:2.3512M
+FLOPs:29.8967M
+=> Initial learning rate: 0.001
+Batch 1/66: img.requires_grad=True
+Batch 2/66: img.requires_grad=True
+Batch 3/66: img.requires_grad=True
+Batch 4/66: img.requires_grad=True
+Batch 5/66: img.requires_grad=True
+Batch 6/66: img.requires_grad=True
+Batch 7/66: img.requires_grad=True
+Batch 8/66: img.requires_grad=True
+Batch 9/66: img.requires_grad=True
+Batch 10/66: img.requires_grad=True
+Batch 11/66: img.requires_grad=True
+Batch 12/66: img.requires_grad=True
+Batch 13/66: img.requires_grad=True
+Batch 14/66: img.requires_grad=True
+Batch 15/66: img.requires_grad=True
+Batch 16/66: img.requires_grad=True
+Batch 17/66: img.requires_grad=True
+Batch 18/66: img.requires_grad=True
+Batch 19/66: img.requires_grad=True
+Batch 20/66: img.requires_grad=True
+Batch 21/66: img.requires_grad=True
+Batch 22/66: img.requires_grad=True
+Batch 23/66: img.requires_grad=True
+Batch 24/66: img.requires_grad=True
+Batch 25/66: img.requires_grad=True
+Batch 26/66: img.requires_grad=True
+Batch 27/66: img.requires_grad=True
+Batch 28/66: img.requires_grad=True
+Batch 29/66: img.requires_grad=True
+Batch 30/66: img.requires_grad=True
+Batch 31/66: img.requires_grad=True
+Batch 32/66: img.requires_grad=True
+Batch 33/66: img.requires_grad=True
+Batch 34/66: img.requires_grad=True
+Batch 35/66: img.requires_grad=True
+Batch 36/66: img.requires_grad=True
+Batch 37/66: img.requires_grad=True
+Batch 38/66: img.requires_grad=True
+Batch 39/66: img.requires_grad=True
+Batch 40/66: img.requires_grad=True
+Batch 41/66: img.requires_grad=True
+Batch 42/66: img.requires_grad=True
+Batch 43/66: img.requires_grad=True
+Batch 44/66: img.requires_grad=True
+Batch 45/66: img.requires_grad=True
+Batch 46/66: img.requires_grad=True
+Batch 47/66: img.requires_grad=True
+Batch 48/66: img.requires_grad=True
+Batch 49/66: img.requires_grad=True
+Batch 50/66: img.requires_grad=True
+Batch 51/66: img.requires_grad=True
+Batch 52/66: img.requires_grad=True
+Batch 53/66: img.requires_grad=True
+Batch 54/66: img.requires_grad=True
+Batch 55/66: img.requires_grad=True
+Batch 56/66: img.requires_grad=True
+Batch 57/66: img.requires_grad=True
+Batch 58/66: img.requires_grad=True
+Batch 59/66: img.requires_grad=True
+Batch 60/66: img.requires_grad=True
+Batch 61/66: img.requires_grad=True
+Batch 62/66: img.requires_grad=True
+Batch 63/66: img.requires_grad=True
+Batch 64/66: img.requires_grad=True
+Batch 65/66: img.requires_grad=True
+Batch 66/66: img.requires_grad=True
+Last batch:
+en_features[0].requires_grad=True
+en_features[1].requires_grad=True
+en_features[2].requires_grad=True
+de_features[0].requires_grad=True
+de_features[1].requires_grad=True
+de_features[2].requires_grad=True
+Traceback (most recent call last):
+  File "/home/ahmad/Desktop/Graduation Proj/MedIAnomaly/reconstruction/train.py", line 43, in <module>
+    main()
+  File "/home/ahmad/Desktop/Graduation Proj/MedIAnomaly/reconstruction/train.py", line 39, in main
+    worker.run_train()
+  File "/home/ahmad/Desktop/Graduation Proj/MedIAnomaly/reconstruction/utils/ae_worker.py", line 229, in run_train
+    train_loss = self.train_epoch()
+  File "/home/ahmad/Desktop/Graduation Proj/MedIAnomaly/reconstruction/utils/ae_worker.py", line 45, in train_epoch
+    print(f"{key}.requires_grad={value.requires_grad}")
+AttributeError: 'list' object has no attribute 'requires_grad'

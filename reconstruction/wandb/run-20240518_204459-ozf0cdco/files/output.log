@@ -1,0 +1,45 @@
+============= Configurations =============
+dataset:rsna
+model:ae
+in_channels:1
+input_size:64
+base_width:16
+expansion:1
+mid_num:1024
+latent_size:16
+en_num_layers:1
+de_num_layers:1
+epochs:250
+batch_size:64
+lr:0.001
+weight_decay:0
+seed:42
+num_params:2.3512M
+FLOPs:29.8967M
+=> Initial learning rate: 0.001
+Traceback (most recent call last):
+  File "/home/ahmad/Desktop/Graduation Proj/MedIAnomaly/reconstruction/train.py", line 43, in <module>
+    main()
+  File "/home/ahmad/Desktop/Graduation Proj/MedIAnomaly/reconstruction/train.py", line 39, in main
+    worker.run_train()
+  File "/home/ahmad/Desktop/Graduation Proj/MedIAnomaly/reconstruction/utils/ae_worker.py", line 227, in run_train
+    train_loss, recon_loss, embedding_loss, grad_penalty = self.train_epoch()
+  File "/home/ahmad/Desktop/Graduation Proj/MedIAnomaly/reconstruction/utils/ae_worker.py", line 31, in train_epoch
+    for idx_batch, data_batch in enumerate(self.train_loader):
+  File "/home/ahmad/anaconda3/envs/torch/lib/python3.10/site-packages/torch/utils/data/dataloader.py", line 631, in __next__
+    data = self._next_data()
+  File "/home/ahmad/anaconda3/envs/torch/lib/python3.10/site-packages/torch/utils/data/dataloader.py", line 675, in _next_data
+    data = self._dataset_fetcher.fetch(index)  # may raise StopIteration
+  File "/home/ahmad/anaconda3/envs/torch/lib/python3.10/site-packages/torch/utils/data/_utils/fetch.py", line 51, in fetch
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "/home/ahmad/anaconda3/envs/torch/lib/python3.10/site-packages/torch/utils/data/_utils/fetch.py", line 51, in <listcomp>
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "/home/ahmad/Desktop/Graduation Proj/MedIAnomaly/reconstruction/dataloaders/dataload.py", line 73, in __getitem__
+    img = self.transform(img)
+  File "/home/ahmad/anaconda3/envs/torch/lib/python3.10/site-packages/torchvision/transforms/transforms.py", line 95, in __call__
+    img = t(img)
+  File "/home/ahmad/anaconda3/envs/torch/lib/python3.10/site-packages/torchvision/transforms/transforms.py", line 137, in __call__
+    return F.to_tensor(pic)
+  File "/home/ahmad/anaconda3/envs/torch/lib/python3.10/site-packages/torchvision/transforms/functional.py", line 175, in to_tensor
+    return img.to(dtype=default_float_dtype).div(255)
+KeyboardInterrupt

@@ -1,0 +1,35 @@
+============= Configurations =============
+dataset:rsna
+model:ganomaly
+in_channels:1
+input_size:64
+base_width:16
+expansion:1
+mid_num:1024
+latent_size:16
+en_num_layers:1
+de_num_layers:1
+epochs:250
+batch_size:64
+lr:0.001
+weight_decay:0
+seed:42
+num_params:3.5202M
+FLOPs:36.5773M
+=> Initial learning rate: 0.001
+Traceback (most recent call last):
+  File "/home/ahmad/Desktop/Graduation Proj/MedIAnomaly/reconstruction/train.py", line 44, in <module>
+    main()
+  File "/home/ahmad/Desktop/Graduation Proj/MedIAnomaly/reconstruction/train.py", line 40, in main
+    worker.run_train()
+  File "/home/ahmad/Desktop/Graduation Proj/MedIAnomaly/reconstruction/utils/ganomaly_worker.py", line 69, in run_train
+    eval_results = self.evaluate()
+  File "/home/ahmad/Desktop/Graduation Proj/MedIAnomaly/reconstruction/utils/ganomaly_worker.py", line 104, in evaluate
+    anomaly_score = self.criterion(img, net_out, anomaly_score=True)
+  File "/home/ahmad/anaconda3/envs/torch/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1511, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/ahmad/anaconda3/envs/torch/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1520, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/ahmad/Desktop/Graduation Proj/MedIAnomaly/reconstruction/utils/losses.py", line 285, in forward
+    return torch.mean((z - z_hat) ** 2, dim=1)
+UnboundLocalError: local variable 'z_hat' referenced before assignment

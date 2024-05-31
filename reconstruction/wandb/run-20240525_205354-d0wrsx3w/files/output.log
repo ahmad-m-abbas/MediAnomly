@@ -1,0 +1,29 @@
+============= Configurations =============
+dataset:rsna
+model:constrained-ae
+in_channels:1
+input_size:64
+base_width:16
+expansion:1
+mid_num:1024
+latent_size:16
+en_num_layers:1
+de_num_layers:1
+epochs:250
+batch_size:64
+lr:0.001
+weight_decay:0
+seed:42
+num_params:2.3512M
+FLOPs:29.8967M
+=> Initial learning rate: 0.001
+Traceback (most recent call last):
+  File "/home/ahmad/Desktop/Graduation Proj/MedIAnomaly/reconstruction/train.py", line 44, in <module>
+    main()
+  File "/home/ahmad/Desktop/Graduation Proj/MedIAnomaly/reconstruction/train.py", line 40, in main
+    worker.run_train()
+  File "/home/ahmad/Desktop/Graduation Proj/MedIAnomaly/reconstruction/utils/constrainedae_worker.py", line 43, in run_train
+    eval_results = self.evaluate()
+  File "/home/ahmad/Desktop/Graduation Proj/MedIAnomaly/reconstruction/utils/ae_worker.py", line 125, in evaluate
+    test_scores = torch.mean(test_score_maps, dim=[1, 2, 3]).numpy()  # N
+IndexError: Dimension out of range (expected to be in range of [-3, 2], but got 3)

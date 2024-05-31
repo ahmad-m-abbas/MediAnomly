@@ -1,0 +1,81 @@
+{
+    "os": "Linux-6.5.0-14-generic-x86_64-with-glibc2.37",
+    "python": "3.10.13",
+    "heartbeatAt": "2024-05-25T00:17:10.773523",
+    "startedAt": "2024-05-25T00:17:09.889888",
+    "docker": null,
+    "cuda": null,
+    "args": [
+        "-d",
+        "brats",
+        "-m",
+        "ceae",
+        "-g",
+        "0",
+        "-f",
+        "5",
+        "--beta",
+        "0.0005",
+        "--grad-pen-weight",
+        "0.00005"
+    ],
+    "state": "running",
+    "program": "/home/ahmad/Desktop/Graduation Proj/MedIAnomaly/reconstruction/train.py",
+    "codePathLocal": "train.py",
+    "codePath": "reconstruction/train.py",
+    "git": {
+        "remote": "https://github.com/caiyu6666/MedIAnomaly.git",
+        "commit": "a7874d7cb694f2fc0c28ec6b042f6b832441ad3c"
+    },
+    "email": "ahmad.abbas176@yahoo.com",
+    "root": "/home/ahmad/Desktop/Graduation Proj/MedIAnomaly",
+    "host": "ahmad",
+    "username": "ahmad",
+    "executable": "/home/ahmad/anaconda3/envs/torch/bin/python",
+    "cpu_count": 4,
+    "cpu_count_logical": 4,
+    "cpu_freq": {
+        "current": 3.59975,
+        "min": 800.0,
+        "max": 4200.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 3.599,
+            "min": 800.0,
+            "max": 4200.0
+        },
+        {
+            "current": 3.599,
+            "min": 800.0,
+            "max": 4200.0
+        },
+        {
+            "current": 3.599,
+            "min": 800.0,
+            "max": 4200.0
+        },
+        {
+            "current": 3.599,
+            "min": 800.0,
+            "max": 4200.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 146.32369995117188,
+            "used": 102.15825653076172
+        }
+    },
+    "gpu": "NVIDIA GeForce GTX 1060 3GB",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA GeForce GTX 1060 3GB",
+            "memory_total": 3221225472
+        }
+    ],
+    "memory": {
+        "total": 15.52878189086914
+    }
+}

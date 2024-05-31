@@ -1,0 +1,21 @@
+2024-05-26 13:48:27,443 INFO    StreamThr :193472 [internal.py:wandb_internal():86] W&B internal server running at pid: 193472, started at: 2024-05-26 13:48:27.443134
+2024-05-26 13:48:27,444 DEBUG   HandlerThread:193472 [handler.py:handle_request():146] handle_request: status
+2024-05-26 13:48:27,446 INFO    WriterThread:193472 [datastore.py:open_for_write():87] open: /home/ahmad/Desktop/Graduation Proj/MedIAnomaly/reconstruction/wandb/run-20240526_134827-kurx7da2/run-kurx7da2.wandb
+2024-05-26 13:48:27,446 DEBUG   SenderThread:193472 [sender.py:send():379] send: header
+2024-05-26 13:48:27,448 DEBUG   SenderThread:193472 [sender.py:send():379] send: run
+2024-05-26 13:48:27,608 DEBUG   HandlerThread:193472 [handler.py:handle_request():146] handle_request: shutdown
+2024-05-26 13:48:27,608 INFO    HandlerThread:193472 [handler.py:finish():866] shutting down handler
+2024-05-26 13:48:27,998 INFO    SenderThread:193472 [dir_watcher.py:__init__():211] watching files in: /home/ahmad/Desktop/Graduation Proj/MedIAnomaly/reconstruction/wandb/run-20240526_134827-kurx7da2/files
+2024-05-26 13:48:27,999 INFO    SenderThread:193472 [sender.py:_start_run_threads():1124] run started: kurx7da2 with start time 1716720507.443153
+2024-05-26 13:48:27,999 INFO    SenderThread:193472 [sender.py:finish():1546] shutting down sender
+2024-05-26 13:48:27,999 INFO    SenderThread:193472 [dir_watcher.py:finish():358] shutting down directory watcher
+2024-05-26 13:48:28,445 WARNING StreamThr :193472 [internal.py:is_dead():414] Internal process exiting, parent pid 193414 disappeared
+2024-05-26 13:48:28,445 ERROR   StreamThr :193472 [internal.py:wandb_internal():152] Internal process shutdown.
+2024-05-26 13:48:28,448 INFO    WriterThread:193472 [datastore.py:close():296] close: /home/ahmad/Desktop/Graduation Proj/MedIAnomaly/reconstruction/wandb/run-20240526_134827-kurx7da2/run-kurx7da2.wandb
+2024-05-26 13:48:28,999 INFO    SenderThread:193472 [dir_watcher.py:finish():388] scan: /home/ahmad/Desktop/Graduation Proj/MedIAnomaly/reconstruction/wandb/run-20240526_134827-kurx7da2/files
+2024-05-26 13:48:28,999 INFO    SenderThread:193472 [dir_watcher.py:finish():402] scan save: /home/ahmad/Desktop/Graduation Proj/MedIAnomaly/reconstruction/wandb/run-20240526_134827-kurx7da2/files/config.yaml config.yaml
+2024-05-26 13:48:28,999 INFO    SenderThread:193472 [file_pusher.py:finish():172] shutting down file pusher
+2024-05-26 13:48:28,999 INFO    SenderThread:193472 [file_pusher.py:join():178] waiting for file pusher
+2024-05-26 13:48:29,754 INFO    wandb-upload_0:193472 [upload_job.py:push():131] Uploaded file /home/ahmad/Desktop/Graduation Proj/MedIAnomaly/reconstruction/wandb/run-20240526_134827-kurx7da2/files/config.yaml
+2024-05-26 13:48:30,001 INFO    SenderThread:193472 [file_stream.py:finish():614] file stream finish called
+2024-05-26 13:48:30,317 INFO    SenderThread:193472 [file_stream.py:finish():618] file stream finish is done

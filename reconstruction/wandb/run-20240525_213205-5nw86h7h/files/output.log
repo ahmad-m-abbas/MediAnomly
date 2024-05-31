@@ -1,0 +1,30 @@
+============= Configurations =============
+dataset:rsna
+model:constrained-ae
+in_channels:1
+input_size:64
+base_width:16
+expansion:1
+mid_num:1024
+latent_size:16
+en_num_layers:1
+de_num_layers:1
+epochs:250
+batch_size:64
+lr:0.001
+weight_decay:0
+seed:42
+num_params:2.3512M
+FLOPs:29.8967M
+=> Initial learning rate: 0.001
+Epoch[  1/250]  Time:7.7s  loss:0.31300  recon_loss:0.27160  z_recon_loss:0.04139  |  AUC: 0.4375  AP: 0.4737  normal_score: 0.1969  abnormal_score: 0.1863
+Epoch[ 25/250]  Time:56.1s  loss:0.02785  recon_loss:0.02555  z_recon_loss:0.00230  |  AUC: 0.5550  AP: 0.5584  normal_score: 0.0262  abnormal_score: 0.0295
+Epoch[ 50/250]  Time:58.3s  loss:0.02187  recon_loss:0.02047  z_recon_loss:0.00139  |  AUC: 0.6130  AP: 0.6147  normal_score: 0.0209  abnormal_score: 0.0260
+Epoch[ 75/250]  Time:58.3s  loss:0.01965  recon_loss:0.01870  z_recon_loss:0.00095  |  AUC: 0.6437  AP: 0.6408  normal_score: 0.0197  abnormal_score: 0.0259
+Epoch[100/250]  Time:58.4s  loss:0.01684  recon_loss:0.01637  z_recon_loss:0.00047  |  AUC: 0.6413  AP: 0.6377  normal_score: 0.0187  abnormal_score: 0.0248
+Epoch[125/250]  Time:58.4s  loss:0.01583  recon_loss:0.01550  z_recon_loss:0.00034  |  AUC: 0.6453  AP: 0.6451  normal_score: 0.0178  abnormal_score: 0.0241
+Epoch[150/250]  Time:58.4s  loss:0.01486  recon_loss:0.01456  z_recon_loss:0.00030  |  AUC: 0.6613  AP: 0.6578  normal_score: 0.0171  abnormal_score: 0.0237
+Epoch[175/250]  Time:58.4s  loss:0.01339  recon_loss:0.01315  z_recon_loss:0.00024  |  AUC: 0.6710  AP: 0.6644  normal_score: 0.0173  abnormal_score: 0.0244
+Epoch[200/250]  Time:58.4s  loss:0.01266  recon_loss:0.01244  z_recon_loss:0.00022  |  AUC: 0.6700  AP: 0.6639  normal_score: 0.0173  abnormal_score: 0.0243
+Epoch[225/250]  Time:58.4s  loss:0.01249  recon_loss:0.01226  z_recon_loss:0.00023  |  AUC: 0.6683  AP: 0.6637  normal_score: 0.0177  abnormal_score: 0.0250
+Epoch[250/250]  Time:58.4s  loss:0.01142  recon_loss:0.01123  z_recon_loss:0.00019  |  AUC: 0.6809  AP: 0.6723  normal_score: 0.0175  abnormal_score: 0.0253

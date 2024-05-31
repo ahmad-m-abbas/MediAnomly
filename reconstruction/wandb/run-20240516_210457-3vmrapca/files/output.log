@@ -1,0 +1,29 @@
+============= Configurations =============
+dataset:brats
+model:ae
+in_channels:1
+input_size:64
+base_width:16
+expansion:1
+mid_num:1024
+latent_size:16
+en_num_layers:1
+de_num_layers:1
+epochs:250
+batch_size:64
+lr:0.001
+weight_decay:0
+seed:39426
+num_params:2.3512M
+FLOPs:29.8967M
+=> Initial learning rate: 0.001
+Traceback (most recent call last):
+  File "/home/ahmad/Desktop/Graduation Proj/MedIAnomaly/reconstruction/train.py", line 43, in <module>
+    main()
+  File "/home/ahmad/Desktop/Graduation Proj/MedIAnomaly/reconstruction/train.py", line 39, in main
+    worker.run_train()
+  File "/home/ahmad/Desktop/Graduation Proj/MedIAnomaly/reconstruction/utils/ae_worker.py", line 221, in run_train
+    train_loss = self.train_epoch()
+  File "/home/ahmad/Desktop/Graduation Proj/MedIAnomaly/reconstruction/utils/ae_worker.py", line 27, in train_epoch
+    print(train_loader.shape)
+NameError: name 'train_loader' is not defined

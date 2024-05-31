@@ -1,0 +1,30 @@
+============= Configurations =============
+dataset:lag
+model:memae
+in_channels:1
+input_size:64
+base_width:16
+expansion:1
+mid_num:1024
+latent_size:16
+en_num_layers:1
+de_num_layers:1
+epochs:250
+batch_size:64
+lr:0.001
+weight_decay:0
+seed:42
+num_params:2.3512M
+FLOPs:29.8967M
+=> Initial learning rate: 0.001
+Epoch[  1/250]  Time:6.9s  loss:0.13649  recon_loss:0.13600  entro_loss:2.48548  |  AUC: 0.4571  AP: 0.4632  normal_score: 0.1083  abnormal_score: 0.0991
+Epoch[ 25/250]  Time:24.4s  loss:0.00932  recon_loss:0.00879  entro_loss:2.67525  |  AUC: 0.7790  AP: 0.7321  normal_score: 0.0078  abnormal_score: 0.0122
+Epoch[ 50/250]  Time:25.2s  loss:0.00714  recon_loss:0.00659  entro_loss:2.74710  |  AUC: 0.7713  AP: 0.7340  normal_score: 0.0056  abnormal_score: 0.0090
+Epoch[ 75/250]  Time:25.2s  loss:0.00643  recon_loss:0.00588  entro_loss:2.75646  |  AUC: 0.7769  AP: 0.7434  normal_score: 0.0052  abnormal_score: 0.0085
+Epoch[100/250]  Time:25.2s  loss:0.00554  recon_loss:0.00499  entro_loss:2.74147  |  AUC: 0.7522  AP: 0.7253  normal_score: 0.0047  abnormal_score: 0.0075
+Epoch[125/250]  Time:25.2s  loss:0.00584  recon_loss:0.00530  entro_loss:2.71042  |  AUC: 0.7422  AP: 0.7169  normal_score: 0.0051  abnormal_score: 0.0079
+Epoch[150/250]  Time:25.2s  loss:0.00487  recon_loss:0.00434  entro_loss:2.67391  |  AUC: 0.7769  AP: 0.7522  normal_score: 0.0045  abnormal_score: 0.0075
+Epoch[175/250]  Time:25.2s  loss:0.00453  recon_loss:0.00401  entro_loss:2.62942  |  AUC: 0.7481  AP: 0.7118  normal_score: 0.0044  abnormal_score: 0.0071
+Epoch[200/250]  Time:25.2s  loss:0.00430  recon_loss:0.00378  entro_loss:2.57451  |  AUC: 0.7898  AP: 0.7705  normal_score: 0.0049  abnormal_score: 0.0083
+Epoch[225/250]  Time:25.2s  loss:0.00454  recon_loss:0.00403  entro_loss:2.52582  |  AUC: 0.7868  AP: 0.7517  normal_score: 0.0041  abnormal_score: 0.0071
+Epoch[250/250]  Time:25.1s  loss:0.00369  recon_loss:0.00320  entro_loss:2.46460  |  AUC: 0.7971  AP: 0.7648  normal_score: 0.0040  abnormal_score: 0.0072

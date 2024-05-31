@@ -1,0 +1,49 @@
+============= Configurations =============
+dataset:brats
+model:ae
+in_channels:1
+input_size:64
+base_width:16
+expansion:1
+mid_num:1024
+latent_size:16
+en_num_layers:1
+de_num_layers:1
+epochs:250
+batch_size:64
+lr:0.001
+weight_decay:0
+seed:42
+num_params:2.3512M
+FLOPs:29.8967M
+=> Initial learning rate: 0.001
+Traceback (most recent call last):
+  File "/home/ahmad/Desktop/Graduation Proj/MedIAnomaly/reconstruction/train.py", line 44, in <module>
+    main()
+  File "/home/ahmad/Desktop/Graduation Proj/MedIAnomaly/reconstruction/train.py", line 40, in main
+    worker.run_train()
+  File "/home/ahmad/Desktop/Graduation Proj/MedIAnomaly/reconstruction/utils/ae_worker.py", line 237, in run_train
+    eval_results = self.evaluate()
+  File "/home/ahmad/Desktop/Graduation Proj/MedIAnomaly/reconstruction/utils/ae_worker.py", line 136, in evaluate
+    pix_ap = metrics.average_precision_score(test_masks.numpy().reshape(-1),
+  File "/home/ahmad/anaconda3/envs/torch/lib/python3.10/site-packages/sklearn/utils/_param_validation.py", line 214, in wrapper
+    return func(*args, **kwargs)
+  File "/home/ahmad/anaconda3/envs/torch/lib/python3.10/site-packages/sklearn/metrics/_ranking.py", line 268, in average_precision_score
+    return _average_binary_score(
+  File "/home/ahmad/anaconda3/envs/torch/lib/python3.10/site-packages/sklearn/metrics/_base.py", line 75, in _average_binary_score
+    return binary_metric(y_true, y_score, sample_weight=sample_weight)
+  File "/home/ahmad/anaconda3/envs/torch/lib/python3.10/site-packages/sklearn/metrics/_ranking.py", line 230, in _binary_uninterpolated_average_precision
+    precision, recall, _ = precision_recall_curve(
+  File "/home/ahmad/anaconda3/envs/torch/lib/python3.10/site-packages/sklearn/utils/_param_validation.py", line 187, in wrapper
+    return func(*args, **kwargs)
+  File "/home/ahmad/anaconda3/envs/torch/lib/python3.10/site-packages/sklearn/metrics/_ranking.py", line 952, in precision_recall_curve
+    fps, tps, thresholds = _binary_clf_curve(
+  File "/home/ahmad/anaconda3/envs/torch/lib/python3.10/site-packages/sklearn/metrics/_ranking.py", line 821, in _binary_clf_curve
+    pos_label = _check_pos_label_consistency(pos_label, y_true)
+  File "/home/ahmad/anaconda3/envs/torch/lib/python3.10/site-packages/sklearn/utils/validation.py", line 2233, in _check_pos_label_consistency
+    classes = np.unique(y_true)
+  File "/home/ahmad/anaconda3/envs/torch/lib/python3.10/site-packages/numpy/lib/arraysetops.py", line 274, in unique
+    ret = _unique1d(ar, return_index, return_inverse, return_counts,
+  File "/home/ahmad/anaconda3/envs/torch/lib/python3.10/site-packages/numpy/lib/arraysetops.py", line 336, in _unique1d
+    ar.sort()
+KeyboardInterrupt

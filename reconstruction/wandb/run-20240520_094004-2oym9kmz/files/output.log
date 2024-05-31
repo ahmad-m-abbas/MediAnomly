@@ -1,0 +1,35 @@
+============= Configurations =============
+dataset:rsna
+model:ae-ssim
+in_channels:1
+input_size:64
+base_width:16
+expansion:1
+mid_num:1024
+latent_size:16
+en_num_layers:1
+de_num_layers:1
+epochs:250
+batch_size:64
+lr:0.001
+weight_decay:1e-05
+seed:42
+num_params:2.3512M
+FLOPs:29.8967M
+=> Initial learning rate: 0.001
+Traceback (most recent call last):
+  File "/home/ahmad/Desktop/Graduation Proj/MedIAnomaly/reconstruction/train.py", line 44, in <module>
+    main()
+  File "/home/ahmad/Desktop/Graduation Proj/MedIAnomaly/reconstruction/train.py", line 40, in main
+    worker.run_train()
+  File "/home/ahmad/Desktop/Graduation Proj/MedIAnomaly/reconstruction/utils/ae_worker.py", line 227, in run_train
+    train_loss, recon_loss, embedding_loss, grad_penalty = self.train_epoch()
+  File "/home/ahmad/Desktop/Graduation Proj/MedIAnomaly/reconstruction/utils/ae_worker.py", line 38, in train_epoch
+    loss, recon_loss, embedding_loss, grad_penalty = self.criterion(img, net_out)
+  File "/home/ahmad/anaconda3/envs/torch/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1511, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/ahmad/anaconda3/envs/torch/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1520, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/ahmad/Desktop/Graduation Proj/MedIAnomaly/reconstruction/utils/losses.py", line 73, in forward
+    embedding_loss = self.beta * (embedding ** 2).mean()
+NameError: name 'embedding' is not defined

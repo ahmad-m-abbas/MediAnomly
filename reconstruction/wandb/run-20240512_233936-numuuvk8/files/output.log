@@ -1,0 +1,49 @@
+============= Configurations =============
+dataset:brats
+model:ae
+in_channels:1
+input_size:64
+base_width:16
+expansion:1
+mid_num:1024
+latent_size:16
+en_num_layers:1
+de_num_layers:1
+epochs:250
+batch_size:64
+lr:0.001
+weight_decay:0
+seed:624819
+num_params:2.3512M
+FLOPs:29.8967M
+=> Initial learning rate: 0.001
+Epoch[  1/250]  Time:22.9s  loss:30.07241  |  AUC: 0.67651  AP: 0.83887  PixAUC: 0.92205  PixAP: 0.44256  BestDice: 0.45604  BestThresh: 0.51000  normal_score: 0.09623  abnormal_score: 0.13188
+Epoch[ 25/250]  Time:46.1s  loss:0.19214  |  AUC: 0.62461  AP: 0.77987  PixAUC: 0.91595  PixAP: 0.36324  BestDice: 0.39580  BestThresh: 0.30522  normal_score: 0.04724  abnormal_score: 0.05531
+Epoch[ 50/250]  Time:47.3s  loss:0.21197  |  AUC: 0.66150  AP: 0.81596  PixAUC: 0.92534  PixAP: 0.33195  BestDice: 0.38106  BestThresh: 0.21152  normal_score: 0.03500  abnormal_score: 0.04595
+Epoch[ 75/250]  Time:47.1s  loss:0.25990  |  AUC: 0.62851  AP: 0.80233  PixAUC: 0.84926  PixAP: 0.16802  BestDice: 0.24950  BestThresh: 0.20790  normal_score: 0.04406  abnormal_score: 0.06217
+Traceback (most recent call last):
+  File "/home/ahmad/Desktop/Graduation Proj/MedIAnomaly/reconstruction/train.py", line 43, in <module>
+    main()
+  File "/home/ahmad/Desktop/Graduation Proj/MedIAnomaly/reconstruction/train.py", line 39, in main
+    worker.run_train()
+  File "/home/ahmad/Desktop/Graduation Proj/MedIAnomaly/reconstruction/utils/ae_worker.py", line 214, in run_train
+    train_loss = self.train_epoch()
+  File "/home/ahmad/Desktop/Graduation Proj/MedIAnomaly/reconstruction/utils/ae_worker.py", line 25, in train_epoch
+    for idx_batch, data_batch in enumerate(self.train_loader):
+  File "/home/ahmad/anaconda3/envs/torch/lib/python3.10/site-packages/torch/utils/data/dataloader.py", line 631, in __next__
+    data = self._next_data()
+  File "/home/ahmad/anaconda3/envs/torch/lib/python3.10/site-packages/torch/utils/data/dataloader.py", line 675, in _next_data
+    data = self._dataset_fetcher.fetch(index)  # may raise StopIteration
+  File "/home/ahmad/anaconda3/envs/torch/lib/python3.10/site-packages/torch/utils/data/_utils/fetch.py", line 51, in fetch
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "/home/ahmad/anaconda3/envs/torch/lib/python3.10/site-packages/torch/utils/data/_utils/fetch.py", line 51, in <listcomp>
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "/home/ahmad/Desktop/Graduation Proj/MedIAnomaly/reconstruction/dataloaders/dataload.py", line 139, in __getitem__
+    img = self.transform(img)
+  File "/home/ahmad/anaconda3/envs/torch/lib/python3.10/site-packages/torchvision/transforms/transforms.py", line 95, in __call__
+    img = t(img)
+  File "/home/ahmad/anaconda3/envs/torch/lib/python3.10/site-packages/torchvision/transforms/transforms.py", line 137, in __call__
+    return F.to_tensor(pic)
+  File "/home/ahmad/anaconda3/envs/torch/lib/python3.10/site-packages/torchvision/transforms/functional.py", line 173, in to_tensor
+    img = img.permute((2, 0, 1)).contiguous()
+KeyboardInterrupt

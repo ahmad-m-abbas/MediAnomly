@@ -1,0 +1,39 @@
+============= Configurations =============
+dataset:brats
+model:ae
+in_channels:1
+input_size:64
+base_width:16
+expansion:1
+mid_num:1024
+latent_size:16
+en_num_layers:1
+de_num_layers:1
+epochs:250
+batch_size:64
+lr:0.001
+weight_decay:0
+seed:875941
+num_params:2.3522M
+FLOPs:29.8977M
+=> Initial learning rate: 0.001
+Traceback (most recent call last):
+  File "/home/ahmad/Desktop/Graduation Proj/MedIAnomaly/reconstruction/train.py", line 43, in <module>
+    main()
+  File "/home/ahmad/Desktop/Graduation Proj/MedIAnomaly/reconstruction/train.py", line 39, in main
+    worker.run_train()
+  File "/home/ahmad/Desktop/Graduation Proj/MedIAnomaly/reconstruction/utils/ae_worker.py", line 221, in run_train
+    eval_results = self.evaluate()
+  File "/home/ahmad/Desktop/Graduation Proj/MedIAnomaly/reconstruction/utils/ae_worker.py", line 96, in evaluate
+    anomaly_score_map = self.criterion(img, net_out, self.net).detach().cpu()
+  File "/home/ahmad/anaconda3/envs/torch/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1511, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/ahmad/anaconda3/envs/torch/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1520, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/ahmad/Desktop/Graduation Proj/MedIAnomaly/reconstruction/utils/losses.py", line 49, in forward
+    loss_grad = torch.autograd.grad(outputs=recon_loss, inputs=x, create_graph=True)[0]
+  File "/home/ahmad/anaconda3/envs/torch/lib/python3.10/site-packages/torch/autograd/__init__.py", line 412, in grad
+    result = _engine_run_backward(
+  File "/home/ahmad/anaconda3/envs/torch/lib/python3.10/site-packages/torch/autograd/graph.py", line 690, in _engine_run_backward
+    return Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+RuntimeError: element 0 of tensors does not require grad and does not have a grad_fn

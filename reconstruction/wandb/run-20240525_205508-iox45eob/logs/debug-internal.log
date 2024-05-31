@@ -1,0 +1,188 @@
+2024-05-25 20:55:08,373 INFO    StreamThr :167769 [internal.py:wandb_internal():86] W&B internal server running at pid: 167769, started at: 2024-05-25 20:55:08.373183
+2024-05-25 20:55:08,374 DEBUG   HandlerThread:167769 [handler.py:handle_request():146] handle_request: status
+2024-05-25 20:55:08,376 INFO    WriterThread:167769 [datastore.py:open_for_write():87] open: /home/ahmad/Desktop/Graduation Proj/MedIAnomaly/reconstruction/wandb/run-20240525_205508-iox45eob/run-iox45eob.wandb
+2024-05-25 20:55:08,376 DEBUG   SenderThread:167769 [sender.py:send():379] send: header
+2024-05-25 20:55:08,379 DEBUG   SenderThread:167769 [sender.py:send():379] send: run
+2024-05-25 20:55:09,000 INFO    SenderThread:167769 [dir_watcher.py:__init__():211] watching files in: /home/ahmad/Desktop/Graduation Proj/MedIAnomaly/reconstruction/wandb/run-20240525_205508-iox45eob/files
+2024-05-25 20:55:09,000 INFO    SenderThread:167769 [sender.py:_start_run_threads():1124] run started: iox45eob with start time 1716659708.37319
+2024-05-25 20:55:09,007 DEBUG   HandlerThread:167769 [handler.py:handle_request():146] handle_request: check_version
+2024-05-25 20:55:09,008 DEBUG   SenderThread:167769 [sender.py:send_request():406] send_request: check_version
+2024-05-25 20:55:09,297 DEBUG   HandlerThread:167769 [handler.py:handle_request():146] handle_request: run_start
+2024-05-25 20:55:09,305 DEBUG   HandlerThread:167769 [system_info.py:__init__():26] System info init
+2024-05-25 20:55:09,305 DEBUG   HandlerThread:167769 [system_info.py:__init__():41] System info init done
+2024-05-25 20:55:09,305 INFO    HandlerThread:167769 [system_monitor.py:start():194] Starting system monitor
+2024-05-25 20:55:09,305 INFO    SystemMonitor:167769 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-05-25 20:55:09,305 INFO    HandlerThread:167769 [system_monitor.py:probe():214] Collecting system info
+2024-05-25 20:55:09,306 INFO    SystemMonitor:167769 [interfaces.py:start():190] Started cpu monitoring
+2024-05-25 20:55:09,307 INFO    SystemMonitor:167769 [interfaces.py:start():190] Started disk monitoring
+2024-05-25 20:55:09,307 INFO    SystemMonitor:167769 [interfaces.py:start():190] Started gpu monitoring
+2024-05-25 20:55:09,308 INFO    SystemMonitor:167769 [interfaces.py:start():190] Started memory monitoring
+2024-05-25 20:55:09,308 INFO    SystemMonitor:167769 [interfaces.py:start():190] Started network monitoring
+2024-05-25 20:55:09,318 DEBUG   HandlerThread:167769 [system_info.py:probe():150] Probing system
+2024-05-25 20:55:09,319 DEBUG   HandlerThread:167769 [system_info.py:_probe_git():135] Probing git
+2024-05-25 20:55:09,325 DEBUG   HandlerThread:167769 [system_info.py:_probe_git():143] Probing git done
+2024-05-25 20:55:09,325 DEBUG   HandlerThread:167769 [system_info.py:probe():198] Probing system done
+2024-05-25 20:55:09,325 DEBUG   HandlerThread:167769 [system_monitor.py:probe():223] {'os': 'Linux-6.5.0-14-generic-x86_64-with-glibc2.37', 'python': '3.10.13', 'heartbeatAt': '2024-05-25T17:55:09.318183', 'startedAt': '2024-05-25T17:55:08.369736', 'docker': None, 'cuda': None, 'args': ('-d', 'vin', '-m', 'constrained-ae', '-g', '0', '-f', '1', '--beta', '0.001', '--grad-pen-weight', '0.00001', '--train-weight-decay', '0.00001'), 'state': 'running', 'program': '/home/ahmad/Desktop/Graduation Proj/MedIAnomaly/reconstruction/train.py', 'codePathLocal': 'train.py', 'codePath': 'reconstruction/train.py', 'git': {'remote': 'https://github.com/caiyu6666/MedIAnomaly.git', 'commit': 'a7874d7cb694f2fc0c28ec6b042f6b832441ad3c'}, 'email': 'ahmad.abbas176@yahoo.com', 'root': '/home/ahmad/Desktop/Graduation Proj/MedIAnomaly', 'host': 'ahmad', 'username': 'ahmad', 'executable': '/home/ahmad/anaconda3/envs/torch/bin/python', 'cpu_count': 4, 'cpu_count_logical': 4, 'cpu_freq': {'current': 3.59975, 'min': 800.0, 'max': 4200.0}, 'cpu_freq_per_core': [{'current': 3.599, 'min': 800.0, 'max': 4200.0}, {'current': 3.599, 'min': 800.0, 'max': 4200.0}, {'current': 3.599, 'min': 800.0, 'max': 4200.0}, {'current': 3.599, 'min': 800.0, 'max': 4200.0}], 'disk': {'/': {'total': 146.32369995117188, 'used': 106.39717102050781}}, 'gpu': 'NVIDIA GeForce GTX 1060 3GB', 'gpu_count': 1, 'gpu_devices': [{'name': 'NVIDIA GeForce GTX 1060 3GB', 'memory_total': 3221225472}], 'memory': {'total': 15.52878189086914}}
+2024-05-25 20:55:09,325 INFO    HandlerThread:167769 [system_monitor.py:probe():224] Finished collecting system info
+2024-05-25 20:55:09,325 INFO    HandlerThread:167769 [system_monitor.py:probe():227] Publishing system info
+2024-05-25 20:55:09,325 DEBUG   HandlerThread:167769 [system_info.py:_save_conda():207] Saving list of conda packages installed into the current environment
+2024-05-25 20:55:10,001 INFO    Thread-12 :167769 [dir_watcher.py:_on_file_created():271] file/dir created: /home/ahmad/Desktop/Graduation Proj/MedIAnomaly/reconstruction/wandb/run-20240525_205508-iox45eob/files/conda-environment.yaml
+2024-05-25 20:55:12,546 DEBUG   HandlerThread:167769 [system_info.py:_save_conda():222] Saving conda packages done
+2024-05-25 20:55:12,546 INFO    HandlerThread:167769 [system_monitor.py:probe():229] Finished publishing system info
+2024-05-25 20:55:12,548 DEBUG   SenderThread:167769 [sender.py:send():379] send: files
+2024-05-25 20:55:12,548 INFO    SenderThread:167769 [sender.py:_save_file():1390] saving file wandb-metadata.json with policy now
+2024-05-25 20:55:12,648 DEBUG   HandlerThread:167769 [handler.py:handle_request():146] handle_request: python_packages
+2024-05-25 20:55:12,648 DEBUG   SenderThread:167769 [sender.py:send_request():406] send_request: python_packages
+2024-05-25 20:55:12,648 DEBUG   HandlerThread:167769 [handler.py:handle_request():146] handle_request: stop_status
+2024-05-25 20:55:12,649 DEBUG   SenderThread:167769 [sender.py:send_request():406] send_request: stop_status
+2024-05-25 20:55:12,650 DEBUG   HandlerThread:167769 [handler.py:handle_request():146] handle_request: internal_messages
+2024-05-25 20:55:13,001 INFO    Thread-12 :167769 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ahmad/Desktop/Graduation Proj/MedIAnomaly/reconstruction/wandb/run-20240525_205508-iox45eob/files/conda-environment.yaml
+2024-05-25 20:55:13,001 INFO    Thread-12 :167769 [dir_watcher.py:_on_file_created():271] file/dir created: /home/ahmad/Desktop/Graduation Proj/MedIAnomaly/reconstruction/wandb/run-20240525_205508-iox45eob/files/wandb-metadata.json
+2024-05-25 20:55:13,001 INFO    Thread-12 :167769 [dir_watcher.py:_on_file_created():271] file/dir created: /home/ahmad/Desktop/Graduation Proj/MedIAnomaly/reconstruction/wandb/run-20240525_205508-iox45eob/files/requirements.txt
+2024-05-25 20:55:13,052 DEBUG   SenderThread:167769 [sender.py:send():379] send: telemetry
+2024-05-25 20:55:13,054 DEBUG   SenderThread:167769 [sender.py:send():379] send: exit
+2024-05-25 20:55:13,054 INFO    SenderThread:167769 [sender.py:send_exit():586] handling exit code: 1
+2024-05-25 20:55:13,054 INFO    SenderThread:167769 [sender.py:send_exit():588] handling runtime: 3
+2024-05-25 20:55:13,055 INFO    SenderThread:167769 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-05-25 20:55:13,055 INFO    SenderThread:167769 [sender.py:send_exit():594] send defer
+2024-05-25 20:55:13,055 DEBUG   HandlerThread:167769 [handler.py:handle_request():146] handle_request: defer
+2024-05-25 20:55:13,055 INFO    HandlerThread:167769 [handler.py:handle_request_defer():172] handle defer: 0
+2024-05-25 20:55:13,056 DEBUG   SenderThread:167769 [sender.py:send_request():406] send_request: defer
+2024-05-25 20:55:13,056 INFO    SenderThread:167769 [sender.py:send_request_defer():610] handle sender defer: 0
+2024-05-25 20:55:13,056 INFO    SenderThread:167769 [sender.py:transition_state():614] send defer: 1
+2024-05-25 20:55:13,056 DEBUG   HandlerThread:167769 [handler.py:handle_request():146] handle_request: defer
+2024-05-25 20:55:13,056 INFO    HandlerThread:167769 [handler.py:handle_request_defer():172] handle defer: 1
+2024-05-25 20:55:13,056 DEBUG   SenderThread:167769 [sender.py:send_request():406] send_request: defer
+2024-05-25 20:55:13,056 INFO    SenderThread:167769 [sender.py:send_request_defer():610] handle sender defer: 1
+2024-05-25 20:55:13,056 INFO    SenderThread:167769 [sender.py:transition_state():614] send defer: 2
+2024-05-25 20:55:13,056 DEBUG   HandlerThread:167769 [handler.py:handle_request():146] handle_request: defer
+2024-05-25 20:55:13,056 INFO    HandlerThread:167769 [handler.py:handle_request_defer():172] handle defer: 2
+2024-05-25 20:55:13,056 INFO    HandlerThread:167769 [system_monitor.py:finish():203] Stopping system monitor
+2024-05-25 20:55:13,056 INFO    HandlerThread:167769 [interfaces.py:finish():202] Joined cpu monitor
+2024-05-25 20:55:13,057 INFO    HandlerThread:167769 [interfaces.py:finish():202] Joined disk monitor
+2024-05-25 20:55:13,057 DEBUG   SystemMonitor:167769 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-05-25 20:55:13,057 DEBUG   SystemMonitor:167769 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-05-25 20:55:13,057 DEBUG   SystemMonitor:167769 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-05-25 20:55:13,107 INFO    HandlerThread:167769 [interfaces.py:finish():202] Joined gpu monitor
+2024-05-25 20:55:13,107 INFO    HandlerThread:167769 [interfaces.py:finish():202] Joined memory monitor
+2024-05-25 20:55:13,107 INFO    HandlerThread:167769 [interfaces.py:finish():202] Joined network monitor
+2024-05-25 20:55:13,107 DEBUG   SenderThread:167769 [sender.py:send_request():406] send_request: defer
+2024-05-25 20:55:13,107 INFO    SenderThread:167769 [sender.py:send_request_defer():610] handle sender defer: 2
+2024-05-25 20:55:13,107 INFO    SenderThread:167769 [sender.py:transition_state():614] send defer: 3
+2024-05-25 20:55:13,107 DEBUG   SenderThread:167769 [sender.py:send():379] send: stats
+2024-05-25 20:55:13,108 DEBUG   HandlerThread:167769 [handler.py:handle_request():146] handle_request: defer
+2024-05-25 20:55:13,108 INFO    HandlerThread:167769 [handler.py:handle_request_defer():172] handle defer: 3
+2024-05-25 20:55:13,108 DEBUG   SenderThread:167769 [sender.py:send_request():406] send_request: defer
+2024-05-25 20:55:13,108 INFO    SenderThread:167769 [sender.py:send_request_defer():610] handle sender defer: 3
+2024-05-25 20:55:13,108 INFO    SenderThread:167769 [sender.py:transition_state():614] send defer: 4
+2024-05-25 20:55:13,108 DEBUG   HandlerThread:167769 [handler.py:handle_request():146] handle_request: defer
+2024-05-25 20:55:13,108 INFO    HandlerThread:167769 [handler.py:handle_request_defer():172] handle defer: 4
+2024-05-25 20:55:13,108 DEBUG   SenderThread:167769 [sender.py:send_request():406] send_request: defer
+2024-05-25 20:55:13,108 INFO    SenderThread:167769 [sender.py:send_request_defer():610] handle sender defer: 4
+2024-05-25 20:55:13,108 INFO    SenderThread:167769 [sender.py:transition_state():614] send defer: 5
+2024-05-25 20:55:13,108 DEBUG   HandlerThread:167769 [handler.py:handle_request():146] handle_request: defer
+2024-05-25 20:55:13,108 INFO    HandlerThread:167769 [handler.py:handle_request_defer():172] handle defer: 5
+2024-05-25 20:55:13,109 DEBUG   SenderThread:167769 [sender.py:send():379] send: summary
+2024-05-25 20:55:13,109 INFO    SenderThread:167769 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-05-25 20:55:13,109 DEBUG   SenderThread:167769 [sender.py:send_request():406] send_request: defer
+2024-05-25 20:55:13,109 INFO    SenderThread:167769 [sender.py:send_request_defer():610] handle sender defer: 5
+2024-05-25 20:55:13,109 INFO    SenderThread:167769 [sender.py:transition_state():614] send defer: 6
+2024-05-25 20:55:13,109 DEBUG   HandlerThread:167769 [handler.py:handle_request():146] handle_request: defer
+2024-05-25 20:55:13,109 INFO    HandlerThread:167769 [handler.py:handle_request_defer():172] handle defer: 6
+2024-05-25 20:55:13,109 DEBUG   SenderThread:167769 [sender.py:send_request():406] send_request: defer
+2024-05-25 20:55:13,109 INFO    SenderThread:167769 [sender.py:send_request_defer():610] handle sender defer: 6
+2024-05-25 20:55:13,112 DEBUG   HandlerThread:167769 [handler.py:handle_request():146] handle_request: status_report
+2024-05-25 20:55:13,310 INFO    wandb-upload_0:167769 [upload_job.py:push():131] Uploaded file /tmp/tmpb4ib0299wandb/ui0euuz3-wandb-metadata.json
+2024-05-25 20:55:13,311 INFO    SenderThread:167769 [sender.py:transition_state():614] send defer: 7
+2024-05-25 20:55:13,311 DEBUG   HandlerThread:167769 [handler.py:handle_request():146] handle_request: defer
+2024-05-25 20:55:13,311 INFO    HandlerThread:167769 [handler.py:handle_request_defer():172] handle defer: 7
+2024-05-25 20:55:13,311 DEBUG   SenderThread:167769 [sender.py:send_request():406] send_request: defer
+2024-05-25 20:55:13,311 INFO    SenderThread:167769 [sender.py:send_request_defer():610] handle sender defer: 7
+2024-05-25 20:55:13,851 DEBUG   HandlerThread:167769 [handler.py:handle_request():146] handle_request: poll_exit
+2024-05-25 20:55:14,001 INFO    Thread-12 :167769 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ahmad/Desktop/Graduation Proj/MedIAnomaly/reconstruction/wandb/run-20240525_205508-iox45eob/files/config.yaml
+2024-05-25 20:55:14,001 INFO    Thread-12 :167769 [dir_watcher.py:_on_file_created():271] file/dir created: /home/ahmad/Desktop/Graduation Proj/MedIAnomaly/reconstruction/wandb/run-20240525_205508-iox45eob/files/wandb-summary.json
+2024-05-25 20:55:14,001 INFO    Thread-12 :167769 [dir_watcher.py:_on_file_created():271] file/dir created: /home/ahmad/Desktop/Graduation Proj/MedIAnomaly/reconstruction/wandb/run-20240525_205508-iox45eob/files/output.log
+2024-05-25 20:55:16,002 INFO    Thread-12 :167769 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ahmad/Desktop/Graduation Proj/MedIAnomaly/reconstruction/wandb/run-20240525_205508-iox45eob/files/output.log
+2024-05-25 20:55:17,058 INFO    SenderThread:167769 [sender.py:transition_state():614] send defer: 8
+2024-05-25 20:55:17,058 DEBUG   SenderThread:167769 [sender.py:send_request():406] send_request: poll_exit
+2024-05-25 20:55:17,058 DEBUG   HandlerThread:167769 [handler.py:handle_request():146] handle_request: defer
+2024-05-25 20:55:17,058 INFO    HandlerThread:167769 [handler.py:handle_request_defer():172] handle defer: 8
+2024-05-25 20:55:17,058 DEBUG   SenderThread:167769 [sender.py:send_request():406] send_request: defer
+2024-05-25 20:55:17,058 INFO    SenderThread:167769 [sender.py:send_request_defer():610] handle sender defer: 8
+2024-05-25 20:55:17,058 INFO    SenderThread:167769 [job_builder.py:build():318] Attempting to build job artifact
+2024-05-25 20:55:17,059 INFO    SenderThread:167769 [job_builder.py:_get_source_type():455] is repo sourced job
+2024-05-25 20:55:17,072 INFO    SenderThread:167769 [job_builder.py:build():431] adding wandb-job metadata file
+2024-05-25 20:55:17,074 INFO    SenderThread:167769 [sender.py:transition_state():614] send defer: 9
+2024-05-25 20:55:17,074 DEBUG   HandlerThread:167769 [handler.py:handle_request():146] handle_request: defer
+2024-05-25 20:55:17,074 INFO    HandlerThread:167769 [handler.py:handle_request_defer():172] handle defer: 9
+2024-05-25 20:55:17,075 DEBUG   SenderThread:167769 [sender.py:send():379] send: artifact
+2024-05-25 20:55:17,852 DEBUG   HandlerThread:167769 [handler.py:handle_request():146] handle_request: poll_exit
+2024-05-25 20:55:18,002 INFO    Thread-12 :167769 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ahmad/Desktop/Graduation Proj/MedIAnomaly/reconstruction/wandb/run-20240525_205508-iox45eob/files/output.log
+2024-05-25 20:55:18,031 INFO    SenderThread:167769 [sender.py:send_artifact():1468] sent artifact job-https___github.com_caiyu6666_MedIAnomaly.git_reconstruction_train.py - {'id': 'QXJ0aWZhY3Q6ODM5ODA4MTQy', 'state': 'COMMITTED', 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjE3MTc4MzgzMg==', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6ODQ5NjgzNjk1', 'versionIndex': 24}}}
+2024-05-25 20:55:18,031 DEBUG   SenderThread:167769 [sender.py:send_request():406] send_request: defer
+2024-05-25 20:55:18,031 INFO    SenderThread:167769 [sender.py:send_request_defer():610] handle sender defer: 9
+2024-05-25 20:55:18,031 INFO    SenderThread:167769 [dir_watcher.py:finish():358] shutting down directory watcher
+2024-05-25 20:55:19,003 INFO    SenderThread:167769 [dir_watcher.py:finish():388] scan: /home/ahmad/Desktop/Graduation Proj/MedIAnomaly/reconstruction/wandb/run-20240525_205508-iox45eob/files
+2024-05-25 20:55:19,003 INFO    SenderThread:167769 [dir_watcher.py:finish():402] scan save: /home/ahmad/Desktop/Graduation Proj/MedIAnomaly/reconstruction/wandb/run-20240525_205508-iox45eob/files/output.log output.log
+2024-05-25 20:55:19,003 INFO    SenderThread:167769 [dir_watcher.py:finish():402] scan save: /home/ahmad/Desktop/Graduation Proj/MedIAnomaly/reconstruction/wandb/run-20240525_205508-iox45eob/files/conda-environment.yaml conda-environment.yaml
+2024-05-25 20:55:19,003 INFO    SenderThread:167769 [dir_watcher.py:finish():402] scan save: /home/ahmad/Desktop/Graduation Proj/MedIAnomaly/reconstruction/wandb/run-20240525_205508-iox45eob/files/config.yaml config.yaml
+2024-05-25 20:55:19,003 INFO    SenderThread:167769 [dir_watcher.py:finish():402] scan save: /home/ahmad/Desktop/Graduation Proj/MedIAnomaly/reconstruction/wandb/run-20240525_205508-iox45eob/files/wandb-metadata.json wandb-metadata.json
+2024-05-25 20:55:19,003 INFO    SenderThread:167769 [dir_watcher.py:finish():402] scan save: /home/ahmad/Desktop/Graduation Proj/MedIAnomaly/reconstruction/wandb/run-20240525_205508-iox45eob/files/wandb-summary.json wandb-summary.json
+2024-05-25 20:55:19,003 INFO    SenderThread:167769 [dir_watcher.py:finish():402] scan save: /home/ahmad/Desktop/Graduation Proj/MedIAnomaly/reconstruction/wandb/run-20240525_205508-iox45eob/files/requirements.txt requirements.txt
+2024-05-25 20:55:19,006 INFO    SenderThread:167769 [sender.py:transition_state():614] send defer: 10
+2024-05-25 20:55:19,006 DEBUG   SenderThread:167769 [sender.py:send_request():406] send_request: poll_exit
+2024-05-25 20:55:19,007 DEBUG   HandlerThread:167769 [handler.py:handle_request():146] handle_request: defer
+2024-05-25 20:55:19,009 INFO    HandlerThread:167769 [handler.py:handle_request_defer():172] handle defer: 10
+2024-05-25 20:55:19,010 DEBUG   SenderThread:167769 [sender.py:send_request():406] send_request: defer
+2024-05-25 20:55:19,011 INFO    SenderThread:167769 [sender.py:send_request_defer():610] handle sender defer: 10
+2024-05-25 20:55:19,011 INFO    SenderThread:167769 [file_pusher.py:finish():172] shutting down file pusher
+2024-05-25 20:55:19,491 INFO    wandb-upload_0:167769 [upload_job.py:push():131] Uploaded file /home/ahmad/Desktop/Graduation Proj/MedIAnomaly/reconstruction/wandb/run-20240525_205508-iox45eob/files/output.log
+2024-05-25 20:55:19,607 INFO    wandb-upload_1:167769 [upload_job.py:push():131] Uploaded file /home/ahmad/Desktop/Graduation Proj/MedIAnomaly/reconstruction/wandb/run-20240525_205508-iox45eob/files/conda-environment.yaml
+2024-05-25 20:55:19,767 INFO    wandb-upload_4:167769 [upload_job.py:push():131] Uploaded file /home/ahmad/Desktop/Graduation Proj/MedIAnomaly/reconstruction/wandb/run-20240525_205508-iox45eob/files/requirements.txt
+2024-05-25 20:55:19,774 INFO    wandb-upload_2:167769 [upload_job.py:push():131] Uploaded file /home/ahmad/Desktop/Graduation Proj/MedIAnomaly/reconstruction/wandb/run-20240525_205508-iox45eob/files/config.yaml
+2024-05-25 20:55:19,784 INFO    wandb-upload_3:167769 [upload_job.py:push():131] Uploaded file /home/ahmad/Desktop/Graduation Proj/MedIAnomaly/reconstruction/wandb/run-20240525_205508-iox45eob/files/wandb-summary.json
+2024-05-25 20:55:19,853 DEBUG   HandlerThread:167769 [handler.py:handle_request():146] handle_request: poll_exit
+2024-05-25 20:55:19,853 DEBUG   SenderThread:167769 [sender.py:send_request():406] send_request: poll_exit
+2024-05-25 20:55:19,984 INFO    Thread-11 (_thread_body):167769 [sender.py:transition_state():614] send defer: 11
+2024-05-25 20:55:19,985 DEBUG   HandlerThread:167769 [handler.py:handle_request():146] handle_request: defer
+2024-05-25 20:55:19,985 INFO    HandlerThread:167769 [handler.py:handle_request_defer():172] handle defer: 11
+2024-05-25 20:55:19,985 DEBUG   SenderThread:167769 [sender.py:send_request():406] send_request: defer
+2024-05-25 20:55:19,985 INFO    SenderThread:167769 [sender.py:send_request_defer():610] handle sender defer: 11
+2024-05-25 20:55:19,985 INFO    SenderThread:167769 [file_pusher.py:join():178] waiting for file pusher
+2024-05-25 20:55:19,985 INFO    SenderThread:167769 [sender.py:transition_state():614] send defer: 12
+2024-05-25 20:55:19,985 DEBUG   HandlerThread:167769 [handler.py:handle_request():146] handle_request: defer
+2024-05-25 20:55:19,985 INFO    HandlerThread:167769 [handler.py:handle_request_defer():172] handle defer: 12
+2024-05-25 20:55:19,986 DEBUG   SenderThread:167769 [sender.py:send_request():406] send_request: defer
+2024-05-25 20:55:19,986 INFO    SenderThread:167769 [sender.py:send_request_defer():610] handle sender defer: 12
+2024-05-25 20:55:19,986 INFO    SenderThread:167769 [file_stream.py:finish():614] file stream finish called
+2024-05-25 20:55:20,161 INFO    SenderThread:167769 [file_stream.py:finish():618] file stream finish is done
+2024-05-25 20:55:20,161 INFO    SenderThread:167769 [sender.py:transition_state():614] send defer: 13
+2024-05-25 20:55:20,161 DEBUG   HandlerThread:167769 [handler.py:handle_request():146] handle_request: defer
+2024-05-25 20:55:20,161 INFO    HandlerThread:167769 [handler.py:handle_request_defer():172] handle defer: 13
+2024-05-25 20:55:20,161 DEBUG   SenderThread:167769 [sender.py:send_request():406] send_request: defer
+2024-05-25 20:55:20,162 INFO    SenderThread:167769 [sender.py:send_request_defer():610] handle sender defer: 13
+2024-05-25 20:55:20,162 INFO    SenderThread:167769 [sender.py:transition_state():614] send defer: 14
+2024-05-25 20:55:20,162 DEBUG   SenderThread:167769 [sender.py:send():379] send: final
+2024-05-25 20:55:20,162 DEBUG   SenderThread:167769 [sender.py:send():379] send: footer
+2024-05-25 20:55:20,162 DEBUG   HandlerThread:167769 [handler.py:handle_request():146] handle_request: defer
+2024-05-25 20:55:20,162 INFO    HandlerThread:167769 [handler.py:handle_request_defer():172] handle defer: 14
+2024-05-25 20:55:20,162 DEBUG   SenderThread:167769 [sender.py:send_request():406] send_request: defer
+2024-05-25 20:55:20,162 INFO    SenderThread:167769 [sender.py:send_request_defer():610] handle sender defer: 14
+2024-05-25 20:55:20,163 DEBUG   HandlerThread:167769 [handler.py:handle_request():146] handle_request: poll_exit
+2024-05-25 20:55:20,163 DEBUG   SenderThread:167769 [sender.py:send_request():406] send_request: poll_exit
+2024-05-25 20:55:20,163 DEBUG   HandlerThread:167769 [handler.py:handle_request():146] handle_request: poll_exit
+2024-05-25 20:55:20,163 DEBUG   HandlerThread:167769 [handler.py:handle_request():146] handle_request: server_info
+2024-05-25 20:55:20,164 DEBUG   SenderThread:167769 [sender.py:send_request():406] send_request: poll_exit
+2024-05-25 20:55:20,164 DEBUG   SenderThread:167769 [sender.py:send_request():406] send_request: server_info
+2024-05-25 20:55:20,165 DEBUG   HandlerThread:167769 [handler.py:handle_request():146] handle_request: get_summary
+2024-05-25 20:55:20,166 DEBUG   HandlerThread:167769 [handler.py:handle_request():146] handle_request: sampled_history
+2024-05-25 20:55:20,166 DEBUG   HandlerThread:167769 [handler.py:handle_request():146] handle_request: internal_messages
+2024-05-25 20:55:20,331 INFO    MainThread:167769 [wandb_run.py:_footer_history_summary_info():3936] rendering history
+2024-05-25 20:55:20,331 INFO    MainThread:167769 [wandb_run.py:_footer_history_summary_info():3968] rendering summary
+2024-05-25 20:55:20,331 INFO    MainThread:167769 [wandb_run.py:_footer_sync_info():3895] logging synced files
+2024-05-25 20:55:20,331 DEBUG   HandlerThread:167769 [handler.py:handle_request():146] handle_request: shutdown
+2024-05-25 20:55:20,331 INFO    HandlerThread:167769 [handler.py:finish():866] shutting down handler
+2024-05-25 20:55:21,164 INFO    WriterThread:167769 [datastore.py:close():296] close: /home/ahmad/Desktop/Graduation Proj/MedIAnomaly/reconstruction/wandb/run-20240525_205508-iox45eob/run-iox45eob.wandb
+2024-05-25 20:55:21,331 INFO    SenderThread:167769 [sender.py:finish():1546] shutting down sender
+2024-05-25 20:55:21,331 INFO    SenderThread:167769 [file_pusher.py:finish():172] shutting down file pusher
+2024-05-25 20:55:21,331 INFO    SenderThread:167769 [file_pusher.py:join():178] waiting for file pusher

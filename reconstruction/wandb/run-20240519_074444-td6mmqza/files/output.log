@@ -1,0 +1,30 @@
+============= Configurations =============
+dataset:brats
+model:ae
+in_channels:1
+input_size:64
+base_width:16
+expansion:1
+mid_num:1024
+latent_size:16
+en_num_layers:1
+de_num_layers:1
+epochs:250
+batch_size:64
+lr:0.001
+weight_decay:0
+seed:42
+num_params:2.3512M
+FLOPs:29.8967M
+=> Initial learning rate: 0.001
+Epoch[  1/250]  Time:28.3s  loss:0.09851  |  AUC: 0.72354  AP: 0.85452  PixAUC: 0.87178  PixAP: 0.31876  BestDice: 0.37104  BestThresh: 0.18645  normal_score: 0.02186  abnormal_score: 0.03227
+Epoch[ 25/250]  Time:75.3s  loss:0.00611  |  AUC: 0.79702  AP: 0.90459  PixAUC: 0.88649  PixAP: 0.33060  BestDice: 0.38594  BestThresh: 0.08684  normal_score: 0.00846  abnormal_score: 0.01481
+Epoch[ 50/250]  Time:77.4s  loss:0.00500  |  AUC: 0.79890  AP: 0.90643  PixAUC: 0.92106  PixAP: 0.39206  BestDice: 0.43601  BestThresh: 0.07357  normal_score: 0.00734  abnormal_score: 0.01390
+Epoch[ 75/250]  Time:77.2s  loss:0.00449  |  AUC: 0.81766  AP: 0.91624  PixAUC: 0.89464  PixAP: 0.28681  BestDice: 0.35662  BestThresh: 0.06940  normal_score: 0.00606  abnormal_score: 0.01295
+Epoch[100/250]  Time:77.4s  loss:0.00409  |  AUC: 0.82434  AP: 0.91876  PixAUC: 0.88836  PixAP: 0.27953  BestDice: 0.34958  BestThresh: 0.07090  normal_score: 0.00611  abnormal_score: 0.01331
+Epoch[125/250]  Time:77.2s  loss:0.00372  |  AUC: 0.82623  AP: 0.91989  PixAUC: 0.89331  PixAP: 0.28622  BestDice: 0.35398  BestThresh: 0.06998  normal_score: 0.00585  abnormal_score: 0.01306
+Epoch[150/250]  Time:77.3s  loss:0.00360  |  AUC: 0.82722  AP: 0.92009  PixAUC: 0.90125  PixAP: 0.30105  BestDice: 0.36962  BestThresh: 0.07012  normal_score: 0.00589  abnormal_score: 0.01320
+Epoch[175/250]  Time:77.3s  loss:0.00333  |  AUC: 0.82262  AP: 0.91784  PixAUC: 0.91770  PixAP: 0.37309  BestDice: 0.42296  BestThresh: 0.07174  normal_score: 0.00619  abnormal_score: 0.01363
+Epoch[200/250]  Time:77.3s  loss:0.00330  |  AUC: 0.82594  AP: 0.91920  PixAUC: 0.90123  PixAP: 0.28821  BestDice: 0.35974  BestThresh: 0.07183  normal_score: 0.00586  abnormal_score: 0.01336
+Epoch[225/250]  Time:77.3s  loss:0.00307  |  AUC: 0.82475  AP: 0.91880  PixAUC: 0.91016  PixAP: 0.32863  BestDice: 0.39238  BestThresh: 0.07272  normal_score: 0.00605  abnormal_score: 0.01366
+Epoch[250/250]  Time:77.2s  loss:0.00291  |  AUC: 0.82442  AP: 0.91825  PixAUC: 0.91481  PixAP: 0.33676  BestDice: 0.39736  BestThresh: 0.07275  normal_score: 0.00597  abnormal_score: 0.01362

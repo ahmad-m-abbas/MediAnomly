@@ -1,0 +1,30 @@
+============= Configurations =============
+dataset:c16
+model:memae
+in_channels:3
+input_size:64
+base_width:16
+expansion:1
+mid_num:1024
+latent_size:16
+en_num_layers:1
+de_num_layers:1
+epochs:250
+batch_size:64
+lr:0.001
+weight_decay:0
+seed:42
+num_params:2.3522M
+FLOPs:32.5181M
+=> Initial learning rate: 0.001
+Epoch[  1/250]  Time:11.2s  loss:0.17171  recon_loss:0.17123  entro_loss:2.40126  |  AUC: 0.3356  AP: 0.3963  normal_score: 0.1330  abnormal_score: 0.1121
+Epoch[ 25/250]  Time:77.4s  loss:0.10981  recon_loss:0.10921  entro_loss:3.02892  |  AUC: 0.3276  AP: 0.3836  normal_score: 0.1068  abnormal_score: 0.0834
+Epoch[ 50/250]  Time:80.4s  loss:0.10414  recon_loss:0.10353  entro_loss:3.08301  |  AUC: 0.3285  AP: 0.3842  normal_score: 0.1062  abnormal_score: 0.0828
+Epoch[ 75/250]  Time:80.4s  loss:0.09721  recon_loss:0.09659  entro_loss:3.10326  |  AUC: 0.3380  AP: 0.3891  normal_score: 0.1110  abnormal_score: 0.0880
+Epoch[100/250]  Time:80.3s  loss:0.09133  recon_loss:0.09070  entro_loss:3.12691  |  AUC: 0.3468  AP: 0.3923  normal_score: 0.1147  abnormal_score: 0.0915
+Epoch[125/250]  Time:80.4s  loss:0.08599  recon_loss:0.08536  entro_loss:3.14337  |  AUC: 0.3721  AP: 0.4041  normal_score: 0.1263  abnormal_score: 0.1048
+Epoch[150/250]  Time:80.3s  loss:0.08190  recon_loss:0.08127  entro_loss:3.15399  |  AUC: 0.3760  AP: 0.4054  normal_score: 0.1329  abnormal_score: 0.1108
+Epoch[175/250]  Time:80.3s  loss:0.07904  recon_loss:0.07841  entro_loss:3.16166  |  AUC: 0.3772  AP: 0.4058  normal_score: 0.1442  abnormal_score: 0.1211
+Epoch[200/250]  Time:80.4s  loss:0.07700  recon_loss:0.07637  entro_loss:3.16755  |  AUC: 0.3782  AP: 0.4070  normal_score: 0.1530  abnormal_score: 0.1289
+Epoch[225/250]  Time:80.5s  loss:0.07529  recon_loss:0.07465  entro_loss:3.17182  |  AUC: 0.3911  AP: 0.4132  normal_score: 0.1636  abnormal_score: 0.1426
+Epoch[250/250]  Time:80.5s  loss:0.07304  recon_loss:0.07240  entro_loss:3.17553  |  AUC: 0.3856  AP: 0.4106  normal_score: 0.1606  abnormal_score: 0.1374

@@ -1,0 +1,30 @@
+============= Configurations =============
+dataset:rsna
+model:memae
+in_channels:1
+input_size:64
+base_width:16
+expansion:1
+mid_num:1024
+latent_size:16
+en_num_layers:1
+de_num_layers:1
+epochs:250
+batch_size:64
+lr:0.001
+weight_decay:0
+seed:594786
+num_params:2.3512M
+FLOPs:29.8967M
+=> Initial learning rate: 0.001
+Epoch[  1/250]  Time:4.9s  loss:0.16343  recon_loss:0.16293  entro_loss:2.50346  |  AUC: 0.5329  AP: 0.5413  normal_score: 0.0777  abnormal_score: 0.0826
+Epoch[ 25/250]  Time:27.8s  loss:0.02271  recon_loss:0.02210  entro_loss:3.05892  |  AUC: 0.6099  AP: 0.6134  normal_score: 0.0214  abnormal_score: 0.0266
+Epoch[ 50/250]  Time:28.8s  loss:0.01827  recon_loss:0.01765  entro_loss:3.09998  |  AUC: 0.6281  AP: 0.6325  normal_score: 0.0188  abnormal_score: 0.0244
+Epoch[ 75/250]  Time:28.9s  loss:0.01695  recon_loss:0.01632  entro_loss:3.12445  |  AUC: 0.6476  AP: 0.6476  normal_score: 0.0175  abnormal_score: 0.0233
+Epoch[100/250]  Time:28.9s  loss:0.01492  recon_loss:0.01429  entro_loss:3.13649  |  AUC: 0.6613  AP: 0.6586  normal_score: 0.0168  abnormal_score: 0.0231
+Epoch[125/250]  Time:28.8s  loss:0.01406  recon_loss:0.01343  entro_loss:3.14501  |  AUC: 0.6679  AP: 0.6610  normal_score: 0.0176  abnormal_score: 0.0243
+Epoch[150/250]  Time:28.8s  loss:0.01331  recon_loss:0.01268  entro_loss:3.15229  |  AUC: 0.6772  AP: 0.6712  normal_score: 0.0173  abnormal_score: 0.0246
+Epoch[175/250]  Time:28.8s  loss:0.01232  recon_loss:0.01169  entro_loss:3.15820  |  AUC: 0.6896  AP: 0.6787  normal_score: 0.0178  abnormal_score: 0.0256
+Epoch[200/250]  Time:28.7s  loss:0.01126  recon_loss:0.01063  entro_loss:3.16182  |  AUC: 0.6815  AP: 0.6717  normal_score: 0.0178  abnormal_score: 0.0252
+Epoch[225/250]  Time:28.8s  loss:0.01101  recon_loss:0.01038  entro_loss:3.16571  |  AUC: 0.6880  AP: 0.6750  normal_score: 0.0183  abnormal_score: 0.0261
+Epoch[250/250]  Time:28.8s  loss:0.01057  recon_loss:0.00993  entro_loss:3.16796  |  AUC: 0.7016  AP: 0.6872  normal_score: 0.0187  abnormal_score: 0.0272

@@ -1,0 +1,30 @@
+============= Configurations =============
+dataset:c16
+model:ganomaly
+in_channels:3
+input_size:64
+base_width:16
+expansion:1
+mid_num:1024
+latent_size:16
+en_num_layers:1
+de_num_layers:1
+epochs:250
+batch_size:64
+lr:0.001
+weight_decay:5e-06
+seed:42
+num_params:3.5217M
+FLOPs:39.723M
+=> Initial learning rate: 0.001
+Epoch[  1/250]  Time:8.3s  g_loss:10.06317  adv_loss:0.57334  recon_loss:0.18840  enc_loss:0.06971  d_loss:0.17787  |  AUC: 0.4364  AP: 0.4491
+Epoch[ 25/250]  Time:79.2s  g_loss:8.37012  adv_loss:0.67788  recon_loss:0.15333  enc_loss:0.02599  d_loss:0.29122  |  AUC: 0.4873  AP: 0.4890
+Epoch[ 50/250]  Time:82.0s  g_loss:8.01877  adv_loss:0.59280  recon_loss:0.14826  enc_loss:0.01290  d_loss:0.33419  |  AUC: 0.4474  AP: 0.4588
+Epoch[ 75/250]  Time:82.8s  g_loss:7.73703  adv_loss:0.76843  recon_loss:0.13924  enc_loss:0.00663  d_loss:0.19457  |  AUC: 0.4309  AP: 0.4478
+Epoch[100/250]  Time:83.1s  g_loss:7.24086  adv_loss:0.56584  recon_loss:0.13338  enc_loss:0.00614  d_loss:0.18116  |  AUC: 0.4753  AP: 0.4818
+Epoch[125/250]  Time:82.8s  g_loss:6.20111  adv_loss:0.29298  recon_loss:0.11800  enc_loss:0.00805  d_loss:0.14812  |  AUC: 0.4830  AP: 0.4984
+Epoch[150/250]  Time:83.2s  g_loss:5.29418  adv_loss:0.34593  recon_loss:0.09878  enc_loss:0.00946  d_loss:0.18506  |  AUC: 0.4750  AP: 0.4841
+Epoch[175/250]  Time:82.0s  g_loss:4.98119  adv_loss:0.30330  recon_loss:0.09333  enc_loss:0.01125  d_loss:0.19761  |  AUC: 0.4797  AP: 0.4884
+Epoch[200/250]  Time:81.0s  g_loss:4.60239  adv_loss:0.35745  recon_loss:0.08469  enc_loss:0.01041  d_loss:0.02646  |  AUC: 0.4786  AP: 0.4824
+Epoch[225/250]  Time:81.3s  g_loss:4.45632  adv_loss:0.27227  recon_loss:0.08346  enc_loss:0.01093  d_loss:0.12952  |  AUC: 0.4719  AP: 0.4725
+Epoch[250/250]  Time:82.1s  g_loss:4.31832  adv_loss:0.26671  recon_loss:0.08082  enc_loss:0.01044  d_loss:0.11502  |  AUC: 0.4821  AP: 0.4836

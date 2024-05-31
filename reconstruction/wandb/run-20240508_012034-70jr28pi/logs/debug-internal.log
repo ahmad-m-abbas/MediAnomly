@@ -1,0 +1,1350 @@
+2024-05-08 01:20:34,861 INFO    StreamThr :90490 [internal.py:wandb_internal():86] W&B internal server running at pid: 90490, started at: 2024-05-08 01:20:34.861594
+2024-05-08 01:20:34,863 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: status
+2024-05-08 01:20:34,864 INFO    WriterThread:90490 [datastore.py:open_for_write():87] open: /home/ahmad/Desktop/Graduation Proj/MedIAnomaly/reconstruction/wandb/run-20240508_012034-70jr28pi/run-70jr28pi.wandb
+2024-05-08 01:20:34,864 DEBUG   SenderThread:90490 [sender.py:send():379] send: header
+2024-05-08 01:20:34,867 DEBUG   SenderThread:90490 [sender.py:send():379] send: run
+2024-05-08 01:20:35,449 INFO    SenderThread:90490 [dir_watcher.py:__init__():211] watching files in: /home/ahmad/Desktop/Graduation Proj/MedIAnomaly/reconstruction/wandb/run-20240508_012034-70jr28pi/files
+2024-05-08 01:20:35,449 INFO    SenderThread:90490 [sender.py:_start_run_threads():1124] run started: 70jr28pi with start time 1715120434.861603
+2024-05-08 01:20:35,456 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: check_version
+2024-05-08 01:20:35,456 DEBUG   SenderThread:90490 [sender.py:send_request():406] send_request: check_version
+2024-05-08 01:20:35,732 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: run_start
+2024-05-08 01:20:35,740 DEBUG   HandlerThread:90490 [system_info.py:__init__():26] System info init
+2024-05-08 01:20:35,740 DEBUG   HandlerThread:90490 [system_info.py:__init__():41] System info init done
+2024-05-08 01:20:35,740 INFO    HandlerThread:90490 [system_monitor.py:start():194] Starting system monitor
+2024-05-08 01:20:35,740 INFO    SystemMonitor:90490 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-05-08 01:20:35,741 INFO    HandlerThread:90490 [system_monitor.py:probe():214] Collecting system info
+2024-05-08 01:20:35,741 INFO    SystemMonitor:90490 [interfaces.py:start():190] Started cpu monitoring
+2024-05-08 01:20:35,741 INFO    SystemMonitor:90490 [interfaces.py:start():190] Started disk monitoring
+2024-05-08 01:20:35,742 INFO    SystemMonitor:90490 [interfaces.py:start():190] Started gpu monitoring
+2024-05-08 01:20:35,742 INFO    SystemMonitor:90490 [interfaces.py:start():190] Started memory monitoring
+2024-05-08 01:20:35,743 INFO    SystemMonitor:90490 [interfaces.py:start():190] Started network monitoring
+2024-05-08 01:20:35,748 DEBUG   HandlerThread:90490 [system_info.py:probe():150] Probing system
+2024-05-08 01:20:35,749 DEBUG   HandlerThread:90490 [system_info.py:_probe_git():135] Probing git
+2024-05-08 01:20:35,754 DEBUG   HandlerThread:90490 [system_info.py:_probe_git():143] Probing git done
+2024-05-08 01:20:35,754 DEBUG   HandlerThread:90490 [system_info.py:probe():198] Probing system done
+2024-05-08 01:20:35,754 DEBUG   HandlerThread:90490 [system_monitor.py:probe():223] {'os': 'Linux-6.5.0-14-generic-x86_64-with-glibc2.37', 'python': '3.10.13', 'heartbeatAt': '2024-05-07T22:20:35.748098', 'startedAt': '2024-05-07T22:20:34.858171', 'docker': None, 'cuda': None, 'args': ('-d', 'lag', '-m', 'ae', '-g', '0', '-f', '0'), 'state': 'running', 'program': '/home/ahmad/Desktop/Graduation Proj/MedIAnomaly/reconstruction/train.py', 'codePathLocal': 'train.py', 'codePath': 'reconstruction/train.py', 'git': {'remote': 'https://github.com/caiyu6666/MedIAnomaly.git', 'commit': 'c45d430f00229ba6b0e1d539f6ef2e4544cbcb79'}, 'email': 'ahmad.abbas176@yahoo.com', 'root': '/home/ahmad/Desktop/Graduation Proj/MedIAnomaly', 'host': 'ahmad', 'username': 'ahmad', 'executable': '/home/ahmad/anaconda3/envs/torch/bin/python', 'cpu_count': 4, 'cpu_count_logical': 4, 'cpu_freq': {'current': 3.59975, 'min': 800.0, 'max': 4200.0}, 'cpu_freq_per_core': [{'current': 3.599, 'min': 800.0, 'max': 4200.0}, {'current': 3.599, 'min': 800.0, 'max': 4200.0}, {'current': 3.599, 'min': 800.0, 'max': 4200.0}, {'current': 3.599, 'min': 800.0, 'max': 4200.0}], 'disk': {'/': {'total': 146.32369995117188, 'used': 111.39530944824219}}, 'gpu': 'NVIDIA GeForce GTX 1060 3GB', 'gpu_count': 1, 'gpu_devices': [{'name': 'NVIDIA GeForce GTX 1060 3GB', 'memory_total': 3221225472}], 'memory': {'total': 15.528789520263672}}
+2024-05-08 01:20:35,754 INFO    HandlerThread:90490 [system_monitor.py:probe():224] Finished collecting system info
+2024-05-08 01:20:35,754 INFO    HandlerThread:90490 [system_monitor.py:probe():227] Publishing system info
+2024-05-08 01:20:35,754 DEBUG   HandlerThread:90490 [system_info.py:_save_conda():207] Saving list of conda packages installed into the current environment
+2024-05-08 01:20:36,450 INFO    Thread-12 :90490 [dir_watcher.py:_on_file_created():271] file/dir created: /home/ahmad/Desktop/Graduation Proj/MedIAnomaly/reconstruction/wandb/run-20240508_012034-70jr28pi/files/conda-environment.yaml
+2024-05-08 01:20:38,824 DEBUG   HandlerThread:90490 [system_info.py:_save_conda():222] Saving conda packages done
+2024-05-08 01:20:38,825 INFO    HandlerThread:90490 [system_monitor.py:probe():229] Finished publishing system info
+2024-05-08 01:20:38,826 DEBUG   SenderThread:90490 [sender.py:send():379] send: files
+2024-05-08 01:20:38,826 INFO    SenderThread:90490 [sender.py:_save_file():1390] saving file wandb-metadata.json with policy now
+2024-05-08 01:20:38,925 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: python_packages
+2024-05-08 01:20:38,925 DEBUG   SenderThread:90490 [sender.py:send_request():406] send_request: python_packages
+2024-05-08 01:20:38,926 DEBUG   SenderThread:90490 [sender.py:send():379] send: telemetry
+2024-05-08 01:20:38,969 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: stop_status
+2024-05-08 01:20:38,969 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: internal_messages
+2024-05-08 01:20:38,971 DEBUG   SenderThread:90490 [sender.py:send_request():406] send_request: stop_status
+2024-05-08 01:20:39,450 INFO    Thread-12 :90490 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ahmad/Desktop/Graduation Proj/MedIAnomaly/reconstruction/wandb/run-20240508_012034-70jr28pi/files/conda-environment.yaml
+2024-05-08 01:20:39,450 INFO    Thread-12 :90490 [dir_watcher.py:_on_file_created():271] file/dir created: /home/ahmad/Desktop/Graduation Proj/MedIAnomaly/reconstruction/wandb/run-20240508_012034-70jr28pi/files/requirements.txt
+2024-05-08 01:20:39,450 INFO    Thread-12 :90490 [dir_watcher.py:_on_file_created():271] file/dir created: /home/ahmad/Desktop/Graduation Proj/MedIAnomaly/reconstruction/wandb/run-20240508_012034-70jr28pi/files/wandb-metadata.json
+2024-05-08 01:20:39,450 INFO    Thread-12 :90490 [dir_watcher.py:_on_file_created():271] file/dir created: /home/ahmad/Desktop/Graduation Proj/MedIAnomaly/reconstruction/wandb/run-20240508_012034-70jr28pi/files/output.log
+2024-05-08 01:20:39,532 DEBUG   SenderThread:90490 [sender.py:send():379] send: telemetry
+2024-05-08 01:20:39,572 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: partial_history
+2024-05-08 01:20:39,638 INFO    wandb-upload_0:90490 [upload_job.py:push():131] Uploaded file /tmp/tmpatlp749hwandb/4o44l7um-wandb-metadata.json
+2024-05-08 01:20:40,532 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: status_report
+2024-05-08 01:20:41,450 INFO    Thread-12 :90490 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ahmad/Desktop/Graduation Proj/MedIAnomaly/reconstruction/wandb/run-20240508_012034-70jr28pi/files/output.log
+2024-05-08 01:20:41,821 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: partial_history
+2024-05-08 01:20:42,188 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: partial_history
+2024-05-08 01:20:42,189 DEBUG   SenderThread:90490 [sender.py:send():379] send: history
+2024-05-08 01:20:42,189 DEBUG   SenderThread:90490 [sender.py:send_request():406] send_request: summary_record
+2024-05-08 01:20:42,190 INFO    SenderThread:90490 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-05-08 01:20:42,451 INFO    Thread-12 :90490 [dir_watcher.py:_on_file_created():271] file/dir created: /home/ahmad/Desktop/Graduation Proj/MedIAnomaly/reconstruction/wandb/run-20240508_012034-70jr28pi/files/wandb-summary.json
+2024-05-08 01:20:42,552 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: partial_history
+2024-05-08 01:20:42,552 DEBUG   SenderThread:90490 [sender.py:send():379] send: history
+2024-05-08 01:20:42,552 DEBUG   SenderThread:90490 [sender.py:send_request():406] send_request: summary_record
+2024-05-08 01:20:42,553 INFO    SenderThread:90490 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-05-08 01:20:42,915 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: partial_history
+2024-05-08 01:20:42,916 DEBUG   SenderThread:90490 [sender.py:send():379] send: history
+2024-05-08 01:20:42,916 DEBUG   SenderThread:90490 [sender.py:send_request():406] send_request: summary_record
+2024-05-08 01:20:42,916 INFO    SenderThread:90490 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-05-08 01:20:43,279 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: partial_history
+2024-05-08 01:20:43,279 DEBUG   SenderThread:90490 [sender.py:send():379] send: history
+2024-05-08 01:20:43,279 DEBUG   SenderThread:90490 [sender.py:send_request():406] send_request: summary_record
+2024-05-08 01:20:43,280 INFO    SenderThread:90490 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-05-08 01:20:43,451 INFO    Thread-12 :90490 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ahmad/Desktop/Graduation Proj/MedIAnomaly/reconstruction/wandb/run-20240508_012034-70jr28pi/files/output.log
+2024-05-08 01:20:43,451 INFO    Thread-12 :90490 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ahmad/Desktop/Graduation Proj/MedIAnomaly/reconstruction/wandb/run-20240508_012034-70jr28pi/files/wandb-summary.json
+2024-05-08 01:20:43,642 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: partial_history
+2024-05-08 01:20:43,643 DEBUG   SenderThread:90490 [sender.py:send():379] send: history
+2024-05-08 01:20:43,643 DEBUG   SenderThread:90490 [sender.py:send_request():406] send_request: summary_record
+2024-05-08 01:20:43,643 INFO    SenderThread:90490 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-05-08 01:20:44,006 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: partial_history
+2024-05-08 01:20:44,007 DEBUG   SenderThread:90490 [sender.py:send():379] send: history
+2024-05-08 01:20:44,007 DEBUG   SenderThread:90490 [sender.py:send_request():406] send_request: summary_record
+2024-05-08 01:20:44,007 INFO    SenderThread:90490 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-05-08 01:20:44,369 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: partial_history
+2024-05-08 01:20:44,370 DEBUG   SenderThread:90490 [sender.py:send():379] send: history
+2024-05-08 01:20:44,370 DEBUG   SenderThread:90490 [sender.py:send_request():406] send_request: summary_record
+2024-05-08 01:20:44,370 INFO    SenderThread:90490 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-05-08 01:20:44,451 INFO    Thread-12 :90490 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ahmad/Desktop/Graduation Proj/MedIAnomaly/reconstruction/wandb/run-20240508_012034-70jr28pi/files/wandb-summary.json
+2024-05-08 01:20:44,733 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: partial_history
+2024-05-08 01:20:44,734 DEBUG   SenderThread:90490 [sender.py:send():379] send: history
+2024-05-08 01:20:44,734 DEBUG   SenderThread:90490 [sender.py:send_request():406] send_request: summary_record
+2024-05-08 01:20:44,734 INFO    SenderThread:90490 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-05-08 01:20:45,097 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: partial_history
+2024-05-08 01:20:45,097 DEBUG   SenderThread:90490 [sender.py:send():379] send: history
+2024-05-08 01:20:45,097 DEBUG   SenderThread:90490 [sender.py:send_request():406] send_request: summary_record
+2024-05-08 01:20:45,098 INFO    SenderThread:90490 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-05-08 01:20:45,451 INFO    Thread-12 :90490 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ahmad/Desktop/Graduation Proj/MedIAnomaly/reconstruction/wandb/run-20240508_012034-70jr28pi/files/wandb-summary.json
+2024-05-08 01:20:45,460 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: partial_history
+2024-05-08 01:20:45,461 DEBUG   SenderThread:90490 [sender.py:send():379] send: history
+2024-05-08 01:20:45,461 DEBUG   SenderThread:90490 [sender.py:send_request():406] send_request: summary_record
+2024-05-08 01:20:45,462 INFO    SenderThread:90490 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-05-08 01:20:45,824 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: partial_history
+2024-05-08 01:20:45,824 DEBUG   SenderThread:90490 [sender.py:send():379] send: history
+2024-05-08 01:20:45,825 DEBUG   SenderThread:90490 [sender.py:send_request():406] send_request: summary_record
+2024-05-08 01:20:45,825 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: status_report
+2024-05-08 01:20:45,825 INFO    SenderThread:90490 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-05-08 01:20:46,187 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: partial_history
+2024-05-08 01:20:46,188 DEBUG   SenderThread:90490 [sender.py:send():379] send: history
+2024-05-08 01:20:46,188 DEBUG   SenderThread:90490 [sender.py:send_request():406] send_request: summary_record
+2024-05-08 01:20:46,188 INFO    SenderThread:90490 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-05-08 01:20:46,452 INFO    Thread-12 :90490 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ahmad/Desktop/Graduation Proj/MedIAnomaly/reconstruction/wandb/run-20240508_012034-70jr28pi/files/wandb-summary.json
+2024-05-08 01:20:46,551 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: partial_history
+2024-05-08 01:20:46,551 DEBUG   SenderThread:90490 [sender.py:send():379] send: history
+2024-05-08 01:20:46,551 DEBUG   SenderThread:90490 [sender.py:send_request():406] send_request: summary_record
+2024-05-08 01:20:46,551 INFO    SenderThread:90490 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-05-08 01:20:46,914 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: partial_history
+2024-05-08 01:20:46,914 DEBUG   SenderThread:90490 [sender.py:send():379] send: history
+2024-05-08 01:20:46,915 DEBUG   SenderThread:90490 [sender.py:send_request():406] send_request: summary_record
+2024-05-08 01:20:46,915 INFO    SenderThread:90490 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-05-08 01:20:47,277 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: partial_history
+2024-05-08 01:20:47,278 DEBUG   SenderThread:90490 [sender.py:send():379] send: history
+2024-05-08 01:20:47,278 DEBUG   SenderThread:90490 [sender.py:send_request():406] send_request: summary_record
+2024-05-08 01:20:47,278 INFO    SenderThread:90490 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-05-08 01:20:47,452 INFO    Thread-12 :90490 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ahmad/Desktop/Graduation Proj/MedIAnomaly/reconstruction/wandb/run-20240508_012034-70jr28pi/files/wandb-summary.json
+2024-05-08 01:20:47,640 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: partial_history
+2024-05-08 01:20:47,641 DEBUG   SenderThread:90490 [sender.py:send():379] send: history
+2024-05-08 01:20:47,641 DEBUG   SenderThread:90490 [sender.py:send_request():406] send_request: summary_record
+2024-05-08 01:20:47,642 INFO    SenderThread:90490 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-05-08 01:20:48,004 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: partial_history
+2024-05-08 01:20:48,004 DEBUG   SenderThread:90490 [sender.py:send():379] send: history
+2024-05-08 01:20:48,004 DEBUG   SenderThread:90490 [sender.py:send_request():406] send_request: summary_record
+2024-05-08 01:20:48,005 INFO    SenderThread:90490 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-05-08 01:20:48,367 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: partial_history
+2024-05-08 01:20:48,368 DEBUG   SenderThread:90490 [sender.py:send():379] send: history
+2024-05-08 01:20:48,368 DEBUG   SenderThread:90490 [sender.py:send_request():406] send_request: summary_record
+2024-05-08 01:20:48,368 INFO    SenderThread:90490 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-05-08 01:20:48,452 INFO    Thread-12 :90490 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ahmad/Desktop/Graduation Proj/MedIAnomaly/reconstruction/wandb/run-20240508_012034-70jr28pi/files/wandb-summary.json
+2024-05-08 01:20:48,730 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: partial_history
+2024-05-08 01:20:48,731 DEBUG   SenderThread:90490 [sender.py:send():379] send: history
+2024-05-08 01:20:48,731 DEBUG   SenderThread:90490 [sender.py:send_request():406] send_request: summary_record
+2024-05-08 01:20:48,731 INFO    SenderThread:90490 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-05-08 01:20:49,094 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: partial_history
+2024-05-08 01:20:49,094 DEBUG   SenderThread:90490 [sender.py:send():379] send: history
+2024-05-08 01:20:49,094 DEBUG   SenderThread:90490 [sender.py:send_request():406] send_request: summary_record
+2024-05-08 01:20:49,095 INFO    SenderThread:90490 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-05-08 01:20:49,453 INFO    Thread-12 :90490 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ahmad/Desktop/Graduation Proj/MedIAnomaly/reconstruction/wandb/run-20240508_012034-70jr28pi/files/wandb-summary.json
+2024-05-08 01:20:49,457 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: partial_history
+2024-05-08 01:20:49,457 DEBUG   SenderThread:90490 [sender.py:send():379] send: history
+2024-05-08 01:20:49,457 DEBUG   SenderThread:90490 [sender.py:send_request():406] send_request: summary_record
+2024-05-08 01:20:49,458 INFO    SenderThread:90490 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-05-08 01:20:49,820 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: partial_history
+2024-05-08 01:20:49,821 DEBUG   SenderThread:90490 [sender.py:send():379] send: history
+2024-05-08 01:20:49,821 DEBUG   SenderThread:90490 [sender.py:send_request():406] send_request: summary_record
+2024-05-08 01:20:49,822 INFO    SenderThread:90490 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-05-08 01:20:50,184 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: partial_history
+2024-05-08 01:20:50,184 DEBUG   SenderThread:90490 [sender.py:send():379] send: history
+2024-05-08 01:20:50,184 DEBUG   SenderThread:90490 [sender.py:send_request():406] send_request: summary_record
+2024-05-08 01:20:50,185 INFO    SenderThread:90490 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-05-08 01:20:50,453 INFO    Thread-12 :90490 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ahmad/Desktop/Graduation Proj/MedIAnomaly/reconstruction/wandb/run-20240508_012034-70jr28pi/files/wandb-summary.json
+2024-05-08 01:20:50,547 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: partial_history
+2024-05-08 01:20:50,548 DEBUG   SenderThread:90490 [sender.py:send():379] send: history
+2024-05-08 01:20:50,548 DEBUG   SenderThread:90490 [sender.py:send_request():406] send_request: summary_record
+2024-05-08 01:20:50,548 INFO    SenderThread:90490 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-05-08 01:20:51,453 INFO    Thread-12 :90490 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ahmad/Desktop/Graduation Proj/MedIAnomaly/reconstruction/wandb/run-20240508_012034-70jr28pi/files/wandb-summary.json
+2024-05-08 01:20:51,549 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: status_report
+2024-05-08 01:20:52,774 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: partial_history
+2024-05-08 01:20:53,141 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: partial_history
+2024-05-08 01:20:53,141 DEBUG   SenderThread:90490 [sender.py:send():379] send: history
+2024-05-08 01:20:53,142 DEBUG   SenderThread:90490 [sender.py:send_request():406] send_request: summary_record
+2024-05-08 01:20:53,142 INFO    SenderThread:90490 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-05-08 01:20:53,454 INFO    Thread-12 :90490 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ahmad/Desktop/Graduation Proj/MedIAnomaly/reconstruction/wandb/run-20240508_012034-70jr28pi/files/output.log
+2024-05-08 01:20:53,454 INFO    Thread-12 :90490 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ahmad/Desktop/Graduation Proj/MedIAnomaly/reconstruction/wandb/run-20240508_012034-70jr28pi/files/wandb-summary.json
+2024-05-08 01:20:53,508 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: partial_history
+2024-05-08 01:20:53,508 DEBUG   SenderThread:90490 [sender.py:send():379] send: history
+2024-05-08 01:20:53,508 DEBUG   SenderThread:90490 [sender.py:send_request():406] send_request: summary_record
+2024-05-08 01:20:53,509 INFO    SenderThread:90490 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-05-08 01:20:53,872 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: partial_history
+2024-05-08 01:20:53,873 DEBUG   SenderThread:90490 [sender.py:send():379] send: history
+2024-05-08 01:20:53,873 DEBUG   SenderThread:90490 [sender.py:send_request():406] send_request: summary_record
+2024-05-08 01:20:53,873 INFO    SenderThread:90490 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-05-08 01:20:53,925 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: stop_status
+2024-05-08 01:20:53,926 DEBUG   SenderThread:90490 [sender.py:send_request():406] send_request: stop_status
+2024-05-08 01:20:53,928 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: internal_messages
+2024-05-08 01:20:54,237 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: partial_history
+2024-05-08 01:20:54,238 DEBUG   SenderThread:90490 [sender.py:send():379] send: history
+2024-05-08 01:20:54,238 DEBUG   SenderThread:90490 [sender.py:send_request():406] send_request: summary_record
+2024-05-08 01:20:54,238 INFO    SenderThread:90490 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-05-08 01:20:54,454 INFO    Thread-12 :90490 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ahmad/Desktop/Graduation Proj/MedIAnomaly/reconstruction/wandb/run-20240508_012034-70jr28pi/files/wandb-summary.json
+2024-05-08 01:20:54,602 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: partial_history
+2024-05-08 01:20:54,602 DEBUG   SenderThread:90490 [sender.py:send():379] send: history
+2024-05-08 01:20:54,602 DEBUG   SenderThread:90490 [sender.py:send_request():406] send_request: summary_record
+2024-05-08 01:20:54,603 INFO    SenderThread:90490 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-05-08 01:20:54,966 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: partial_history
+2024-05-08 01:20:54,966 DEBUG   SenderThread:90490 [sender.py:send():379] send: history
+2024-05-08 01:20:54,966 DEBUG   SenderThread:90490 [sender.py:send_request():406] send_request: summary_record
+2024-05-08 01:20:54,967 INFO    SenderThread:90490 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-05-08 01:20:55,330 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: partial_history
+2024-05-08 01:20:55,331 DEBUG   SenderThread:90490 [sender.py:send():379] send: history
+2024-05-08 01:20:55,331 DEBUG   SenderThread:90490 [sender.py:send_request():406] send_request: summary_record
+2024-05-08 01:20:55,331 INFO    SenderThread:90490 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-05-08 01:20:55,454 INFO    Thread-12 :90490 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ahmad/Desktop/Graduation Proj/MedIAnomaly/reconstruction/wandb/run-20240508_012034-70jr28pi/files/wandb-summary.json
+2024-05-08 01:20:55,694 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: partial_history
+2024-05-08 01:20:55,694 DEBUG   SenderThread:90490 [sender.py:send():379] send: history
+2024-05-08 01:20:55,694 DEBUG   SenderThread:90490 [sender.py:send_request():406] send_request: summary_record
+2024-05-08 01:20:55,695 INFO    SenderThread:90490 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-05-08 01:20:56,058 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: partial_history
+2024-05-08 01:20:56,058 DEBUG   SenderThread:90490 [sender.py:send():379] send: history
+2024-05-08 01:20:56,058 DEBUG   SenderThread:90490 [sender.py:send_request():406] send_request: summary_record
+2024-05-08 01:20:56,058 INFO    SenderThread:90490 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-05-08 01:20:56,422 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: partial_history
+2024-05-08 01:20:56,422 DEBUG   SenderThread:90490 [sender.py:send():379] send: history
+2024-05-08 01:20:56,422 DEBUG   SenderThread:90490 [sender.py:send_request():406] send_request: summary_record
+2024-05-08 01:20:56,423 INFO    SenderThread:90490 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-05-08 01:20:56,454 INFO    Thread-12 :90490 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ahmad/Desktop/Graduation Proj/MedIAnomaly/reconstruction/wandb/run-20240508_012034-70jr28pi/files/wandb-summary.json
+2024-05-08 01:20:56,786 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: partial_history
+2024-05-08 01:20:56,786 DEBUG   SenderThread:90490 [sender.py:send():379] send: history
+2024-05-08 01:20:56,786 DEBUG   SenderThread:90490 [sender.py:send_request():406] send_request: summary_record
+2024-05-08 01:20:56,787 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: status_report
+2024-05-08 01:20:56,788 INFO    SenderThread:90490 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-05-08 01:20:57,149 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: partial_history
+2024-05-08 01:20:57,150 DEBUG   SenderThread:90490 [sender.py:send():379] send: history
+2024-05-08 01:20:57,150 DEBUG   SenderThread:90490 [sender.py:send_request():406] send_request: summary_record
+2024-05-08 01:20:57,150 INFO    SenderThread:90490 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-05-08 01:20:57,455 INFO    Thread-12 :90490 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ahmad/Desktop/Graduation Proj/MedIAnomaly/reconstruction/wandb/run-20240508_012034-70jr28pi/files/wandb-summary.json
+2024-05-08 01:20:57,513 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: partial_history
+2024-05-08 01:20:57,514 DEBUG   SenderThread:90490 [sender.py:send():379] send: history
+2024-05-08 01:20:57,514 DEBUG   SenderThread:90490 [sender.py:send_request():406] send_request: summary_record
+2024-05-08 01:20:57,514 INFO    SenderThread:90490 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-05-08 01:20:57,877 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: partial_history
+2024-05-08 01:20:57,877 DEBUG   SenderThread:90490 [sender.py:send():379] send: history
+2024-05-08 01:20:57,877 DEBUG   SenderThread:90490 [sender.py:send_request():406] send_request: summary_record
+2024-05-08 01:20:57,878 INFO    SenderThread:90490 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-05-08 01:20:58,241 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: partial_history
+2024-05-08 01:20:58,242 DEBUG   SenderThread:90490 [sender.py:send():379] send: history
+2024-05-08 01:20:58,242 DEBUG   SenderThread:90490 [sender.py:send_request():406] send_request: summary_record
+2024-05-08 01:20:58,242 INFO    SenderThread:90490 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-05-08 01:20:58,455 INFO    Thread-12 :90490 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ahmad/Desktop/Graduation Proj/MedIAnomaly/reconstruction/wandb/run-20240508_012034-70jr28pi/files/wandb-summary.json
+2024-05-08 01:20:58,606 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: partial_history
+2024-05-08 01:20:58,606 DEBUG   SenderThread:90490 [sender.py:send():379] send: history
+2024-05-08 01:20:58,606 DEBUG   SenderThread:90490 [sender.py:send_request():406] send_request: summary_record
+2024-05-08 01:20:58,607 INFO    SenderThread:90490 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-05-08 01:20:58,971 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: partial_history
+2024-05-08 01:20:58,972 DEBUG   SenderThread:90490 [sender.py:send():379] send: history
+2024-05-08 01:20:58,972 DEBUG   SenderThread:90490 [sender.py:send_request():406] send_request: summary_record
+2024-05-08 01:20:58,973 INFO    SenderThread:90490 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-05-08 01:20:59,337 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: partial_history
+2024-05-08 01:20:59,337 DEBUG   SenderThread:90490 [sender.py:send():379] send: history
+2024-05-08 01:20:59,337 DEBUG   SenderThread:90490 [sender.py:send_request():406] send_request: summary_record
+2024-05-08 01:20:59,338 INFO    SenderThread:90490 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-05-08 01:20:59,455 INFO    Thread-12 :90490 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ahmad/Desktop/Graduation Proj/MedIAnomaly/reconstruction/wandb/run-20240508_012034-70jr28pi/files/wandb-summary.json
+2024-05-08 01:20:59,703 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: partial_history
+2024-05-08 01:20:59,703 DEBUG   SenderThread:90490 [sender.py:send():379] send: history
+2024-05-08 01:20:59,703 DEBUG   SenderThread:90490 [sender.py:send_request():406] send_request: summary_record
+2024-05-08 01:20:59,704 INFO    SenderThread:90490 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-05-08 01:21:00,069 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: partial_history
+2024-05-08 01:21:00,069 DEBUG   SenderThread:90490 [sender.py:send():379] send: history
+2024-05-08 01:21:00,069 DEBUG   SenderThread:90490 [sender.py:send_request():406] send_request: summary_record
+2024-05-08 01:21:00,070 INFO    SenderThread:90490 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-05-08 01:21:00,434 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: partial_history
+2024-05-08 01:21:00,435 DEBUG   SenderThread:90490 [sender.py:send():379] send: history
+2024-05-08 01:21:00,435 DEBUG   SenderThread:90490 [sender.py:send_request():406] send_request: summary_record
+2024-05-08 01:21:00,435 INFO    SenderThread:90490 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-05-08 01:21:00,455 INFO    Thread-12 :90490 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ahmad/Desktop/Graduation Proj/MedIAnomaly/reconstruction/wandb/run-20240508_012034-70jr28pi/files/wandb-summary.json
+2024-05-08 01:21:00,800 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: partial_history
+2024-05-08 01:21:00,800 DEBUG   SenderThread:90490 [sender.py:send():379] send: history
+2024-05-08 01:21:00,800 DEBUG   SenderThread:90490 [sender.py:send_request():406] send_request: summary_record
+2024-05-08 01:21:00,801 INFO    SenderThread:90490 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-05-08 01:21:01,166 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: partial_history
+2024-05-08 01:21:01,166 DEBUG   SenderThread:90490 [sender.py:send():379] send: history
+2024-05-08 01:21:01,166 DEBUG   SenderThread:90490 [sender.py:send_request():406] send_request: summary_record
+2024-05-08 01:21:01,167 INFO    SenderThread:90490 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-05-08 01:21:01,456 INFO    Thread-12 :90490 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ahmad/Desktop/Graduation Proj/MedIAnomaly/reconstruction/wandb/run-20240508_012034-70jr28pi/files/wandb-summary.json
+2024-05-08 01:21:01,531 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: partial_history
+2024-05-08 01:21:01,532 DEBUG   SenderThread:90490 [sender.py:send():379] send: history
+2024-05-08 01:21:01,532 DEBUG   SenderThread:90490 [sender.py:send_request():406] send_request: summary_record
+2024-05-08 01:21:01,532 INFO    SenderThread:90490 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-05-08 01:21:01,897 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: partial_history
+2024-05-08 01:21:01,898 DEBUG   SenderThread:90490 [sender.py:send():379] send: history
+2024-05-08 01:21:01,898 DEBUG   SenderThread:90490 [sender.py:send_request():406] send_request: summary_record
+2024-05-08 01:21:01,898 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: status_report
+2024-05-08 01:21:01,898 INFO    SenderThread:90490 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-05-08 01:21:02,456 INFO    Thread-12 :90490 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ahmad/Desktop/Graduation Proj/MedIAnomaly/reconstruction/wandb/run-20240508_012034-70jr28pi/files/wandb-summary.json
+2024-05-08 01:21:04,127 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: partial_history
+2024-05-08 01:21:04,495 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: partial_history
+2024-05-08 01:21:04,496 DEBUG   SenderThread:90490 [sender.py:send():379] send: history
+2024-05-08 01:21:04,496 DEBUG   SenderThread:90490 [sender.py:send_request():406] send_request: summary_record
+2024-05-08 01:21:04,496 INFO    SenderThread:90490 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-05-08 01:21:04,858 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: partial_history
+2024-05-08 01:21:04,859 DEBUG   SenderThread:90490 [sender.py:send():379] send: history
+2024-05-08 01:21:04,859 DEBUG   SenderThread:90490 [sender.py:send_request():406] send_request: summary_record
+2024-05-08 01:21:04,859 INFO    SenderThread:90490 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-05-08 01:21:05,223 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: partial_history
+2024-05-08 01:21:05,223 DEBUG   SenderThread:90490 [sender.py:send():379] send: history
+2024-05-08 01:21:05,223 DEBUG   SenderThread:90490 [sender.py:send_request():406] send_request: summary_record
+2024-05-08 01:21:05,223 INFO    SenderThread:90490 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-05-08 01:21:05,457 INFO    Thread-12 :90490 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ahmad/Desktop/Graduation Proj/MedIAnomaly/reconstruction/wandb/run-20240508_012034-70jr28pi/files/output.log
+2024-05-08 01:21:05,457 INFO    Thread-12 :90490 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ahmad/Desktop/Graduation Proj/MedIAnomaly/reconstruction/wandb/run-20240508_012034-70jr28pi/files/wandb-summary.json
+2024-05-08 01:21:05,588 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: partial_history
+2024-05-08 01:21:05,589 DEBUG   SenderThread:90490 [sender.py:send():379] send: history
+2024-05-08 01:21:05,589 DEBUG   SenderThread:90490 [sender.py:send_request():406] send_request: summary_record
+2024-05-08 01:21:05,589 INFO    SenderThread:90490 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-05-08 01:21:05,954 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: partial_history
+2024-05-08 01:21:05,955 DEBUG   SenderThread:90490 [sender.py:send():379] send: history
+2024-05-08 01:21:05,955 DEBUG   SenderThread:90490 [sender.py:send_request():406] send_request: summary_record
+2024-05-08 01:21:05,956 INFO    SenderThread:90490 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-05-08 01:21:06,320 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: partial_history
+2024-05-08 01:21:06,320 DEBUG   SenderThread:90490 [sender.py:send():379] send: history
+2024-05-08 01:21:06,320 DEBUG   SenderThread:90490 [sender.py:send_request():406] send_request: summary_record
+2024-05-08 01:21:06,321 INFO    SenderThread:90490 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-05-08 01:21:06,457 INFO    Thread-12 :90490 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ahmad/Desktop/Graduation Proj/MedIAnomaly/reconstruction/wandb/run-20240508_012034-70jr28pi/files/wandb-summary.json
+2024-05-08 01:21:06,686 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: partial_history
+2024-05-08 01:21:06,686 DEBUG   SenderThread:90490 [sender.py:send():379] send: history
+2024-05-08 01:21:06,686 DEBUG   SenderThread:90490 [sender.py:send_request():406] send_request: summary_record
+2024-05-08 01:21:06,687 INFO    SenderThread:90490 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-05-08 01:21:07,051 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: partial_history
+2024-05-08 01:21:07,051 DEBUG   SenderThread:90490 [sender.py:send():379] send: history
+2024-05-08 01:21:07,054 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: status_report
+2024-05-08 01:21:07,273 DEBUG   SenderThread:90490 [sender.py:send_request():406] send_request: summary_record
+2024-05-08 01:21:07,273 INFO    SenderThread:90490 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-05-08 01:21:07,417 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: partial_history
+2024-05-08 01:21:07,417 DEBUG   SenderThread:90490 [sender.py:send():379] send: history
+2024-05-08 01:21:07,417 DEBUG   SenderThread:90490 [sender.py:send_request():406] send_request: summary_record
+2024-05-08 01:21:07,418 INFO    SenderThread:90490 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-05-08 01:21:07,457 INFO    Thread-12 :90490 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ahmad/Desktop/Graduation Proj/MedIAnomaly/reconstruction/wandb/run-20240508_012034-70jr28pi/files/config.yaml
+2024-05-08 01:21:07,457 INFO    Thread-12 :90490 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ahmad/Desktop/Graduation Proj/MedIAnomaly/reconstruction/wandb/run-20240508_012034-70jr28pi/files/wandb-summary.json
+2024-05-08 01:21:07,782 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: partial_history
+2024-05-08 01:21:07,782 DEBUG   SenderThread:90490 [sender.py:send():379] send: history
+2024-05-08 01:21:07,783 DEBUG   SenderThread:90490 [sender.py:send_request():406] send_request: summary_record
+2024-05-08 01:21:07,783 INFO    SenderThread:90490 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-05-08 01:21:08,146 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: partial_history
+2024-05-08 01:21:08,147 DEBUG   SenderThread:90490 [sender.py:send():379] send: history
+2024-05-08 01:21:08,147 DEBUG   SenderThread:90490 [sender.py:send_request():406] send_request: summary_record
+2024-05-08 01:21:08,148 INFO    SenderThread:90490 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-05-08 01:21:08,457 INFO    Thread-12 :90490 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ahmad/Desktop/Graduation Proj/MedIAnomaly/reconstruction/wandb/run-20240508_012034-70jr28pi/files/wandb-summary.json
+2024-05-08 01:21:08,510 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: partial_history
+2024-05-08 01:21:08,511 DEBUG   SenderThread:90490 [sender.py:send():379] send: history
+2024-05-08 01:21:08,511 DEBUG   SenderThread:90490 [sender.py:send_request():406] send_request: summary_record
+2024-05-08 01:21:08,511 INFO    SenderThread:90490 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-05-08 01:21:08,874 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: partial_history
+2024-05-08 01:21:08,874 DEBUG   SenderThread:90490 [sender.py:send():379] send: history
+2024-05-08 01:21:08,874 DEBUG   SenderThread:90490 [sender.py:send_request():406] send_request: summary_record
+2024-05-08 01:21:08,874 INFO    SenderThread:90490 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-05-08 01:21:08,926 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: stop_status
+2024-05-08 01:21:08,926 DEBUG   SenderThread:90490 [sender.py:send_request():406] send_request: stop_status
+2024-05-08 01:21:08,927 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: internal_messages
+2024-05-08 01:21:09,240 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: partial_history
+2024-05-08 01:21:09,241 DEBUG   SenderThread:90490 [sender.py:send():379] send: history
+2024-05-08 01:21:09,241 DEBUG   SenderThread:90490 [sender.py:send_request():406] send_request: summary_record
+2024-05-08 01:21:09,241 INFO    SenderThread:90490 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-05-08 01:21:09,458 INFO    Thread-12 :90490 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ahmad/Desktop/Graduation Proj/MedIAnomaly/reconstruction/wandb/run-20240508_012034-70jr28pi/files/wandb-summary.json
+2024-05-08 01:21:09,605 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: partial_history
+2024-05-08 01:21:09,606 DEBUG   SenderThread:90490 [sender.py:send():379] send: history
+2024-05-08 01:21:09,606 DEBUG   SenderThread:90490 [sender.py:send_request():406] send_request: summary_record
+2024-05-08 01:21:09,606 INFO    SenderThread:90490 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-05-08 01:21:09,971 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: partial_history
+2024-05-08 01:21:09,972 DEBUG   SenderThread:90490 [sender.py:send():379] send: history
+2024-05-08 01:21:09,972 DEBUG   SenderThread:90490 [sender.py:send_request():406] send_request: summary_record
+2024-05-08 01:21:09,972 INFO    SenderThread:90490 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-05-08 01:21:10,337 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: partial_history
+2024-05-08 01:21:10,338 DEBUG   SenderThread:90490 [sender.py:send():379] send: history
+2024-05-08 01:21:10,338 DEBUG   SenderThread:90490 [sender.py:send_request():406] send_request: summary_record
+2024-05-08 01:21:10,339 INFO    SenderThread:90490 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-05-08 01:21:10,458 INFO    Thread-12 :90490 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ahmad/Desktop/Graduation Proj/MedIAnomaly/reconstruction/wandb/run-20240508_012034-70jr28pi/files/wandb-summary.json
+2024-05-08 01:21:10,704 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: partial_history
+2024-05-08 01:21:10,704 DEBUG   SenderThread:90490 [sender.py:send():379] send: history
+2024-05-08 01:21:10,704 DEBUG   SenderThread:90490 [sender.py:send_request():406] send_request: summary_record
+2024-05-08 01:21:10,704 INFO    SenderThread:90490 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-05-08 01:21:11,070 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: partial_history
+2024-05-08 01:21:11,071 DEBUG   SenderThread:90490 [sender.py:send():379] send: history
+2024-05-08 01:21:11,071 DEBUG   SenderThread:90490 [sender.py:send_request():406] send_request: summary_record
+2024-05-08 01:21:11,071 INFO    SenderThread:90490 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-05-08 01:21:11,437 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: partial_history
+2024-05-08 01:21:11,437 DEBUG   SenderThread:90490 [sender.py:send():379] send: history
+2024-05-08 01:21:11,437 DEBUG   SenderThread:90490 [sender.py:send_request():406] send_request: summary_record
+2024-05-08 01:21:11,438 INFO    SenderThread:90490 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-05-08 01:21:11,458 INFO    Thread-12 :90490 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ahmad/Desktop/Graduation Proj/MedIAnomaly/reconstruction/wandb/run-20240508_012034-70jr28pi/files/wandb-summary.json
+2024-05-08 01:21:11,803 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: partial_history
+2024-05-08 01:21:11,804 DEBUG   SenderThread:90490 [sender.py:send():379] send: history
+2024-05-08 01:21:11,804 DEBUG   SenderThread:90490 [sender.py:send_request():406] send_request: summary_record
+2024-05-08 01:21:11,804 INFO    SenderThread:90490 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-05-08 01:21:12,170 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: partial_history
+2024-05-08 01:21:12,170 DEBUG   SenderThread:90490 [sender.py:send():379] send: history
+2024-05-08 01:21:12,171 DEBUG   SenderThread:90490 [sender.py:send_request():406] send_request: summary_record
+2024-05-08 01:21:12,171 INFO    SenderThread:90490 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-05-08 01:21:12,458 INFO    Thread-12 :90490 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ahmad/Desktop/Graduation Proj/MedIAnomaly/reconstruction/wandb/run-20240508_012034-70jr28pi/files/wandb-summary.json
+2024-05-08 01:21:12,534 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: partial_history
+2024-05-08 01:21:12,534 DEBUG   SenderThread:90490 [sender.py:send():379] send: history
+2024-05-08 01:21:12,535 DEBUG   SenderThread:90490 [sender.py:send_request():406] send_request: summary_record
+2024-05-08 01:21:12,535 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: status_report
+2024-05-08 01:21:12,536 INFO    SenderThread:90490 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-05-08 01:21:12,898 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: partial_history
+2024-05-08 01:21:12,898 DEBUG   SenderThread:90490 [sender.py:send():379] send: history
+2024-05-08 01:21:12,899 DEBUG   SenderThread:90490 [sender.py:send_request():406] send_request: summary_record
+2024-05-08 01:21:12,899 INFO    SenderThread:90490 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-05-08 01:21:13,264 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: partial_history
+2024-05-08 01:21:13,264 DEBUG   SenderThread:90490 [sender.py:send():379] send: history
+2024-05-08 01:21:13,264 DEBUG   SenderThread:90490 [sender.py:send_request():406] send_request: summary_record
+2024-05-08 01:21:13,264 INFO    SenderThread:90490 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-05-08 01:21:13,459 INFO    Thread-12 :90490 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ahmad/Desktop/Graduation Proj/MedIAnomaly/reconstruction/wandb/run-20240508_012034-70jr28pi/files/wandb-summary.json
+2024-05-08 01:21:15,471 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: partial_history
+2024-05-08 01:21:15,839 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: partial_history
+2024-05-08 01:21:15,840 DEBUG   SenderThread:90490 [sender.py:send():379] send: history
+2024-05-08 01:21:15,840 DEBUG   SenderThread:90490 [sender.py:send_request():406] send_request: summary_record
+2024-05-08 01:21:15,840 INFO    SenderThread:90490 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-05-08 01:21:16,206 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: partial_history
+2024-05-08 01:21:16,206 DEBUG   SenderThread:90490 [sender.py:send():379] send: history
+2024-05-08 01:21:16,206 DEBUG   SenderThread:90490 [sender.py:send_request():406] send_request: summary_record
+2024-05-08 01:21:16,206 INFO    SenderThread:90490 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-05-08 01:21:16,459 INFO    Thread-12 :90490 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ahmad/Desktop/Graduation Proj/MedIAnomaly/reconstruction/wandb/run-20240508_012034-70jr28pi/files/wandb-summary.json
+2024-05-08 01:21:16,573 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: partial_history
+2024-05-08 01:21:16,573 DEBUG   SenderThread:90490 [sender.py:send():379] send: history
+2024-05-08 01:21:16,573 DEBUG   SenderThread:90490 [sender.py:send_request():406] send_request: summary_record
+2024-05-08 01:21:16,573 INFO    SenderThread:90490 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-05-08 01:21:16,937 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: partial_history
+2024-05-08 01:21:16,937 DEBUG   SenderThread:90490 [sender.py:send():379] send: history
+2024-05-08 01:21:16,937 DEBUG   SenderThread:90490 [sender.py:send_request():406] send_request: summary_record
+2024-05-08 01:21:16,938 INFO    SenderThread:90490 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-05-08 01:21:17,300 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: partial_history
+2024-05-08 01:21:17,301 DEBUG   SenderThread:90490 [sender.py:send():379] send: history
+2024-05-08 01:21:17,301 DEBUG   SenderThread:90490 [sender.py:send_request():406] send_request: summary_record
+2024-05-08 01:21:17,302 INFO    SenderThread:90490 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-05-08 01:21:17,460 INFO    Thread-12 :90490 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ahmad/Desktop/Graduation Proj/MedIAnomaly/reconstruction/wandb/run-20240508_012034-70jr28pi/files/output.log
+2024-05-08 01:21:17,460 INFO    Thread-12 :90490 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ahmad/Desktop/Graduation Proj/MedIAnomaly/reconstruction/wandb/run-20240508_012034-70jr28pi/files/wandb-summary.json
+2024-05-08 01:21:17,664 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: partial_history
+2024-05-08 01:21:17,665 DEBUG   SenderThread:90490 [sender.py:send():379] send: history
+2024-05-08 01:21:17,665 DEBUG   SenderThread:90490 [sender.py:send_request():406] send_request: summary_record
+2024-05-08 01:21:17,665 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: status_report
+2024-05-08 01:21:17,665 INFO    SenderThread:90490 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-05-08 01:21:18,027 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: partial_history
+2024-05-08 01:21:18,028 DEBUG   SenderThread:90490 [sender.py:send():379] send: history
+2024-05-08 01:21:18,028 DEBUG   SenderThread:90490 [sender.py:send_request():406] send_request: summary_record
+2024-05-08 01:21:18,028 INFO    SenderThread:90490 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-05-08 01:21:18,392 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: partial_history
+2024-05-08 01:21:18,393 DEBUG   SenderThread:90490 [sender.py:send():379] send: history
+2024-05-08 01:21:18,393 DEBUG   SenderThread:90490 [sender.py:send_request():406] send_request: summary_record
+2024-05-08 01:21:18,393 INFO    SenderThread:90490 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-05-08 01:21:18,460 INFO    Thread-12 :90490 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ahmad/Desktop/Graduation Proj/MedIAnomaly/reconstruction/wandb/run-20240508_012034-70jr28pi/files/wandb-summary.json
+2024-05-08 01:21:18,758 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: partial_history
+2024-05-08 01:21:18,758 DEBUG   SenderThread:90490 [sender.py:send():379] send: history
+2024-05-08 01:21:18,759 DEBUG   SenderThread:90490 [sender.py:send_request():406] send_request: summary_record
+2024-05-08 01:21:18,759 INFO    SenderThread:90490 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-05-08 01:21:19,123 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: partial_history
+2024-05-08 01:21:19,123 DEBUG   SenderThread:90490 [sender.py:send():379] send: history
+2024-05-08 01:21:19,124 DEBUG   SenderThread:90490 [sender.py:send_request():406] send_request: summary_record
+2024-05-08 01:21:19,124 INFO    SenderThread:90490 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-05-08 01:21:19,460 INFO    Thread-12 :90490 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ahmad/Desktop/Graduation Proj/MedIAnomaly/reconstruction/wandb/run-20240508_012034-70jr28pi/files/wandb-summary.json
+2024-05-08 01:21:19,489 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: partial_history
+2024-05-08 01:21:19,489 DEBUG   SenderThread:90490 [sender.py:send():379] send: history
+2024-05-08 01:21:19,489 DEBUG   SenderThread:90490 [sender.py:send_request():406] send_request: summary_record
+2024-05-08 01:21:19,490 INFO    SenderThread:90490 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-05-08 01:21:19,855 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: partial_history
+2024-05-08 01:21:19,855 DEBUG   SenderThread:90490 [sender.py:send():379] send: history
+2024-05-08 01:21:19,855 DEBUG   SenderThread:90490 [sender.py:send_request():406] send_request: summary_record
+2024-05-08 01:21:19,856 INFO    SenderThread:90490 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-05-08 01:21:20,220 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: partial_history
+2024-05-08 01:21:20,221 DEBUG   SenderThread:90490 [sender.py:send():379] send: history
+2024-05-08 01:21:20,221 DEBUG   SenderThread:90490 [sender.py:send_request():406] send_request: summary_record
+2024-05-08 01:21:20,221 INFO    SenderThread:90490 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-05-08 01:21:20,461 INFO    Thread-12 :90490 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ahmad/Desktop/Graduation Proj/MedIAnomaly/reconstruction/wandb/run-20240508_012034-70jr28pi/files/wandb-summary.json
+2024-05-08 01:21:20,586 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: partial_history
+2024-05-08 01:21:20,586 DEBUG   SenderThread:90490 [sender.py:send():379] send: history
+2024-05-08 01:21:20,586 DEBUG   SenderThread:90490 [sender.py:send_request():406] send_request: summary_record
+2024-05-08 01:21:20,587 INFO    SenderThread:90490 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-05-08 01:21:20,951 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: partial_history
+2024-05-08 01:21:20,952 DEBUG   SenderThread:90490 [sender.py:send():379] send: history
+2024-05-08 01:21:20,952 DEBUG   SenderThread:90490 [sender.py:send_request():406] send_request: summary_record
+2024-05-08 01:21:20,952 INFO    SenderThread:90490 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-05-08 01:21:21,318 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: partial_history
+2024-05-08 01:21:21,319 DEBUG   SenderThread:90490 [sender.py:send():379] send: history
+2024-05-08 01:21:21,319 DEBUG   SenderThread:90490 [sender.py:send_request():406] send_request: summary_record
+2024-05-08 01:21:21,319 INFO    SenderThread:90490 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-05-08 01:21:21,461 INFO    Thread-12 :90490 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ahmad/Desktop/Graduation Proj/MedIAnomaly/reconstruction/wandb/run-20240508_012034-70jr28pi/files/wandb-summary.json
+2024-05-08 01:21:21,685 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: partial_history
+2024-05-08 01:21:21,685 DEBUG   SenderThread:90490 [sender.py:send():379] send: history
+2024-05-08 01:21:21,685 DEBUG   SenderThread:90490 [sender.py:send_request():406] send_request: summary_record
+2024-05-08 01:21:21,686 INFO    SenderThread:90490 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-05-08 01:21:22,050 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: partial_history
+2024-05-08 01:21:22,051 DEBUG   SenderThread:90490 [sender.py:send():379] send: history
+2024-05-08 01:21:22,051 DEBUG   SenderThread:90490 [sender.py:send_request():406] send_request: summary_record
+2024-05-08 01:21:22,051 INFO    SenderThread:90490 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-05-08 01:21:22,416 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: partial_history
+2024-05-08 01:21:22,416 DEBUG   SenderThread:90490 [sender.py:send():379] send: history
+2024-05-08 01:21:22,416 DEBUG   SenderThread:90490 [sender.py:send_request():406] send_request: summary_record
+2024-05-08 01:21:22,416 INFO    SenderThread:90490 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-05-08 01:21:22,461 INFO    Thread-12 :90490 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ahmad/Desktop/Graduation Proj/MedIAnomaly/reconstruction/wandb/run-20240508_012034-70jr28pi/files/wandb-summary.json
+2024-05-08 01:21:22,782 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: partial_history
+2024-05-08 01:21:22,782 DEBUG   SenderThread:90490 [sender.py:send():379] send: history
+2024-05-08 01:21:22,782 DEBUG   SenderThread:90490 [sender.py:send_request():406] send_request: summary_record
+2024-05-08 01:21:22,782 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: status_report
+2024-05-08 01:21:22,783 INFO    SenderThread:90490 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-05-08 01:21:23,148 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: partial_history
+2024-05-08 01:21:23,149 DEBUG   SenderThread:90490 [sender.py:send():379] send: history
+2024-05-08 01:21:23,149 DEBUG   SenderThread:90490 [sender.py:send_request():406] send_request: summary_record
+2024-05-08 01:21:23,149 INFO    SenderThread:90490 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-05-08 01:21:23,461 INFO    Thread-12 :90490 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ahmad/Desktop/Graduation Proj/MedIAnomaly/reconstruction/wandb/run-20240508_012034-70jr28pi/files/wandb-summary.json
+2024-05-08 01:21:23,515 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: partial_history
+2024-05-08 01:21:23,516 DEBUG   SenderThread:90490 [sender.py:send():379] send: history
+2024-05-08 01:21:23,516 DEBUG   SenderThread:90490 [sender.py:send_request():406] send_request: summary_record
+2024-05-08 01:21:23,516 INFO    SenderThread:90490 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-05-08 01:21:23,881 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: partial_history
+2024-05-08 01:21:23,882 DEBUG   SenderThread:90490 [sender.py:send():379] send: history
+2024-05-08 01:21:23,882 DEBUG   SenderThread:90490 [sender.py:send_request():406] send_request: summary_record
+2024-05-08 01:21:23,883 INFO    SenderThread:90490 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-05-08 01:21:23,926 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: stop_status
+2024-05-08 01:21:23,926 DEBUG   SenderThread:90490 [sender.py:send_request():406] send_request: stop_status
+2024-05-08 01:21:23,927 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: internal_messages
+2024-05-08 01:21:24,248 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: partial_history
+2024-05-08 01:21:24,249 DEBUG   SenderThread:90490 [sender.py:send():379] send: history
+2024-05-08 01:21:24,249 DEBUG   SenderThread:90490 [sender.py:send_request():406] send_request: summary_record
+2024-05-08 01:21:24,249 INFO    SenderThread:90490 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-05-08 01:21:24,462 INFO    Thread-12 :90490 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ahmad/Desktop/Graduation Proj/MedIAnomaly/reconstruction/wandb/run-20240508_012034-70jr28pi/files/wandb-summary.json
+2024-05-08 01:21:24,615 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: partial_history
+2024-05-08 01:21:24,615 DEBUG   SenderThread:90490 [sender.py:send():379] send: history
+2024-05-08 01:21:24,615 DEBUG   SenderThread:90490 [sender.py:send_request():406] send_request: summary_record
+2024-05-08 01:21:24,616 INFO    SenderThread:90490 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-05-08 01:21:25,462 INFO    Thread-12 :90490 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ahmad/Desktop/Graduation Proj/MedIAnomaly/reconstruction/wandb/run-20240508_012034-70jr28pi/files/wandb-summary.json
+2024-05-08 01:21:26,868 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: partial_history
+2024-05-08 01:21:27,236 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: partial_history
+2024-05-08 01:21:27,237 DEBUG   SenderThread:90490 [sender.py:send():379] send: history
+2024-05-08 01:21:27,237 DEBUG   SenderThread:90490 [sender.py:send_request():406] send_request: summary_record
+2024-05-08 01:21:27,237 INFO    SenderThread:90490 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-05-08 01:21:27,462 INFO    Thread-12 :90490 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ahmad/Desktop/Graduation Proj/MedIAnomaly/reconstruction/wandb/run-20240508_012034-70jr28pi/files/output.log
+2024-05-08 01:21:27,463 INFO    Thread-12 :90490 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ahmad/Desktop/Graduation Proj/MedIAnomaly/reconstruction/wandb/run-20240508_012034-70jr28pi/files/wandb-summary.json
+2024-05-08 01:21:27,599 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: partial_history
+2024-05-08 01:21:27,600 DEBUG   SenderThread:90490 [sender.py:send():379] send: history
+2024-05-08 01:21:27,600 DEBUG   SenderThread:90490 [sender.py:send_request():406] send_request: summary_record
+2024-05-08 01:21:27,600 INFO    SenderThread:90490 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-05-08 01:21:27,962 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: partial_history
+2024-05-08 01:21:27,963 DEBUG   SenderThread:90490 [sender.py:send():379] send: history
+2024-05-08 01:21:27,963 DEBUG   SenderThread:90490 [sender.py:send_request():406] send_request: summary_record
+2024-05-08 01:21:27,963 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: status_report
+2024-05-08 01:21:27,963 INFO    SenderThread:90490 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-05-08 01:21:28,326 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: partial_history
+2024-05-08 01:21:28,326 DEBUG   SenderThread:90490 [sender.py:send():379] send: history
+2024-05-08 01:21:28,326 DEBUG   SenderThread:90490 [sender.py:send_request():406] send_request: summary_record
+2024-05-08 01:21:28,327 INFO    SenderThread:90490 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-05-08 01:21:28,463 INFO    Thread-12 :90490 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ahmad/Desktop/Graduation Proj/MedIAnomaly/reconstruction/wandb/run-20240508_012034-70jr28pi/files/wandb-summary.json
+2024-05-08 01:21:28,689 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: partial_history
+2024-05-08 01:21:28,690 DEBUG   SenderThread:90490 [sender.py:send():379] send: history
+2024-05-08 01:21:28,690 DEBUG   SenderThread:90490 [sender.py:send_request():406] send_request: summary_record
+2024-05-08 01:21:28,691 INFO    SenderThread:90490 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-05-08 01:21:29,053 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: partial_history
+2024-05-08 01:21:29,053 DEBUG   SenderThread:90490 [sender.py:send():379] send: history
+2024-05-08 01:21:29,053 DEBUG   SenderThread:90490 [sender.py:send_request():406] send_request: summary_record
+2024-05-08 01:21:29,054 INFO    SenderThread:90490 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-05-08 01:21:29,416 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: partial_history
+2024-05-08 01:21:29,417 DEBUG   SenderThread:90490 [sender.py:send():379] send: history
+2024-05-08 01:21:29,417 DEBUG   SenderThread:90490 [sender.py:send_request():406] send_request: summary_record
+2024-05-08 01:21:29,417 INFO    SenderThread:90490 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-05-08 01:21:29,463 INFO    Thread-12 :90490 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ahmad/Desktop/Graduation Proj/MedIAnomaly/reconstruction/wandb/run-20240508_012034-70jr28pi/files/wandb-summary.json
+2024-05-08 01:21:29,779 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: partial_history
+2024-05-08 01:21:29,780 DEBUG   SenderThread:90490 [sender.py:send():379] send: history
+2024-05-08 01:21:29,780 DEBUG   SenderThread:90490 [sender.py:send_request():406] send_request: summary_record
+2024-05-08 01:21:29,780 INFO    SenderThread:90490 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-05-08 01:21:30,143 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: partial_history
+2024-05-08 01:21:30,143 DEBUG   SenderThread:90490 [sender.py:send():379] send: history
+2024-05-08 01:21:30,143 DEBUG   SenderThread:90490 [sender.py:send_request():406] send_request: summary_record
+2024-05-08 01:21:30,144 INFO    SenderThread:90490 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-05-08 01:21:30,463 INFO    Thread-12 :90490 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ahmad/Desktop/Graduation Proj/MedIAnomaly/reconstruction/wandb/run-20240508_012034-70jr28pi/files/wandb-summary.json
+2024-05-08 01:21:30,506 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: partial_history
+2024-05-08 01:21:30,507 DEBUG   SenderThread:90490 [sender.py:send():379] send: history
+2024-05-08 01:21:30,507 DEBUG   SenderThread:90490 [sender.py:send_request():406] send_request: summary_record
+2024-05-08 01:21:30,507 INFO    SenderThread:90490 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-05-08 01:21:30,870 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: partial_history
+2024-05-08 01:21:30,871 DEBUG   SenderThread:90490 [sender.py:send():379] send: history
+2024-05-08 01:21:30,871 DEBUG   SenderThread:90490 [sender.py:send_request():406] send_request: summary_record
+2024-05-08 01:21:30,872 INFO    SenderThread:90490 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-05-08 01:21:31,234 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: partial_history
+2024-05-08 01:21:31,234 DEBUG   SenderThread:90490 [sender.py:send():379] send: history
+2024-05-08 01:21:31,234 DEBUG   SenderThread:90490 [sender.py:send_request():406] send_request: summary_record
+2024-05-08 01:21:31,235 INFO    SenderThread:90490 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-05-08 01:21:31,463 INFO    Thread-12 :90490 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ahmad/Desktop/Graduation Proj/MedIAnomaly/reconstruction/wandb/run-20240508_012034-70jr28pi/files/wandb-summary.json
+2024-05-08 01:21:31,598 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: partial_history
+2024-05-08 01:21:31,598 DEBUG   SenderThread:90490 [sender.py:send():379] send: history
+2024-05-08 01:21:31,599 DEBUG   SenderThread:90490 [sender.py:send_request():406] send_request: summary_record
+2024-05-08 01:21:31,599 INFO    SenderThread:90490 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-05-08 01:21:31,962 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: partial_history
+2024-05-08 01:21:31,963 DEBUG   SenderThread:90490 [sender.py:send():379] send: history
+2024-05-08 01:21:31,963 DEBUG   SenderThread:90490 [sender.py:send_request():406] send_request: summary_record
+2024-05-08 01:21:31,963 INFO    SenderThread:90490 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-05-08 01:21:32,328 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: partial_history
+2024-05-08 01:21:32,328 DEBUG   SenderThread:90490 [sender.py:send():379] send: history
+2024-05-08 01:21:32,328 DEBUG   SenderThread:90490 [sender.py:send_request():406] send_request: summary_record
+2024-05-08 01:21:32,329 INFO    SenderThread:90490 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-05-08 01:21:32,464 INFO    Thread-12 :90490 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ahmad/Desktop/Graduation Proj/MedIAnomaly/reconstruction/wandb/run-20240508_012034-70jr28pi/files/wandb-summary.json
+2024-05-08 01:21:32,694 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: partial_history
+2024-05-08 01:21:32,694 DEBUG   SenderThread:90490 [sender.py:send():379] send: history
+2024-05-08 01:21:32,694 DEBUG   SenderThread:90490 [sender.py:send_request():406] send_request: summary_record
+2024-05-08 01:21:32,694 INFO    SenderThread:90490 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-05-08 01:21:33,059 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: partial_history
+2024-05-08 01:21:33,060 DEBUG   SenderThread:90490 [sender.py:send():379] send: history
+2024-05-08 01:21:33,060 DEBUG   SenderThread:90490 [sender.py:send_request():406] send_request: summary_record
+2024-05-08 01:21:33,061 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: status_report
+2024-05-08 01:21:33,061 INFO    SenderThread:90490 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-05-08 01:21:33,425 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: partial_history
+2024-05-08 01:21:33,426 DEBUG   SenderThread:90490 [sender.py:send():379] send: history
+2024-05-08 01:21:33,426 DEBUG   SenderThread:90490 [sender.py:send_request():406] send_request: summary_record
+2024-05-08 01:21:33,426 INFO    SenderThread:90490 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-05-08 01:21:33,464 INFO    Thread-12 :90490 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ahmad/Desktop/Graduation Proj/MedIAnomaly/reconstruction/wandb/run-20240508_012034-70jr28pi/files/wandb-summary.json
+2024-05-08 01:21:33,791 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: partial_history
+2024-05-08 01:21:33,792 DEBUG   SenderThread:90490 [sender.py:send():379] send: history
+2024-05-08 01:21:33,792 DEBUG   SenderThread:90490 [sender.py:send_request():406] send_request: summary_record
+2024-05-08 01:21:33,792 INFO    SenderThread:90490 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-05-08 01:21:34,157 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: partial_history
+2024-05-08 01:21:34,157 DEBUG   SenderThread:90490 [sender.py:send():379] send: history
+2024-05-08 01:21:34,157 DEBUG   SenderThread:90490 [sender.py:send_request():406] send_request: summary_record
+2024-05-08 01:21:34,157 INFO    SenderThread:90490 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-05-08 01:21:34,464 INFO    Thread-12 :90490 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ahmad/Desktop/Graduation Proj/MedIAnomaly/reconstruction/wandb/run-20240508_012034-70jr28pi/files/wandb-summary.json
+2024-05-08 01:21:34,522 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: partial_history
+2024-05-08 01:21:34,523 DEBUG   SenderThread:90490 [sender.py:send():379] send: history
+2024-05-08 01:21:34,523 DEBUG   SenderThread:90490 [sender.py:send_request():406] send_request: summary_record
+2024-05-08 01:21:34,523 INFO    SenderThread:90490 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-05-08 01:21:34,888 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: partial_history
+2024-05-08 01:21:34,889 DEBUG   SenderThread:90490 [sender.py:send():379] send: history
+2024-05-08 01:21:34,889 DEBUG   SenderThread:90490 [sender.py:send_request():406] send_request: summary_record
+2024-05-08 01:21:34,889 INFO    SenderThread:90490 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-05-08 01:21:35,254 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: partial_history
+2024-05-08 01:21:35,254 DEBUG   SenderThread:90490 [sender.py:send():379] send: history
+2024-05-08 01:21:35,254 DEBUG   SenderThread:90490 [sender.py:send_request():406] send_request: summary_record
+2024-05-08 01:21:35,255 INFO    SenderThread:90490 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-05-08 01:21:35,464 INFO    Thread-12 :90490 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ahmad/Desktop/Graduation Proj/MedIAnomaly/reconstruction/wandb/run-20240508_012034-70jr28pi/files/wandb-summary.json
+2024-05-08 01:21:35,620 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: partial_history
+2024-05-08 01:21:35,620 DEBUG   SenderThread:90490 [sender.py:send():379] send: history
+2024-05-08 01:21:35,620 DEBUG   SenderThread:90490 [sender.py:send_request():406] send_request: summary_record
+2024-05-08 01:21:35,620 INFO    SenderThread:90490 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-05-08 01:21:35,743 DEBUG   SystemMonitor:90490 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-05-08 01:21:35,743 DEBUG   SenderThread:90490 [sender.py:send():379] send: stats
+2024-05-08 01:21:35,987 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: partial_history
+2024-05-08 01:21:35,987 DEBUG   SenderThread:90490 [sender.py:send():379] send: history
+2024-05-08 01:21:35,987 DEBUG   SenderThread:90490 [sender.py:send_request():406] send_request: summary_record
+2024-05-08 01:21:35,988 INFO    SenderThread:90490 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-05-08 01:21:36,465 INFO    Thread-12 :90490 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ahmad/Desktop/Graduation Proj/MedIAnomaly/reconstruction/wandb/run-20240508_012034-70jr28pi/files/wandb-summary.json
+2024-05-08 01:21:38,231 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: status_report
+2024-05-08 01:21:38,232 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: partial_history
+2024-05-08 01:21:38,599 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: partial_history
+2024-05-08 01:21:38,600 DEBUG   SenderThread:90490 [sender.py:send():379] send: history
+2024-05-08 01:21:38,600 DEBUG   SenderThread:90490 [sender.py:send_request():406] send_request: summary_record
+2024-05-08 01:21:38,600 INFO    SenderThread:90490 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-05-08 01:21:38,926 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: stop_status
+2024-05-08 01:21:38,926 DEBUG   SenderThread:90490 [sender.py:send_request():406] send_request: stop_status
+2024-05-08 01:21:38,927 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: internal_messages
+2024-05-08 01:21:38,966 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: partial_history
+2024-05-08 01:21:39,170 DEBUG   SenderThread:90490 [sender.py:send():379] send: history
+2024-05-08 01:21:39,170 DEBUG   SenderThread:90490 [sender.py:send_request():406] send_request: summary_record
+2024-05-08 01:21:39,170 INFO    SenderThread:90490 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-05-08 01:21:39,330 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: partial_history
+2024-05-08 01:21:39,331 DEBUG   SenderThread:90490 [sender.py:send():379] send: history
+2024-05-08 01:21:39,331 DEBUG   SenderThread:90490 [sender.py:send_request():406] send_request: summary_record
+2024-05-08 01:21:39,331 INFO    SenderThread:90490 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-05-08 01:21:39,465 INFO    Thread-12 :90490 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ahmad/Desktop/Graduation Proj/MedIAnomaly/reconstruction/wandb/run-20240508_012034-70jr28pi/files/output.log
+2024-05-08 01:21:39,466 INFO    Thread-12 :90490 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ahmad/Desktop/Graduation Proj/MedIAnomaly/reconstruction/wandb/run-20240508_012034-70jr28pi/files/wandb-summary.json
+2024-05-08 01:21:39,696 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: partial_history
+2024-05-08 01:21:39,696 DEBUG   SenderThread:90490 [sender.py:send():379] send: history
+2024-05-08 01:21:39,696 DEBUG   SenderThread:90490 [sender.py:send_request():406] send_request: summary_record
+2024-05-08 01:21:39,697 INFO    SenderThread:90490 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-05-08 01:21:40,060 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: partial_history
+2024-05-08 01:21:40,060 DEBUG   SenderThread:90490 [sender.py:send():379] send: history
+2024-05-08 01:21:40,060 DEBUG   SenderThread:90490 [sender.py:send_request():406] send_request: summary_record
+2024-05-08 01:21:40,060 INFO    SenderThread:90490 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-05-08 01:21:40,423 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: partial_history
+2024-05-08 01:21:40,424 DEBUG   SenderThread:90490 [sender.py:send():379] send: history
+2024-05-08 01:21:40,424 DEBUG   SenderThread:90490 [sender.py:send_request():406] send_request: summary_record
+2024-05-08 01:21:40,424 INFO    SenderThread:90490 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-05-08 01:21:40,466 INFO    Thread-12 :90490 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ahmad/Desktop/Graduation Proj/MedIAnomaly/reconstruction/wandb/run-20240508_012034-70jr28pi/files/wandb-summary.json
+2024-05-08 01:21:40,786 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: partial_history
+2024-05-08 01:21:40,787 DEBUG   SenderThread:90490 [sender.py:send():379] send: history
+2024-05-08 01:21:40,787 DEBUG   SenderThread:90490 [sender.py:send_request():406] send_request: summary_record
+2024-05-08 01:21:40,787 INFO    SenderThread:90490 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-05-08 01:21:41,151 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: partial_history
+2024-05-08 01:21:41,151 DEBUG   SenderThread:90490 [sender.py:send():379] send: history
+2024-05-08 01:21:41,151 DEBUG   SenderThread:90490 [sender.py:send_request():406] send_request: summary_record
+2024-05-08 01:21:41,151 INFO    SenderThread:90490 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-05-08 01:21:41,466 INFO    Thread-12 :90490 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ahmad/Desktop/Graduation Proj/MedIAnomaly/reconstruction/wandb/run-20240508_012034-70jr28pi/files/wandb-summary.json
+2024-05-08 01:21:41,515 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: partial_history
+2024-05-08 01:21:41,515 DEBUG   SenderThread:90490 [sender.py:send():379] send: history
+2024-05-08 01:21:41,515 DEBUG   SenderThread:90490 [sender.py:send_request():406] send_request: summary_record
+2024-05-08 01:21:41,516 INFO    SenderThread:90490 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-05-08 01:21:41,878 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: partial_history
+2024-05-08 01:21:41,879 DEBUG   SenderThread:90490 [sender.py:send():379] send: history
+2024-05-08 01:21:41,879 DEBUG   SenderThread:90490 [sender.py:send_request():406] send_request: summary_record
+2024-05-08 01:21:41,879 INFO    SenderThread:90490 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-05-08 01:21:42,242 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: partial_history
+2024-05-08 01:21:42,243 DEBUG   SenderThread:90490 [sender.py:send():379] send: history
+2024-05-08 01:21:42,243 DEBUG   SenderThread:90490 [sender.py:send_request():406] send_request: summary_record
+2024-05-08 01:21:42,243 INFO    SenderThread:90490 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-05-08 01:21:42,466 INFO    Thread-12 :90490 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ahmad/Desktop/Graduation Proj/MedIAnomaly/reconstruction/wandb/run-20240508_012034-70jr28pi/files/wandb-summary.json
+2024-05-08 01:21:42,608 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: partial_history
+2024-05-08 01:21:42,608 DEBUG   SenderThread:90490 [sender.py:send():379] send: history
+2024-05-08 01:21:42,608 DEBUG   SenderThread:90490 [sender.py:send_request():406] send_request: summary_record
+2024-05-08 01:21:42,608 INFO    SenderThread:90490 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-05-08 01:21:42,973 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: partial_history
+2024-05-08 01:21:42,974 DEBUG   SenderThread:90490 [sender.py:send():379] send: history
+2024-05-08 01:21:42,974 DEBUG   SenderThread:90490 [sender.py:send_request():406] send_request: summary_record
+2024-05-08 01:21:42,974 INFO    SenderThread:90490 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-05-08 01:21:43,339 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: partial_history
+2024-05-08 01:21:43,339 DEBUG   SenderThread:90490 [sender.py:send():379] send: history
+2024-05-08 01:21:43,339 DEBUG   SenderThread:90490 [sender.py:send_request():406] send_request: summary_record
+2024-05-08 01:21:43,339 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: status_report
+2024-05-08 01:21:43,341 INFO    SenderThread:90490 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-05-08 01:21:43,467 INFO    Thread-12 :90490 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ahmad/Desktop/Graduation Proj/MedIAnomaly/reconstruction/wandb/run-20240508_012034-70jr28pi/files/wandb-summary.json
+2024-05-08 01:21:43,703 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: partial_history
+2024-05-08 01:21:43,703 DEBUG   SenderThread:90490 [sender.py:send():379] send: history
+2024-05-08 01:21:43,703 DEBUG   SenderThread:90490 [sender.py:send_request():406] send_request: summary_record
+2024-05-08 01:21:43,704 INFO    SenderThread:90490 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-05-08 01:21:44,068 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: partial_history
+2024-05-08 01:21:44,069 DEBUG   SenderThread:90490 [sender.py:send():379] send: history
+2024-05-08 01:21:44,069 DEBUG   SenderThread:90490 [sender.py:send_request():406] send_request: summary_record
+2024-05-08 01:21:44,069 INFO    SenderThread:90490 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-05-08 01:21:44,433 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: partial_history
+2024-05-08 01:21:44,434 DEBUG   SenderThread:90490 [sender.py:send():379] send: history
+2024-05-08 01:21:44,434 DEBUG   SenderThread:90490 [sender.py:send_request():406] send_request: summary_record
+2024-05-08 01:21:44,434 INFO    SenderThread:90490 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-05-08 01:21:44,467 INFO    Thread-12 :90490 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ahmad/Desktop/Graduation Proj/MedIAnomaly/reconstruction/wandb/run-20240508_012034-70jr28pi/files/wandb-summary.json
+2024-05-08 01:21:44,800 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: partial_history
+2024-05-08 01:21:44,801 DEBUG   SenderThread:90490 [sender.py:send():379] send: history
+2024-05-08 01:21:44,801 DEBUG   SenderThread:90490 [sender.py:send_request():406] send_request: summary_record
+2024-05-08 01:21:44,801 INFO    SenderThread:90490 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-05-08 01:21:45,166 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: partial_history
+2024-05-08 01:21:45,166 DEBUG   SenderThread:90490 [sender.py:send():379] send: history
+2024-05-08 01:21:45,166 DEBUG   SenderThread:90490 [sender.py:send_request():406] send_request: summary_record
+2024-05-08 01:21:45,167 INFO    SenderThread:90490 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-05-08 01:21:45,467 INFO    Thread-12 :90490 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ahmad/Desktop/Graduation Proj/MedIAnomaly/reconstruction/wandb/run-20240508_012034-70jr28pi/files/wandb-summary.json
+2024-05-08 01:21:45,531 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: partial_history
+2024-05-08 01:21:45,532 DEBUG   SenderThread:90490 [sender.py:send():379] send: history
+2024-05-08 01:21:45,532 DEBUG   SenderThread:90490 [sender.py:send_request():406] send_request: summary_record
+2024-05-08 01:21:45,532 INFO    SenderThread:90490 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-05-08 01:21:45,897 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: partial_history
+2024-05-08 01:21:45,897 DEBUG   SenderThread:90490 [sender.py:send():379] send: history
+2024-05-08 01:21:45,897 DEBUG   SenderThread:90490 [sender.py:send_request():406] send_request: summary_record
+2024-05-08 01:21:45,898 INFO    SenderThread:90490 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-05-08 01:21:46,262 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: partial_history
+2024-05-08 01:21:46,263 DEBUG   SenderThread:90490 [sender.py:send():379] send: history
+2024-05-08 01:21:46,263 DEBUG   SenderThread:90490 [sender.py:send_request():406] send_request: summary_record
+2024-05-08 01:21:46,263 INFO    SenderThread:90490 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-05-08 01:21:46,468 INFO    Thread-12 :90490 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ahmad/Desktop/Graduation Proj/MedIAnomaly/reconstruction/wandb/run-20240508_012034-70jr28pi/files/wandb-summary.json
+2024-05-08 01:21:46,628 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: partial_history
+2024-05-08 01:21:46,628 DEBUG   SenderThread:90490 [sender.py:send():379] send: history
+2024-05-08 01:21:46,628 DEBUG   SenderThread:90490 [sender.py:send_request():406] send_request: summary_record
+2024-05-08 01:21:46,629 INFO    SenderThread:90490 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-05-08 01:21:46,993 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: partial_history
+2024-05-08 01:21:46,994 DEBUG   SenderThread:90490 [sender.py:send():379] send: history
+2024-05-08 01:21:46,994 DEBUG   SenderThread:90490 [sender.py:send_request():406] send_request: summary_record
+2024-05-08 01:21:46,994 INFO    SenderThread:90490 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-05-08 01:21:47,359 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: partial_history
+2024-05-08 01:21:47,359 DEBUG   SenderThread:90490 [sender.py:send():379] send: history
+2024-05-08 01:21:47,359 DEBUG   SenderThread:90490 [sender.py:send_request():406] send_request: summary_record
+2024-05-08 01:21:47,360 INFO    SenderThread:90490 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-05-08 01:21:47,468 INFO    Thread-12 :90490 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ahmad/Desktop/Graduation Proj/MedIAnomaly/reconstruction/wandb/run-20240508_012034-70jr28pi/files/wandb-summary.json
+2024-05-08 01:21:48,360 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: status_report
+2024-05-08 01:21:49,597 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: partial_history
+2024-05-08 01:21:49,965 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: partial_history
+2024-05-08 01:21:49,967 DEBUG   SenderThread:90490 [sender.py:send():379] send: history
+2024-05-08 01:21:49,967 DEBUG   SenderThread:90490 [sender.py:send_request():406] send_request: summary_record
+2024-05-08 01:21:49,967 INFO    SenderThread:90490 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-05-08 01:21:50,331 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: partial_history
+2024-05-08 01:21:50,332 DEBUG   SenderThread:90490 [sender.py:send():379] send: history
+2024-05-08 01:21:50,332 DEBUG   SenderThread:90490 [sender.py:send_request():406] send_request: summary_record
+2024-05-08 01:21:50,332 INFO    SenderThread:90490 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-05-08 01:21:50,469 INFO    Thread-12 :90490 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ahmad/Desktop/Graduation Proj/MedIAnomaly/reconstruction/wandb/run-20240508_012034-70jr28pi/files/wandb-summary.json
+2024-05-08 01:21:50,697 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: partial_history
+2024-05-08 01:21:50,697 DEBUG   SenderThread:90490 [sender.py:send():379] send: history
+2024-05-08 01:21:50,697 DEBUG   SenderThread:90490 [sender.py:send_request():406] send_request: summary_record
+2024-05-08 01:21:50,698 INFO    SenderThread:90490 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-05-08 01:21:51,062 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: partial_history
+2024-05-08 01:21:51,062 DEBUG   SenderThread:90490 [sender.py:send():379] send: history
+2024-05-08 01:21:51,063 DEBUG   SenderThread:90490 [sender.py:send_request():406] send_request: summary_record
+2024-05-08 01:21:51,063 INFO    SenderThread:90490 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-05-08 01:21:51,427 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: partial_history
+2024-05-08 01:21:51,428 DEBUG   SenderThread:90490 [sender.py:send():379] send: history
+2024-05-08 01:21:51,428 DEBUG   SenderThread:90490 [sender.py:send_request():406] send_request: summary_record
+2024-05-08 01:21:51,428 INFO    SenderThread:90490 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-05-08 01:21:51,469 INFO    Thread-12 :90490 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ahmad/Desktop/Graduation Proj/MedIAnomaly/reconstruction/wandb/run-20240508_012034-70jr28pi/files/wandb-summary.json
+2024-05-08 01:21:51,791 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: partial_history
+2024-05-08 01:21:51,792 DEBUG   SenderThread:90490 [sender.py:send():379] send: history
+2024-05-08 01:21:51,792 DEBUG   SenderThread:90490 [sender.py:send_request():406] send_request: summary_record
+2024-05-08 01:21:51,792 INFO    SenderThread:90490 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-05-08 01:21:52,154 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: partial_history
+2024-05-08 01:21:52,155 DEBUG   SenderThread:90490 [sender.py:send():379] send: history
+2024-05-08 01:21:52,155 DEBUG   SenderThread:90490 [sender.py:send_request():406] send_request: summary_record
+2024-05-08 01:21:52,155 INFO    SenderThread:90490 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-05-08 01:21:52,469 INFO    Thread-12 :90490 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ahmad/Desktop/Graduation Proj/MedIAnomaly/reconstruction/wandb/run-20240508_012034-70jr28pi/files/output.log
+2024-05-08 01:21:52,469 INFO    Thread-12 :90490 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ahmad/Desktop/Graduation Proj/MedIAnomaly/reconstruction/wandb/run-20240508_012034-70jr28pi/files/wandb-summary.json
+2024-05-08 01:21:52,518 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: partial_history
+2024-05-08 01:21:52,518 DEBUG   SenderThread:90490 [sender.py:send():379] send: history
+2024-05-08 01:21:52,518 DEBUG   SenderThread:90490 [sender.py:send_request():406] send_request: summary_record
+2024-05-08 01:21:52,518 INFO    SenderThread:90490 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-05-08 01:21:52,881 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: partial_history
+2024-05-08 01:21:52,881 DEBUG   SenderThread:90490 [sender.py:send():379] send: history
+2024-05-08 01:21:52,881 DEBUG   SenderThread:90490 [sender.py:send_request():406] send_request: summary_record
+2024-05-08 01:21:52,882 INFO    SenderThread:90490 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-05-08 01:21:53,244 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: partial_history
+2024-05-08 01:21:53,245 DEBUG   SenderThread:90490 [sender.py:send():379] send: history
+2024-05-08 01:21:53,245 DEBUG   SenderThread:90490 [sender.py:send_request():406] send_request: summary_record
+2024-05-08 01:21:53,245 INFO    SenderThread:90490 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-05-08 01:21:53,469 INFO    Thread-12 :90490 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ahmad/Desktop/Graduation Proj/MedIAnomaly/reconstruction/wandb/run-20240508_012034-70jr28pi/files/wandb-summary.json
+2024-05-08 01:21:53,608 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: partial_history
+2024-05-08 01:21:53,608 DEBUG   SenderThread:90490 [sender.py:send():379] send: history
+2024-05-08 01:21:53,608 DEBUG   SenderThread:90490 [sender.py:send_request():406] send_request: summary_record
+2024-05-08 01:21:53,608 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: status_report
+2024-05-08 01:21:53,610 INFO    SenderThread:90490 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-05-08 01:21:53,926 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: stop_status
+2024-05-08 01:21:53,926 DEBUG   SenderThread:90490 [sender.py:send_request():406] send_request: stop_status
+2024-05-08 01:21:53,927 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: internal_messages
+2024-05-08 01:21:53,971 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: partial_history
+2024-05-08 01:21:54,182 DEBUG   SenderThread:90490 [sender.py:send():379] send: history
+2024-05-08 01:21:54,182 DEBUG   SenderThread:90490 [sender.py:send_request():406] send_request: summary_record
+2024-05-08 01:21:54,183 INFO    SenderThread:90490 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-05-08 01:21:54,334 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: partial_history
+2024-05-08 01:21:54,334 DEBUG   SenderThread:90490 [sender.py:send():379] send: history
+2024-05-08 01:21:54,335 DEBUG   SenderThread:90490 [sender.py:send_request():406] send_request: summary_record
+2024-05-08 01:21:54,335 INFO    SenderThread:90490 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-05-08 01:21:54,470 INFO    Thread-12 :90490 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ahmad/Desktop/Graduation Proj/MedIAnomaly/reconstruction/wandb/run-20240508_012034-70jr28pi/files/wandb-summary.json
+2024-05-08 01:21:54,697 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: partial_history
+2024-05-08 01:21:54,698 DEBUG   SenderThread:90490 [sender.py:send():379] send: history
+2024-05-08 01:21:54,698 DEBUG   SenderThread:90490 [sender.py:send_request():406] send_request: summary_record
+2024-05-08 01:21:54,698 INFO    SenderThread:90490 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-05-08 01:21:55,061 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: partial_history
+2024-05-08 01:21:55,062 DEBUG   SenderThread:90490 [sender.py:send():379] send: history
+2024-05-08 01:21:55,062 DEBUG   SenderThread:90490 [sender.py:send_request():406] send_request: summary_record
+2024-05-08 01:21:55,062 INFO    SenderThread:90490 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-05-08 01:21:55,424 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: partial_history
+2024-05-08 01:21:55,425 DEBUG   SenderThread:90490 [sender.py:send():379] send: history
+2024-05-08 01:21:55,425 DEBUG   SenderThread:90490 [sender.py:send_request():406] send_request: summary_record
+2024-05-08 01:21:55,425 INFO    SenderThread:90490 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-05-08 01:21:55,470 INFO    Thread-12 :90490 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ahmad/Desktop/Graduation Proj/MedIAnomaly/reconstruction/wandb/run-20240508_012034-70jr28pi/files/wandb-summary.json
+2024-05-08 01:21:55,788 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: partial_history
+2024-05-08 01:21:55,788 DEBUG   SenderThread:90490 [sender.py:send():379] send: history
+2024-05-08 01:21:55,789 DEBUG   SenderThread:90490 [sender.py:send_request():406] send_request: summary_record
+2024-05-08 01:21:55,789 INFO    SenderThread:90490 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-05-08 01:21:56,151 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: partial_history
+2024-05-08 01:21:56,152 DEBUG   SenderThread:90490 [sender.py:send():379] send: history
+2024-05-08 01:21:56,152 DEBUG   SenderThread:90490 [sender.py:send_request():406] send_request: summary_record
+2024-05-08 01:21:56,152 INFO    SenderThread:90490 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-05-08 01:21:56,470 INFO    Thread-12 :90490 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ahmad/Desktop/Graduation Proj/MedIAnomaly/reconstruction/wandb/run-20240508_012034-70jr28pi/files/wandb-summary.json
+2024-05-08 01:21:56,515 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: partial_history
+2024-05-08 01:21:56,515 DEBUG   SenderThread:90490 [sender.py:send():379] send: history
+2024-05-08 01:21:56,515 DEBUG   SenderThread:90490 [sender.py:send_request():406] send_request: summary_record
+2024-05-08 01:21:56,516 INFO    SenderThread:90490 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-05-08 01:21:56,879 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: partial_history
+2024-05-08 01:21:56,879 DEBUG   SenderThread:90490 [sender.py:send():379] send: history
+2024-05-08 01:21:56,879 DEBUG   SenderThread:90490 [sender.py:send_request():406] send_request: summary_record
+2024-05-08 01:21:56,879 INFO    SenderThread:90490 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-05-08 01:21:57,242 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: partial_history
+2024-05-08 01:21:57,243 DEBUG   SenderThread:90490 [sender.py:send():379] send: history
+2024-05-08 01:21:57,243 DEBUG   SenderThread:90490 [sender.py:send_request():406] send_request: summary_record
+2024-05-08 01:21:57,243 INFO    SenderThread:90490 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-05-08 01:21:57,470 INFO    Thread-12 :90490 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ahmad/Desktop/Graduation Proj/MedIAnomaly/reconstruction/wandb/run-20240508_012034-70jr28pi/files/wandb-summary.json
+2024-05-08 01:21:57,606 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: partial_history
+2024-05-08 01:21:57,606 DEBUG   SenderThread:90490 [sender.py:send():379] send: history
+2024-05-08 01:21:57,606 DEBUG   SenderThread:90490 [sender.py:send_request():406] send_request: summary_record
+2024-05-08 01:21:57,607 INFO    SenderThread:90490 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-05-08 01:21:57,969 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: partial_history
+2024-05-08 01:21:57,970 DEBUG   SenderThread:90490 [sender.py:send():379] send: history
+2024-05-08 01:21:57,970 DEBUG   SenderThread:90490 [sender.py:send_request():406] send_request: summary_record
+2024-05-08 01:21:57,970 INFO    SenderThread:90490 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-05-08 01:21:58,333 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: partial_history
+2024-05-08 01:21:58,333 DEBUG   SenderThread:90490 [sender.py:send():379] send: history
+2024-05-08 01:21:58,333 DEBUG   SenderThread:90490 [sender.py:send_request():406] send_request: summary_record
+2024-05-08 01:21:58,334 INFO    SenderThread:90490 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-05-08 01:21:58,471 INFO    Thread-12 :90490 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ahmad/Desktop/Graduation Proj/MedIAnomaly/reconstruction/wandb/run-20240508_012034-70jr28pi/files/wandb-summary.json
+2024-05-08 01:21:58,697 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: partial_history
+2024-05-08 01:21:58,697 DEBUG   SenderThread:90490 [sender.py:send():379] send: history
+2024-05-08 01:21:58,698 DEBUG   SenderThread:90490 [sender.py:send_request():406] send_request: summary_record
+2024-05-08 01:21:58,698 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: status_report
+2024-05-08 01:21:58,698 INFO    SenderThread:90490 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-05-08 01:21:59,471 INFO    Thread-12 :90490 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ahmad/Desktop/Graduation Proj/MedIAnomaly/reconstruction/wandb/run-20240508_012034-70jr28pi/files/wandb-summary.json
+2024-05-08 01:22:00,908 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: partial_history
+2024-05-08 01:22:01,274 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: partial_history
+2024-05-08 01:22:01,274 DEBUG   SenderThread:90490 [sender.py:send():379] send: history
+2024-05-08 01:22:01,274 DEBUG   SenderThread:90490 [sender.py:send_request():406] send_request: summary_record
+2024-05-08 01:22:01,275 INFO    SenderThread:90490 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-05-08 01:22:01,471 INFO    Thread-12 :90490 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ahmad/Desktop/Graduation Proj/MedIAnomaly/reconstruction/wandb/run-20240508_012034-70jr28pi/files/wandb-summary.json
+2024-05-08 01:22:01,637 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: partial_history
+2024-05-08 01:22:01,638 DEBUG   SenderThread:90490 [sender.py:send():379] send: history
+2024-05-08 01:22:01,638 DEBUG   SenderThread:90490 [sender.py:send_request():406] send_request: summary_record
+2024-05-08 01:22:01,638 INFO    SenderThread:90490 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-05-08 01:22:02,001 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: partial_history
+2024-05-08 01:22:02,001 DEBUG   SenderThread:90490 [sender.py:send():379] send: history
+2024-05-08 01:22:02,001 DEBUG   SenderThread:90490 [sender.py:send_request():406] send_request: summary_record
+2024-05-08 01:22:02,002 INFO    SenderThread:90490 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-05-08 01:22:02,365 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: partial_history
+2024-05-08 01:22:02,365 DEBUG   SenderThread:90490 [sender.py:send():379] send: history
+2024-05-08 01:22:02,365 DEBUG   SenderThread:90490 [sender.py:send_request():406] send_request: summary_record
+2024-05-08 01:22:02,366 INFO    SenderThread:90490 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-05-08 01:22:02,472 INFO    Thread-12 :90490 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ahmad/Desktop/Graduation Proj/MedIAnomaly/reconstruction/wandb/run-20240508_012034-70jr28pi/files/output.log
+2024-05-08 01:22:02,472 INFO    Thread-12 :90490 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ahmad/Desktop/Graduation Proj/MedIAnomaly/reconstruction/wandb/run-20240508_012034-70jr28pi/files/wandb-summary.json
+2024-05-08 01:22:02,729 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: partial_history
+2024-05-08 01:22:02,729 DEBUG   SenderThread:90490 [sender.py:send():379] send: history
+2024-05-08 01:22:02,729 DEBUG   SenderThread:90490 [sender.py:send_request():406] send_request: summary_record
+2024-05-08 01:22:02,730 INFO    SenderThread:90490 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-05-08 01:22:03,094 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: partial_history
+2024-05-08 01:22:03,095 DEBUG   SenderThread:90490 [sender.py:send():379] send: history
+2024-05-08 01:22:03,095 DEBUG   SenderThread:90490 [sender.py:send_request():406] send_request: summary_record
+2024-05-08 01:22:03,095 INFO    SenderThread:90490 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-05-08 01:22:03,460 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: partial_history
+2024-05-08 01:22:03,461 DEBUG   SenderThread:90490 [sender.py:send():379] send: history
+2024-05-08 01:22:03,461 DEBUG   SenderThread:90490 [sender.py:send_request():406] send_request: summary_record
+2024-05-08 01:22:03,461 INFO    SenderThread:90490 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-05-08 01:22:03,472 INFO    Thread-12 :90490 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ahmad/Desktop/Graduation Proj/MedIAnomaly/reconstruction/wandb/run-20240508_012034-70jr28pi/files/wandb-summary.json
+2024-05-08 01:22:03,825 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: partial_history
+2024-05-08 01:22:03,826 DEBUG   SenderThread:90490 [sender.py:send():379] send: history
+2024-05-08 01:22:03,826 DEBUG   SenderThread:90490 [sender.py:send_request():406] send_request: summary_record
+2024-05-08 01:22:03,826 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: status_report
+2024-05-08 01:22:03,827 INFO    SenderThread:90490 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-05-08 01:22:04,189 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: partial_history
+2024-05-08 01:22:04,189 DEBUG   SenderThread:90490 [sender.py:send():379] send: history
+2024-05-08 01:22:04,190 DEBUG   SenderThread:90490 [sender.py:send_request():406] send_request: summary_record
+2024-05-08 01:22:04,190 INFO    SenderThread:90490 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-05-08 01:22:04,472 INFO    Thread-12 :90490 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ahmad/Desktop/Graduation Proj/MedIAnomaly/reconstruction/wandb/run-20240508_012034-70jr28pi/files/wandb-summary.json
+2024-05-08 01:22:04,553 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: partial_history
+2024-05-08 01:22:04,553 DEBUG   SenderThread:90490 [sender.py:send():379] send: history
+2024-05-08 01:22:04,553 DEBUG   SenderThread:90490 [sender.py:send_request():406] send_request: summary_record
+2024-05-08 01:22:04,553 INFO    SenderThread:90490 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-05-08 01:22:04,919 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: partial_history
+2024-05-08 01:22:04,920 DEBUG   SenderThread:90490 [sender.py:send():379] send: history
+2024-05-08 01:22:04,920 DEBUG   SenderThread:90490 [sender.py:send_request():406] send_request: summary_record
+2024-05-08 01:22:04,920 INFO    SenderThread:90490 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-05-08 01:22:05,286 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: partial_history
+2024-05-08 01:22:05,287 DEBUG   SenderThread:90490 [sender.py:send():379] send: history
+2024-05-08 01:22:05,287 DEBUG   SenderThread:90490 [sender.py:send_request():406] send_request: summary_record
+2024-05-08 01:22:05,287 INFO    SenderThread:90490 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-05-08 01:22:05,472 INFO    Thread-12 :90490 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ahmad/Desktop/Graduation Proj/MedIAnomaly/reconstruction/wandb/run-20240508_012034-70jr28pi/files/wandb-summary.json
+2024-05-08 01:22:05,653 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: partial_history
+2024-05-08 01:22:05,653 DEBUG   SenderThread:90490 [sender.py:send():379] send: history
+2024-05-08 01:22:05,653 DEBUG   SenderThread:90490 [sender.py:send_request():406] send_request: summary_record
+2024-05-08 01:22:05,653 INFO    SenderThread:90490 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-05-08 01:22:05,744 DEBUG   SenderThread:90490 [sender.py:send():379] send: stats
+2024-05-08 01:22:06,020 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: partial_history
+2024-05-08 01:22:06,020 DEBUG   SenderThread:90490 [sender.py:send():379] send: history
+2024-05-08 01:22:06,020 DEBUG   SenderThread:90490 [sender.py:send_request():406] send_request: summary_record
+2024-05-08 01:22:06,021 INFO    SenderThread:90490 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-05-08 01:22:06,384 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: partial_history
+2024-05-08 01:22:06,384 DEBUG   SenderThread:90490 [sender.py:send():379] send: history
+2024-05-08 01:22:06,384 DEBUG   SenderThread:90490 [sender.py:send_request():406] send_request: summary_record
+2024-05-08 01:22:06,385 INFO    SenderThread:90490 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-05-08 01:22:06,473 INFO    Thread-12 :90490 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ahmad/Desktop/Graduation Proj/MedIAnomaly/reconstruction/wandb/run-20240508_012034-70jr28pi/files/wandb-summary.json
+2024-05-08 01:22:06,748 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: partial_history
+2024-05-08 01:22:06,749 DEBUG   SenderThread:90490 [sender.py:send():379] send: history
+2024-05-08 01:22:06,749 DEBUG   SenderThread:90490 [sender.py:send_request():406] send_request: summary_record
+2024-05-08 01:22:06,749 INFO    SenderThread:90490 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-05-08 01:22:07,112 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: partial_history
+2024-05-08 01:22:07,113 DEBUG   SenderThread:90490 [sender.py:send():379] send: history
+2024-05-08 01:22:07,113 DEBUG   SenderThread:90490 [sender.py:send_request():406] send_request: summary_record
+2024-05-08 01:22:07,113 INFO    SenderThread:90490 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-05-08 01:22:07,473 INFO    Thread-12 :90490 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ahmad/Desktop/Graduation Proj/MedIAnomaly/reconstruction/wandb/run-20240508_012034-70jr28pi/files/wandb-summary.json
+2024-05-08 01:22:07,476 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: partial_history
+2024-05-08 01:22:07,477 DEBUG   SenderThread:90490 [sender.py:send():379] send: history
+2024-05-08 01:22:07,477 DEBUG   SenderThread:90490 [sender.py:send_request():406] send_request: summary_record
+2024-05-08 01:22:07,477 INFO    SenderThread:90490 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-05-08 01:22:07,841 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: partial_history
+2024-05-08 01:22:07,842 DEBUG   SenderThread:90490 [sender.py:send():379] send: history
+2024-05-08 01:22:07,842 DEBUG   SenderThread:90490 [sender.py:send_request():406] send_request: summary_record
+2024-05-08 01:22:07,842 INFO    SenderThread:90490 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-05-08 01:22:08,205 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: partial_history
+2024-05-08 01:22:08,206 DEBUG   SenderThread:90490 [sender.py:send():379] send: history
+2024-05-08 01:22:08,206 DEBUG   SenderThread:90490 [sender.py:send_request():406] send_request: summary_record
+2024-05-08 01:22:08,206 INFO    SenderThread:90490 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-05-08 01:22:08,473 INFO    Thread-12 :90490 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ahmad/Desktop/Graduation Proj/MedIAnomaly/reconstruction/wandb/run-20240508_012034-70jr28pi/files/wandb-summary.json
+2024-05-08 01:22:08,570 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: partial_history
+2024-05-08 01:22:08,570 DEBUG   SenderThread:90490 [sender.py:send():379] send: history
+2024-05-08 01:22:08,570 DEBUG   SenderThread:90490 [sender.py:send_request():406] send_request: summary_record
+2024-05-08 01:22:08,571 INFO    SenderThread:90490 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-05-08 01:22:08,926 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: stop_status
+2024-05-08 01:22:08,927 DEBUG   SenderThread:90490 [sender.py:send_request():406] send_request: stop_status
+2024-05-08 01:22:08,927 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: internal_messages
+2024-05-08 01:22:08,935 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: partial_history
+2024-05-08 01:22:09,187 DEBUG   SenderThread:90490 [sender.py:send():379] send: history
+2024-05-08 01:22:09,187 DEBUG   SenderThread:90490 [sender.py:send_request():406] send_request: summary_record
+2024-05-08 01:22:09,187 INFO    SenderThread:90490 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-05-08 01:22:09,187 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: status_report
+2024-05-08 01:22:09,300 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: partial_history
+2024-05-08 01:22:09,300 DEBUG   SenderThread:90490 [sender.py:send():379] send: history
+2024-05-08 01:22:09,300 DEBUG   SenderThread:90490 [sender.py:send_request():406] send_request: summary_record
+2024-05-08 01:22:09,300 INFO    SenderThread:90490 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-05-08 01:22:09,473 INFO    Thread-12 :90490 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ahmad/Desktop/Graduation Proj/MedIAnomaly/reconstruction/wandb/run-20240508_012034-70jr28pi/files/wandb-summary.json
+2024-05-08 01:22:09,666 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: partial_history
+2024-05-08 01:22:09,666 DEBUG   SenderThread:90490 [sender.py:send():379] send: history
+2024-05-08 01:22:09,667 DEBUG   SenderThread:90490 [sender.py:send_request():406] send_request: summary_record
+2024-05-08 01:22:09,667 INFO    SenderThread:90490 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-05-08 01:22:10,032 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: partial_history
+2024-05-08 01:22:10,033 DEBUG   SenderThread:90490 [sender.py:send():379] send: history
+2024-05-08 01:22:10,033 DEBUG   SenderThread:90490 [sender.py:send_request():406] send_request: summary_record
+2024-05-08 01:22:10,033 INFO    SenderThread:90490 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-05-08 01:22:10,474 INFO    Thread-12 :90490 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ahmad/Desktop/Graduation Proj/MedIAnomaly/reconstruction/wandb/run-20240508_012034-70jr28pi/files/wandb-summary.json
+2024-05-08 01:22:12,280 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: partial_history
+2024-05-08 01:22:12,648 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: partial_history
+2024-05-08 01:22:12,649 DEBUG   SenderThread:90490 [sender.py:send():379] send: history
+2024-05-08 01:22:12,649 DEBUG   SenderThread:90490 [sender.py:send_request():406] send_request: summary_record
+2024-05-08 01:22:12,649 INFO    SenderThread:90490 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-05-08 01:22:13,012 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: partial_history
+2024-05-08 01:22:13,012 DEBUG   SenderThread:90490 [sender.py:send():379] send: history
+2024-05-08 01:22:13,012 DEBUG   SenderThread:90490 [sender.py:send_request():406] send_request: summary_record
+2024-05-08 01:22:13,013 INFO    SenderThread:90490 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-05-08 01:22:13,375 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: partial_history
+2024-05-08 01:22:13,376 DEBUG   SenderThread:90490 [sender.py:send():379] send: history
+2024-05-08 01:22:13,376 DEBUG   SenderThread:90490 [sender.py:send_request():406] send_request: summary_record
+2024-05-08 01:22:13,376 INFO    SenderThread:90490 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-05-08 01:22:13,474 INFO    Thread-12 :90490 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ahmad/Desktop/Graduation Proj/MedIAnomaly/reconstruction/wandb/run-20240508_012034-70jr28pi/files/wandb-summary.json
+2024-05-08 01:22:13,740 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: partial_history
+2024-05-08 01:22:13,740 DEBUG   SenderThread:90490 [sender.py:send():379] send: history
+2024-05-08 01:22:13,740 DEBUG   SenderThread:90490 [sender.py:send_request():406] send_request: summary_record
+2024-05-08 01:22:13,741 INFO    SenderThread:90490 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-05-08 01:22:14,103 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: partial_history
+2024-05-08 01:22:14,104 DEBUG   SenderThread:90490 [sender.py:send():379] send: history
+2024-05-08 01:22:14,104 DEBUG   SenderThread:90490 [sender.py:send_request():406] send_request: summary_record
+2024-05-08 01:22:14,105 INFO    SenderThread:90490 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-05-08 01:22:14,467 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: partial_history
+2024-05-08 01:22:14,468 DEBUG   SenderThread:90490 [sender.py:send():379] send: history
+2024-05-08 01:22:14,468 DEBUG   SenderThread:90490 [sender.py:send_request():406] send_request: summary_record
+2024-05-08 01:22:14,468 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: status_report
+2024-05-08 01:22:14,468 INFO    SenderThread:90490 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-05-08 01:22:14,475 INFO    Thread-12 :90490 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ahmad/Desktop/Graduation Proj/MedIAnomaly/reconstruction/wandb/run-20240508_012034-70jr28pi/files/output.log
+2024-05-08 01:22:14,475 INFO    Thread-12 :90490 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ahmad/Desktop/Graduation Proj/MedIAnomaly/reconstruction/wandb/run-20240508_012034-70jr28pi/files/wandb-summary.json
+2024-05-08 01:22:14,831 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: partial_history
+2024-05-08 01:22:14,831 DEBUG   SenderThread:90490 [sender.py:send():379] send: history
+2024-05-08 01:22:14,831 DEBUG   SenderThread:90490 [sender.py:send_request():406] send_request: summary_record
+2024-05-08 01:22:14,832 INFO    SenderThread:90490 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-05-08 01:22:15,195 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: partial_history
+2024-05-08 01:22:15,195 DEBUG   SenderThread:90490 [sender.py:send():379] send: history
+2024-05-08 01:22:15,195 DEBUG   SenderThread:90490 [sender.py:send_request():406] send_request: summary_record
+2024-05-08 01:22:15,196 INFO    SenderThread:90490 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-05-08 01:22:15,475 INFO    Thread-12 :90490 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ahmad/Desktop/Graduation Proj/MedIAnomaly/reconstruction/wandb/run-20240508_012034-70jr28pi/files/wandb-summary.json
+2024-05-08 01:22:15,560 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: partial_history
+2024-05-08 01:22:15,560 DEBUG   SenderThread:90490 [sender.py:send():379] send: history
+2024-05-08 01:22:15,560 DEBUG   SenderThread:90490 [sender.py:send_request():406] send_request: summary_record
+2024-05-08 01:22:15,560 INFO    SenderThread:90490 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-05-08 01:22:15,923 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: partial_history
+2024-05-08 01:22:15,924 DEBUG   SenderThread:90490 [sender.py:send():379] send: history
+2024-05-08 01:22:15,924 DEBUG   SenderThread:90490 [sender.py:send_request():406] send_request: summary_record
+2024-05-08 01:22:15,924 INFO    SenderThread:90490 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-05-08 01:22:16,287 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: partial_history
+2024-05-08 01:22:16,288 DEBUG   SenderThread:90490 [sender.py:send():379] send: history
+2024-05-08 01:22:16,288 DEBUG   SenderThread:90490 [sender.py:send_request():406] send_request: summary_record
+2024-05-08 01:22:16,288 INFO    SenderThread:90490 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-05-08 01:22:16,475 INFO    Thread-12 :90490 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ahmad/Desktop/Graduation Proj/MedIAnomaly/reconstruction/wandb/run-20240508_012034-70jr28pi/files/wandb-summary.json
+2024-05-08 01:22:16,651 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: partial_history
+2024-05-08 01:22:16,651 DEBUG   SenderThread:90490 [sender.py:send():379] send: history
+2024-05-08 01:22:16,651 DEBUG   SenderThread:90490 [sender.py:send_request():406] send_request: summary_record
+2024-05-08 01:22:16,652 INFO    SenderThread:90490 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-05-08 01:22:17,014 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: partial_history
+2024-05-08 01:22:17,015 DEBUG   SenderThread:90490 [sender.py:send():379] send: history
+2024-05-08 01:22:17,015 DEBUG   SenderThread:90490 [sender.py:send_request():406] send_request: summary_record
+2024-05-08 01:22:17,015 INFO    SenderThread:90490 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-05-08 01:22:17,378 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: partial_history
+2024-05-08 01:22:17,379 DEBUG   SenderThread:90490 [sender.py:send():379] send: history
+2024-05-08 01:22:17,379 DEBUG   SenderThread:90490 [sender.py:send_request():406] send_request: summary_record
+2024-05-08 01:22:17,379 INFO    SenderThread:90490 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-05-08 01:22:17,475 INFO    Thread-12 :90490 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ahmad/Desktop/Graduation Proj/MedIAnomaly/reconstruction/wandb/run-20240508_012034-70jr28pi/files/wandb-summary.json
+2024-05-08 01:22:17,742 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: partial_history
+2024-05-08 01:22:17,742 DEBUG   SenderThread:90490 [sender.py:send():379] send: history
+2024-05-08 01:22:17,742 DEBUG   SenderThread:90490 [sender.py:send_request():406] send_request: summary_record
+2024-05-08 01:22:17,742 INFO    SenderThread:90490 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-05-08 01:22:18,105 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: partial_history
+2024-05-08 01:22:18,105 DEBUG   SenderThread:90490 [sender.py:send():379] send: history
+2024-05-08 01:22:18,106 DEBUG   SenderThread:90490 [sender.py:send_request():406] send_request: summary_record
+2024-05-08 01:22:18,106 INFO    SenderThread:90490 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-05-08 01:22:18,469 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: partial_history
+2024-05-08 01:22:18,469 DEBUG   SenderThread:90490 [sender.py:send():379] send: history
+2024-05-08 01:22:18,469 DEBUG   SenderThread:90490 [sender.py:send_request():406] send_request: summary_record
+2024-05-08 01:22:18,469 INFO    SenderThread:90490 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-05-08 01:22:18,476 INFO    Thread-12 :90490 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ahmad/Desktop/Graduation Proj/MedIAnomaly/reconstruction/wandb/run-20240508_012034-70jr28pi/files/wandb-summary.json
+2024-05-08 01:22:18,832 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: partial_history
+2024-05-08 01:22:18,833 DEBUG   SenderThread:90490 [sender.py:send():379] send: history
+2024-05-08 01:22:18,833 DEBUG   SenderThread:90490 [sender.py:send_request():406] send_request: summary_record
+2024-05-08 01:22:18,833 INFO    SenderThread:90490 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-05-08 01:22:19,196 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: partial_history
+2024-05-08 01:22:19,197 DEBUG   SenderThread:90490 [sender.py:send():379] send: history
+2024-05-08 01:22:19,197 DEBUG   SenderThread:90490 [sender.py:send_request():406] send_request: summary_record
+2024-05-08 01:22:19,197 INFO    SenderThread:90490 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-05-08 01:22:19,476 INFO    Thread-12 :90490 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ahmad/Desktop/Graduation Proj/MedIAnomaly/reconstruction/wandb/run-20240508_012034-70jr28pi/files/wandb-summary.json
+2024-05-08 01:22:19,561 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: partial_history
+2024-05-08 01:22:19,561 DEBUG   SenderThread:90490 [sender.py:send():379] send: history
+2024-05-08 01:22:19,562 DEBUG   SenderThread:90490 [sender.py:send_request():406] send_request: summary_record
+2024-05-08 01:22:19,562 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: status_report
+2024-05-08 01:22:19,562 INFO    SenderThread:90490 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-05-08 01:22:19,925 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: partial_history
+2024-05-08 01:22:19,925 DEBUG   SenderThread:90490 [sender.py:send():379] send: history
+2024-05-08 01:22:19,925 DEBUG   SenderThread:90490 [sender.py:send_request():406] send_request: summary_record
+2024-05-08 01:22:19,926 INFO    SenderThread:90490 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-05-08 01:22:20,288 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: partial_history
+2024-05-08 01:22:20,288 DEBUG   SenderThread:90490 [sender.py:send():379] send: history
+2024-05-08 01:22:20,289 DEBUG   SenderThread:90490 [sender.py:send_request():406] send_request: summary_record
+2024-05-08 01:22:20,289 INFO    SenderThread:90490 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-05-08 01:22:20,476 INFO    Thread-12 :90490 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ahmad/Desktop/Graduation Proj/MedIAnomaly/reconstruction/wandb/run-20240508_012034-70jr28pi/files/wandb-summary.json
+2024-05-08 01:22:20,651 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: partial_history
+2024-05-08 01:22:20,652 DEBUG   SenderThread:90490 [sender.py:send():379] send: history
+2024-05-08 01:22:20,652 DEBUG   SenderThread:90490 [sender.py:send_request():406] send_request: summary_record
+2024-05-08 01:22:20,652 INFO    SenderThread:90490 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-05-08 01:22:21,015 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: partial_history
+2024-05-08 01:22:21,015 DEBUG   SenderThread:90490 [sender.py:send():379] send: history
+2024-05-08 01:22:21,016 DEBUG   SenderThread:90490 [sender.py:send_request():406] send_request: summary_record
+2024-05-08 01:22:21,016 INFO    SenderThread:90490 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-05-08 01:22:21,379 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: partial_history
+2024-05-08 01:22:21,379 DEBUG   SenderThread:90490 [sender.py:send():379] send: history
+2024-05-08 01:22:21,379 DEBUG   SenderThread:90490 [sender.py:send_request():406] send_request: summary_record
+2024-05-08 01:22:21,380 INFO    SenderThread:90490 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-05-08 01:22:21,476 INFO    Thread-12 :90490 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ahmad/Desktop/Graduation Proj/MedIAnomaly/reconstruction/wandb/run-20240508_012034-70jr28pi/files/wandb-summary.json
+2024-05-08 01:22:23,588 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: partial_history
+2024-05-08 01:22:23,926 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: stop_status
+2024-05-08 01:22:23,926 DEBUG   SenderThread:90490 [sender.py:send_request():406] send_request: stop_status
+2024-05-08 01:22:23,928 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: internal_messages
+2024-05-08 01:22:23,956 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: partial_history
+2024-05-08 01:22:24,178 DEBUG   SenderThread:90490 [sender.py:send():379] send: history
+2024-05-08 01:22:24,178 DEBUG   SenderThread:90490 [sender.py:send_request():406] send_request: summary_record
+2024-05-08 01:22:24,179 INFO    SenderThread:90490 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-05-08 01:22:24,320 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: partial_history
+2024-05-08 01:22:24,321 DEBUG   SenderThread:90490 [sender.py:send():379] send: history
+2024-05-08 01:22:24,321 DEBUG   SenderThread:90490 [sender.py:send_request():406] send_request: summary_record
+2024-05-08 01:22:24,321 INFO    SenderThread:90490 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-05-08 01:22:24,477 INFO    Thread-12 :90490 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ahmad/Desktop/Graduation Proj/MedIAnomaly/reconstruction/wandb/run-20240508_012034-70jr28pi/files/wandb-summary.json
+2024-05-08 01:22:24,685 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: partial_history
+2024-05-08 01:22:24,685 DEBUG   SenderThread:90490 [sender.py:send():379] send: history
+2024-05-08 01:22:24,685 DEBUG   SenderThread:90490 [sender.py:send_request():406] send_request: summary_record
+2024-05-08 01:22:24,685 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: status_report
+2024-05-08 01:22:24,686 INFO    SenderThread:90490 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-05-08 01:22:25,050 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: partial_history
+2024-05-08 01:22:25,050 DEBUG   SenderThread:90490 [sender.py:send():379] send: history
+2024-05-08 01:22:25,050 DEBUG   SenderThread:90490 [sender.py:send_request():406] send_request: summary_record
+2024-05-08 01:22:25,051 INFO    SenderThread:90490 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-05-08 01:22:25,414 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: partial_history
+2024-05-08 01:22:25,414 DEBUG   SenderThread:90490 [sender.py:send():379] send: history
+2024-05-08 01:22:25,414 DEBUG   SenderThread:90490 [sender.py:send_request():406] send_request: summary_record
+2024-05-08 01:22:25,415 INFO    SenderThread:90490 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-05-08 01:22:25,477 INFO    Thread-12 :90490 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ahmad/Desktop/Graduation Proj/MedIAnomaly/reconstruction/wandb/run-20240508_012034-70jr28pi/files/wandb-summary.json
+2024-05-08 01:22:25,778 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: partial_history
+2024-05-08 01:22:25,779 DEBUG   SenderThread:90490 [sender.py:send():379] send: history
+2024-05-08 01:22:25,779 DEBUG   SenderThread:90490 [sender.py:send_request():406] send_request: summary_record
+2024-05-08 01:22:25,779 INFO    SenderThread:90490 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-05-08 01:22:26,141 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: partial_history
+2024-05-08 01:22:26,142 DEBUG   SenderThread:90490 [sender.py:send():379] send: history
+2024-05-08 01:22:26,142 DEBUG   SenderThread:90490 [sender.py:send_request():406] send_request: summary_record
+2024-05-08 01:22:26,142 INFO    SenderThread:90490 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-05-08 01:22:26,478 INFO    Thread-12 :90490 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ahmad/Desktop/Graduation Proj/MedIAnomaly/reconstruction/wandb/run-20240508_012034-70jr28pi/files/output.log
+2024-05-08 01:22:26,478 INFO    Thread-12 :90490 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ahmad/Desktop/Graduation Proj/MedIAnomaly/reconstruction/wandb/run-20240508_012034-70jr28pi/files/wandb-summary.json
+2024-05-08 01:22:26,506 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: partial_history
+2024-05-08 01:22:26,506 DEBUG   SenderThread:90490 [sender.py:send():379] send: history
+2024-05-08 01:22:26,506 DEBUG   SenderThread:90490 [sender.py:send_request():406] send_request: summary_record
+2024-05-08 01:22:26,507 INFO    SenderThread:90490 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-05-08 01:22:26,870 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: partial_history
+2024-05-08 01:22:26,870 DEBUG   SenderThread:90490 [sender.py:send():379] send: history
+2024-05-08 01:22:26,870 DEBUG   SenderThread:90490 [sender.py:send_request():406] send_request: summary_record
+2024-05-08 01:22:26,871 INFO    SenderThread:90490 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-05-08 01:22:27,233 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: partial_history
+2024-05-08 01:22:27,234 DEBUG   SenderThread:90490 [sender.py:send():379] send: history
+2024-05-08 01:22:27,234 DEBUG   SenderThread:90490 [sender.py:send_request():406] send_request: summary_record
+2024-05-08 01:22:27,234 INFO    SenderThread:90490 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-05-08 01:22:27,478 INFO    Thread-12 :90490 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ahmad/Desktop/Graduation Proj/MedIAnomaly/reconstruction/wandb/run-20240508_012034-70jr28pi/files/wandb-summary.json
+2024-05-08 01:22:27,598 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: partial_history
+2024-05-08 01:22:27,599 DEBUG   SenderThread:90490 [sender.py:send():379] send: history
+2024-05-08 01:22:27,599 DEBUG   SenderThread:90490 [sender.py:send_request():406] send_request: summary_record
+2024-05-08 01:22:27,599 INFO    SenderThread:90490 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-05-08 01:22:27,961 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: partial_history
+2024-05-08 01:22:27,962 DEBUG   SenderThread:90490 [sender.py:send():379] send: history
+2024-05-08 01:22:27,962 DEBUG   SenderThread:90490 [sender.py:send_request():406] send_request: summary_record
+2024-05-08 01:22:27,962 INFO    SenderThread:90490 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-05-08 01:22:28,326 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: partial_history
+2024-05-08 01:22:28,326 DEBUG   SenderThread:90490 [sender.py:send():379] send: history
+2024-05-08 01:22:28,326 DEBUG   SenderThread:90490 [sender.py:send_request():406] send_request: summary_record
+2024-05-08 01:22:28,327 INFO    SenderThread:90490 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-05-08 01:22:28,478 INFO    Thread-12 :90490 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ahmad/Desktop/Graduation Proj/MedIAnomaly/reconstruction/wandb/run-20240508_012034-70jr28pi/files/wandb-summary.json
+2024-05-08 01:22:28,689 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: partial_history
+2024-05-08 01:22:28,690 DEBUG   SenderThread:90490 [sender.py:send():379] send: history
+2024-05-08 01:22:28,690 DEBUG   SenderThread:90490 [sender.py:send_request():406] send_request: summary_record
+2024-05-08 01:22:28,690 INFO    SenderThread:90490 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-05-08 01:22:29,054 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: partial_history
+2024-05-08 01:22:29,054 DEBUG   SenderThread:90490 [sender.py:send():379] send: history
+2024-05-08 01:22:29,055 DEBUG   SenderThread:90490 [sender.py:send_request():406] send_request: summary_record
+2024-05-08 01:22:29,055 INFO    SenderThread:90490 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-05-08 01:22:29,419 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: partial_history
+2024-05-08 01:22:29,420 DEBUG   SenderThread:90490 [sender.py:send():379] send: history
+2024-05-08 01:22:29,420 DEBUG   SenderThread:90490 [sender.py:send_request():406] send_request: summary_record
+2024-05-08 01:22:29,420 INFO    SenderThread:90490 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-05-08 01:22:29,478 INFO    Thread-12 :90490 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ahmad/Desktop/Graduation Proj/MedIAnomaly/reconstruction/wandb/run-20240508_012034-70jr28pi/files/wandb-summary.json
+2024-05-08 01:22:29,783 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: partial_history
+2024-05-08 01:22:29,784 DEBUG   SenderThread:90490 [sender.py:send():379] send: history
+2024-05-08 01:22:29,784 DEBUG   SenderThread:90490 [sender.py:send_request():406] send_request: summary_record
+2024-05-08 01:22:29,784 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: status_report
+2024-05-08 01:22:29,784 INFO    SenderThread:90490 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-05-08 01:22:30,147 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: partial_history
+2024-05-08 01:22:30,147 DEBUG   SenderThread:90490 [sender.py:send():379] send: history
+2024-05-08 01:22:30,147 DEBUG   SenderThread:90490 [sender.py:send_request():406] send_request: summary_record
+2024-05-08 01:22:30,148 INFO    SenderThread:90490 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-05-08 01:22:30,479 INFO    Thread-12 :90490 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ahmad/Desktop/Graduation Proj/MedIAnomaly/reconstruction/wandb/run-20240508_012034-70jr28pi/files/wandb-summary.json
+2024-05-08 01:22:30,511 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: partial_history
+2024-05-08 01:22:30,512 DEBUG   SenderThread:90490 [sender.py:send():379] send: history
+2024-05-08 01:22:30,512 DEBUG   SenderThread:90490 [sender.py:send_request():406] send_request: summary_record
+2024-05-08 01:22:30,512 INFO    SenderThread:90490 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-05-08 01:22:30,875 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: partial_history
+2024-05-08 01:22:30,875 DEBUG   SenderThread:90490 [sender.py:send():379] send: history
+2024-05-08 01:22:30,876 DEBUG   SenderThread:90490 [sender.py:send_request():406] send_request: summary_record
+2024-05-08 01:22:30,876 INFO    SenderThread:90490 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-05-08 01:22:31,241 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: partial_history
+2024-05-08 01:22:31,241 DEBUG   SenderThread:90490 [sender.py:send():379] send: history
+2024-05-08 01:22:31,241 DEBUG   SenderThread:90490 [sender.py:send_request():406] send_request: summary_record
+2024-05-08 01:22:31,241 INFO    SenderThread:90490 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-05-08 01:22:31,479 INFO    Thread-12 :90490 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ahmad/Desktop/Graduation Proj/MedIAnomaly/reconstruction/wandb/run-20240508_012034-70jr28pi/files/wandb-summary.json
+2024-05-08 01:22:31,605 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: partial_history
+2024-05-08 01:22:31,606 DEBUG   SenderThread:90490 [sender.py:send():379] send: history
+2024-05-08 01:22:31,606 DEBUG   SenderThread:90490 [sender.py:send_request():406] send_request: summary_record
+2024-05-08 01:22:31,606 INFO    SenderThread:90490 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-05-08 01:22:31,969 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: partial_history
+2024-05-08 01:22:31,970 DEBUG   SenderThread:90490 [sender.py:send():379] send: history
+2024-05-08 01:22:31,970 DEBUG   SenderThread:90490 [sender.py:send_request():406] send_request: summary_record
+2024-05-08 01:22:31,970 INFO    SenderThread:90490 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-05-08 01:22:32,333 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: partial_history
+2024-05-08 01:22:32,334 DEBUG   SenderThread:90490 [sender.py:send():379] send: history
+2024-05-08 01:22:32,334 DEBUG   SenderThread:90490 [sender.py:send_request():406] send_request: summary_record
+2024-05-08 01:22:32,334 INFO    SenderThread:90490 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-05-08 01:22:32,479 INFO    Thread-12 :90490 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ahmad/Desktop/Graduation Proj/MedIAnomaly/reconstruction/wandb/run-20240508_012034-70jr28pi/files/wandb-summary.json
+2024-05-08 01:22:32,697 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: partial_history
+2024-05-08 01:22:32,698 DEBUG   SenderThread:90490 [sender.py:send():379] send: history
+2024-05-08 01:22:32,698 DEBUG   SenderThread:90490 [sender.py:send_request():406] send_request: summary_record
+2024-05-08 01:22:32,698 INFO    SenderThread:90490 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-05-08 01:22:33,479 INFO    Thread-12 :90490 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ahmad/Desktop/Graduation Proj/MedIAnomaly/reconstruction/wandb/run-20240508_012034-70jr28pi/files/wandb-summary.json
+2024-05-08 01:22:34,906 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: status_report
+2024-05-08 01:22:34,907 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: partial_history
+2024-05-08 01:22:34,921 DEBUG   SenderThread:90490 [sender.py:send():379] send: telemetry
+2024-05-08 01:22:34,922 DEBUG   SenderThread:90490 [sender.py:send():379] send: exit
+2024-05-08 01:22:34,922 INFO    SenderThread:90490 [sender.py:send_exit():586] handling exit code: 0
+2024-05-08 01:22:34,922 INFO    SenderThread:90490 [sender.py:send_exit():588] handling runtime: 119
+2024-05-08 01:22:34,923 INFO    SenderThread:90490 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-05-08 01:22:34,923 INFO    SenderThread:90490 [sender.py:send_exit():594] send defer
+2024-05-08 01:22:34,923 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: defer
+2024-05-08 01:22:34,923 INFO    HandlerThread:90490 [handler.py:handle_request_defer():172] handle defer: 0
+2024-05-08 01:22:34,924 DEBUG   SenderThread:90490 [sender.py:send_request():406] send_request: defer
+2024-05-08 01:22:34,924 INFO    SenderThread:90490 [sender.py:send_request_defer():610] handle sender defer: 0
+2024-05-08 01:22:34,924 INFO    SenderThread:90490 [sender.py:transition_state():614] send defer: 1
+2024-05-08 01:22:34,924 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: defer
+2024-05-08 01:22:34,924 INFO    HandlerThread:90490 [handler.py:handle_request_defer():172] handle defer: 1
+2024-05-08 01:22:34,924 DEBUG   SenderThread:90490 [sender.py:send_request():406] send_request: defer
+2024-05-08 01:22:34,924 INFO    SenderThread:90490 [sender.py:send_request_defer():610] handle sender defer: 1
+2024-05-08 01:22:34,924 INFO    SenderThread:90490 [sender.py:transition_state():614] send defer: 2
+2024-05-08 01:22:34,924 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: defer
+2024-05-08 01:22:34,924 INFO    HandlerThread:90490 [handler.py:handle_request_defer():172] handle defer: 2
+2024-05-08 01:22:34,924 INFO    HandlerThread:90490 [system_monitor.py:finish():203] Stopping system monitor
+2024-05-08 01:22:34,924 DEBUG   SystemMonitor:90490 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-05-08 01:22:34,924 DEBUG   SystemMonitor:90490 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-05-08 01:22:34,930 INFO    HandlerThread:90490 [interfaces.py:finish():202] Joined cpu monitor
+2024-05-08 01:22:34,930 INFO    HandlerThread:90490 [interfaces.py:finish():202] Joined disk monitor
+2024-05-08 01:22:34,977 INFO    HandlerThread:90490 [interfaces.py:finish():202] Joined gpu monitor
+2024-05-08 01:22:34,977 INFO    HandlerThread:90490 [interfaces.py:finish():202] Joined memory monitor
+2024-05-08 01:22:34,978 INFO    HandlerThread:90490 [interfaces.py:finish():202] Joined network monitor
+2024-05-08 01:22:34,978 DEBUG   SenderThread:90490 [sender.py:send_request():406] send_request: defer
+2024-05-08 01:22:34,978 INFO    SenderThread:90490 [sender.py:send_request_defer():610] handle sender defer: 2
+2024-05-08 01:22:34,978 INFO    SenderThread:90490 [sender.py:transition_state():614] send defer: 3
+2024-05-08 01:22:34,978 DEBUG   SenderThread:90490 [sender.py:send():379] send: stats
+2024-05-08 01:22:34,978 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: defer
+2024-05-08 01:22:34,978 INFO    HandlerThread:90490 [handler.py:handle_request_defer():172] handle defer: 3
+2024-05-08 01:22:34,979 DEBUG   SenderThread:90490 [sender.py:send():379] send: history
+2024-05-08 01:22:34,979 DEBUG   SenderThread:90490 [sender.py:send_request():406] send_request: summary_record
+2024-05-08 01:22:34,979 INFO    SenderThread:90490 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-05-08 01:22:34,979 DEBUG   SenderThread:90490 [sender.py:send_request():406] send_request: defer
+2024-05-08 01:22:34,979 INFO    SenderThread:90490 [sender.py:send_request_defer():610] handle sender defer: 3
+2024-05-08 01:22:34,979 INFO    SenderThread:90490 [sender.py:transition_state():614] send defer: 4
+2024-05-08 01:22:34,979 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: defer
+2024-05-08 01:22:34,979 INFO    HandlerThread:90490 [handler.py:handle_request_defer():172] handle defer: 4
+2024-05-08 01:22:34,979 DEBUG   SenderThread:90490 [sender.py:send_request():406] send_request: defer
+2024-05-08 01:22:34,979 INFO    SenderThread:90490 [sender.py:send_request_defer():610] handle sender defer: 4
+2024-05-08 01:22:34,979 INFO    SenderThread:90490 [sender.py:transition_state():614] send defer: 5
+2024-05-08 01:22:34,979 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: defer
+2024-05-08 01:22:34,979 INFO    HandlerThread:90490 [handler.py:handle_request_defer():172] handle defer: 5
+2024-05-08 01:22:34,980 DEBUG   SenderThread:90490 [sender.py:send():379] send: summary
+2024-05-08 01:22:34,980 INFO    SenderThread:90490 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-05-08 01:22:34,980 DEBUG   SenderThread:90490 [sender.py:send_request():406] send_request: defer
+2024-05-08 01:22:34,980 INFO    SenderThread:90490 [sender.py:send_request_defer():610] handle sender defer: 5
+2024-05-08 01:22:34,980 INFO    SenderThread:90490 [sender.py:transition_state():614] send defer: 6
+2024-05-08 01:22:34,980 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: defer
+2024-05-08 01:22:34,980 INFO    HandlerThread:90490 [handler.py:handle_request_defer():172] handle defer: 6
+2024-05-08 01:22:34,980 DEBUG   SenderThread:90490 [sender.py:send_request():406] send_request: defer
+2024-05-08 01:22:34,980 INFO    SenderThread:90490 [sender.py:send_request_defer():610] handle sender defer: 6
+2024-05-08 01:22:34,983 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: status_report
+2024-05-08 01:22:35,175 INFO    SenderThread:90490 [sender.py:transition_state():614] send defer: 7
+2024-05-08 01:22:35,175 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: defer
+2024-05-08 01:22:35,175 INFO    HandlerThread:90490 [handler.py:handle_request_defer():172] handle defer: 7
+2024-05-08 01:22:35,175 DEBUG   SenderThread:90490 [sender.py:send_request():406] send_request: defer
+2024-05-08 01:22:35,175 INFO    SenderThread:90490 [sender.py:send_request_defer():610] handle sender defer: 7
+2024-05-08 01:22:35,480 INFO    Thread-12 :90490 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ahmad/Desktop/Graduation Proj/MedIAnomaly/reconstruction/wandb/run-20240508_012034-70jr28pi/files/config.yaml
+2024-05-08 01:22:35,480 INFO    Thread-12 :90490 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ahmad/Desktop/Graduation Proj/MedIAnomaly/reconstruction/wandb/run-20240508_012034-70jr28pi/files/wandb-summary.json
+2024-05-08 01:22:35,526 INFO    SenderThread:90490 [sender.py:transition_state():614] send defer: 8
+2024-05-08 01:22:35,526 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: defer
+2024-05-08 01:22:35,526 INFO    HandlerThread:90490 [handler.py:handle_request_defer():172] handle defer: 8
+2024-05-08 01:22:35,526 DEBUG   SenderThread:90490 [sender.py:send_request():406] send_request: defer
+2024-05-08 01:22:35,526 INFO    SenderThread:90490 [sender.py:send_request_defer():610] handle sender defer: 8
+2024-05-08 01:22:35,527 INFO    SenderThread:90490 [job_builder.py:build():318] Attempting to build job artifact
+2024-05-08 01:22:35,527 INFO    SenderThread:90490 [job_builder.py:_get_source_type():455] is repo sourced job
+2024-05-08 01:22:35,540 INFO    SenderThread:90490 [job_builder.py:build():431] adding wandb-job metadata file
+2024-05-08 01:22:35,543 INFO    SenderThread:90490 [sender.py:transition_state():614] send defer: 9
+2024-05-08 01:22:35,543 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: defer
+2024-05-08 01:22:35,543 INFO    HandlerThread:90490 [handler.py:handle_request_defer():172] handle defer: 9
+2024-05-08 01:22:35,543 DEBUG   SenderThread:90490 [sender.py:send():379] send: artifact
+2024-05-08 01:22:35,922 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: poll_exit
+2024-05-08 01:22:36,480 INFO    Thread-12 :90490 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ahmad/Desktop/Graduation Proj/MedIAnomaly/reconstruction/wandb/run-20240508_012034-70jr28pi/files/output.log
+2024-05-08 01:22:36,504 INFO    SenderThread:90490 [sender.py:send_artifact():1468] sent artifact job-https___github.com_caiyu6666_MedIAnomaly.git_reconstruction_train.py - {'id': 'QXJ0aWZhY3Q6ODI1ODU3NTA4', 'state': 'COMMITTED', 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjE3MTc4MzgzMg==', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6ODI1OTk1MTEx', 'versionIndex': 6}}}
+2024-05-08 01:22:36,504 DEBUG   SenderThread:90490 [sender.py:send_request():406] send_request: defer
+2024-05-08 01:22:36,504 INFO    SenderThread:90490 [sender.py:send_request_defer():610] handle sender defer: 9
+2024-05-08 01:22:36,504 INFO    SenderThread:90490 [dir_watcher.py:finish():358] shutting down directory watcher
+2024-05-08 01:22:37,481 INFO    SenderThread:90490 [dir_watcher.py:finish():388] scan: /home/ahmad/Desktop/Graduation Proj/MedIAnomaly/reconstruction/wandb/run-20240508_012034-70jr28pi/files
+2024-05-08 01:22:37,481 INFO    SenderThread:90490 [dir_watcher.py:finish():402] scan save: /home/ahmad/Desktop/Graduation Proj/MedIAnomaly/reconstruction/wandb/run-20240508_012034-70jr28pi/files/output.log output.log
+2024-05-08 01:22:37,481 INFO    SenderThread:90490 [dir_watcher.py:finish():402] scan save: /home/ahmad/Desktop/Graduation Proj/MedIAnomaly/reconstruction/wandb/run-20240508_012034-70jr28pi/files/conda-environment.yaml conda-environment.yaml
+2024-05-08 01:22:37,481 INFO    SenderThread:90490 [dir_watcher.py:finish():402] scan save: /home/ahmad/Desktop/Graduation Proj/MedIAnomaly/reconstruction/wandb/run-20240508_012034-70jr28pi/files/config.yaml config.yaml
+2024-05-08 01:22:37,481 INFO    SenderThread:90490 [dir_watcher.py:finish():402] scan save: /home/ahmad/Desktop/Graduation Proj/MedIAnomaly/reconstruction/wandb/run-20240508_012034-70jr28pi/files/wandb-metadata.json wandb-metadata.json
+2024-05-08 01:22:37,482 INFO    SenderThread:90490 [dir_watcher.py:finish():402] scan save: /home/ahmad/Desktop/Graduation Proj/MedIAnomaly/reconstruction/wandb/run-20240508_012034-70jr28pi/files/wandb-summary.json wandb-summary.json
+2024-05-08 01:22:37,482 INFO    SenderThread:90490 [dir_watcher.py:finish():402] scan save: /home/ahmad/Desktop/Graduation Proj/MedIAnomaly/reconstruction/wandb/run-20240508_012034-70jr28pi/files/requirements.txt requirements.txt
+2024-05-08 01:22:37,482 INFO    SenderThread:90490 [sender.py:transition_state():614] send defer: 10
+2024-05-08 01:22:37,482 DEBUG   SenderThread:90490 [sender.py:send_request():406] send_request: poll_exit
+2024-05-08 01:22:37,482 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: defer
+2024-05-08 01:22:37,489 INFO    HandlerThread:90490 [handler.py:handle_request_defer():172] handle defer: 10
+2024-05-08 01:22:37,489 DEBUG   SenderThread:90490 [sender.py:send_request():406] send_request: defer
+2024-05-08 01:22:37,490 INFO    SenderThread:90490 [sender.py:send_request_defer():610] handle sender defer: 10
+2024-05-08 01:22:37,490 INFO    SenderThread:90490 [file_pusher.py:finish():172] shutting down file pusher
+2024-05-08 01:22:37,923 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: poll_exit
+2024-05-08 01:22:37,923 DEBUG   SenderThread:90490 [sender.py:send_request():406] send_request: poll_exit
+2024-05-08 01:22:37,963 INFO    wandb-upload_0:90490 [upload_job.py:push():131] Uploaded file /home/ahmad/Desktop/Graduation Proj/MedIAnomaly/reconstruction/wandb/run-20240508_012034-70jr28pi/files/conda-environment.yaml
+2024-05-08 01:22:38,107 INFO    wandb-upload_2:90490 [upload_job.py:push():131] Uploaded file /home/ahmad/Desktop/Graduation Proj/MedIAnomaly/reconstruction/wandb/run-20240508_012034-70jr28pi/files/config.yaml
+2024-05-08 01:22:38,327 INFO    wandb-upload_3:90490 [upload_job.py:push():131] Uploaded file /home/ahmad/Desktop/Graduation Proj/MedIAnomaly/reconstruction/wandb/run-20240508_012034-70jr28pi/files/wandb-summary.json
+2024-05-08 01:22:38,344 INFO    wandb-upload_4:90490 [upload_job.py:push():131] Uploaded file /home/ahmad/Desktop/Graduation Proj/MedIAnomaly/reconstruction/wandb/run-20240508_012034-70jr28pi/files/requirements.txt
+2024-05-08 01:22:38,361 INFO    wandb-upload_1:90490 [upload_job.py:push():131] Uploaded file /home/ahmad/Desktop/Graduation Proj/MedIAnomaly/reconstruction/wandb/run-20240508_012034-70jr28pi/files/output.log
+2024-05-08 01:22:38,562 INFO    Thread-11 (_thread_body):90490 [sender.py:transition_state():614] send defer: 11
+2024-05-08 01:22:38,562 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: defer
+2024-05-08 01:22:38,562 INFO    HandlerThread:90490 [handler.py:handle_request_defer():172] handle defer: 11
+2024-05-08 01:22:38,562 DEBUG   SenderThread:90490 [sender.py:send_request():406] send_request: defer
+2024-05-08 01:22:38,562 INFO    SenderThread:90490 [sender.py:send_request_defer():610] handle sender defer: 11
+2024-05-08 01:22:38,562 INFO    SenderThread:90490 [file_pusher.py:join():178] waiting for file pusher
+2024-05-08 01:22:38,563 INFO    SenderThread:90490 [sender.py:transition_state():614] send defer: 12
+2024-05-08 01:22:38,563 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: defer
+2024-05-08 01:22:38,563 INFO    HandlerThread:90490 [handler.py:handle_request_defer():172] handle defer: 12
+2024-05-08 01:22:38,563 DEBUG   SenderThread:90490 [sender.py:send_request():406] send_request: defer
+2024-05-08 01:22:38,563 INFO    SenderThread:90490 [sender.py:send_request_defer():610] handle sender defer: 12
+2024-05-08 01:22:38,563 INFO    SenderThread:90490 [file_stream.py:finish():614] file stream finish called
+2024-05-08 01:22:38,923 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: poll_exit
+2024-05-08 01:22:39,174 INFO    SenderThread:90490 [file_stream.py:finish():618] file stream finish is done
+2024-05-08 01:22:39,174 INFO    SenderThread:90490 [sender.py:transition_state():614] send defer: 13
+2024-05-08 01:22:39,174 DEBUG   SenderThread:90490 [sender.py:send_request():406] send_request: poll_exit
+2024-05-08 01:22:39,175 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: defer
+2024-05-08 01:22:39,175 INFO    HandlerThread:90490 [handler.py:handle_request_defer():172] handle defer: 13
+2024-05-08 01:22:39,175 DEBUG   SenderThread:90490 [sender.py:send_request():406] send_request: defer
+2024-05-08 01:22:39,175 INFO    SenderThread:90490 [sender.py:send_request_defer():610] handle sender defer: 13
+2024-05-08 01:22:39,175 INFO    SenderThread:90490 [sender.py:transition_state():614] send defer: 14
+2024-05-08 01:22:39,175 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: defer
+2024-05-08 01:22:39,175 INFO    HandlerThread:90490 [handler.py:handle_request_defer():172] handle defer: 14
+2024-05-08 01:22:39,176 DEBUG   SenderThread:90490 [sender.py:send():379] send: final
+2024-05-08 01:22:39,176 DEBUG   SenderThread:90490 [sender.py:send():379] send: footer
+2024-05-08 01:22:39,176 DEBUG   SenderThread:90490 [sender.py:send_request():406] send_request: defer
+2024-05-08 01:22:39,176 INFO    SenderThread:90490 [sender.py:send_request_defer():610] handle sender defer: 14
+2024-05-08 01:22:39,176 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: poll_exit
+2024-05-08 01:22:39,176 DEBUG   SenderThread:90490 [sender.py:send_request():406] send_request: poll_exit
+2024-05-08 01:22:39,177 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: internal_messages
+2024-05-08 01:22:39,177 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: server_info
+2024-05-08 01:22:39,177 DEBUG   SenderThread:90490 [sender.py:send_request():406] send_request: server_info
+2024-05-08 01:22:39,221 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: get_summary
+2024-05-08 01:22:39,221 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: sampled_history
+2024-05-08 01:22:39,355 DEBUG   HandlerThread:90490 [handler.py:handle_request():146] handle_request: shutdown
+2024-05-08 01:22:39,355 INFO    HandlerThread:90490 [handler.py:finish():866] shutting down handler
+2024-05-08 01:22:40,178 INFO    WriterThread:90490 [datastore.py:close():296] close: /home/ahmad/Desktop/Graduation Proj/MedIAnomaly/reconstruction/wandb/run-20240508_012034-70jr28pi/run-70jr28pi.wandb
+2024-05-08 01:22:40,355 INFO    SenderThread:90490 [sender.py:finish():1546] shutting down sender
+2024-05-08 01:22:40,355 INFO    SenderThread:90490 [file_pusher.py:finish():172] shutting down file pusher
+2024-05-08 01:22:40,355 INFO    SenderThread:90490 [file_pusher.py:join():178] waiting for file pusher

@@ -1,0 +1,44 @@
+============= Configurations =============
+dataset:brain
+model:memae
+in_channels:1
+input_size:64
+base_width:16
+expansion:1
+mid_num:1024
+latent_size:16
+en_num_layers:1
+de_num_layers:1
+epochs:600
+batch_size:64
+lr:0.001
+weight_decay:5e-06
+seed:42
+num_params:2.3512M
+FLOPs:29.8967M
+=> Initial learning rate: 0.001
+Epoch[  1/600]  Time:5.1s  loss:0.29894  recon_loss:0.29841  entro_loss:2.67299  |  AUC: 0.4880  AP: 0.4531  normal_score: 0.2623  abnormal_score: 0.2539
+Epoch[ 25/600]  Time:16.7s  loss:0.05406  recon_loss:0.05348  entro_loss:2.90919  |  AUC: 0.3834  AP: 0.4277  normal_score: 0.0534  abnormal_score: 0.0426
+Epoch[ 50/600]  Time:17.3s  loss:0.04073  recon_loss:0.04013  entro_loss:2.99066  |  AUC: 0.4806  AP: 0.4805  normal_score: 0.0432  abnormal_score: 0.0418
+Epoch[ 75/600]  Time:17.3s  loss:0.03248  recon_loss:0.03187  entro_loss:3.03474  |  AUC: 0.6344  AP: 0.5822  normal_score: 0.0350  abnormal_score: 0.0436
+Epoch[100/600]  Time:17.3s  loss:0.02594  recon_loss:0.02533  entro_loss:3.08048  |  AUC: 0.6881  AP: 0.6301  normal_score: 0.0305  abnormal_score: 0.0425
+Epoch[125/600]  Time:17.2s  loss:0.02371  recon_loss:0.02309  entro_loss:3.11508  |  AUC: 0.7318  AP: 0.6672  normal_score: 0.0282  abnormal_score: 0.0428
+Epoch[150/600]  Time:17.3s  loss:0.02069  recon_loss:0.02006  entro_loss:3.14236  |  AUC: 0.7647  AP: 0.6948  normal_score: 0.0256  abnormal_score: 0.0425
+Epoch[175/600]  Time:17.3s  loss:0.02081  recon_loss:0.02018  entro_loss:3.16026  |  AUC: 0.8097  AP: 0.7239  normal_score: 0.0270  abnormal_score: 0.0462
+Epoch[200/600]  Time:17.3s  loss:0.01749  recon_loss:0.01685  entro_loss:3.17301  |  AUC: 0.7953  AP: 0.7185  normal_score: 0.0245  abnormal_score: 0.0440
+Epoch[225/600]  Time:17.3s  loss:0.01643  recon_loss:0.01579  entro_loss:3.17883  |  AUC: 0.8082  AP: 0.7300  normal_score: 0.0238  abnormal_score: 0.0438
+Epoch[250/600]  Time:17.3s  loss:0.01648  recon_loss:0.01585  entro_loss:3.18305  |  AUC: 0.8187  AP: 0.7363  normal_score: 0.0238  abnormal_score: 0.0445
+Epoch[275/600]  Time:17.2s  loss:0.01429  recon_loss:0.01366  entro_loss:3.18503  |  AUC: 0.8391  AP: 0.7515  normal_score: 0.0219  abnormal_score: 0.0440
+Epoch[300/600]  Time:17.3s  loss:0.01343  recon_loss:0.01279  entro_loss:3.18744  |  AUC: 0.8323  AP: 0.7459  normal_score: 0.0213  abnormal_score: 0.0432
+Epoch[325/600]  Time:17.3s  loss:0.01436  recon_loss:0.01372  entro_loss:3.18819  |  AUC: 0.8206  AP: 0.7375  normal_score: 0.0226  abnormal_score: 0.0442
+Epoch[350/600]  Time:17.3s  loss:0.01264  recon_loss:0.01200  entro_loss:3.18880  |  AUC: 0.8369  AP: 0.7515  normal_score: 0.0215  abnormal_score: 0.0443
+Epoch[375/600]  Time:17.3s  loss:0.01327  recon_loss:0.01263  entro_loss:3.18884  |  AUC: 0.8361  AP: 0.7483  normal_score: 0.0221  abnormal_score: 0.0444
+Epoch[400/600]  Time:17.2s  loss:0.01215  recon_loss:0.01151  entro_loss:3.18961  |  AUC: 0.8486  AP: 0.7617  normal_score: 0.0208  abnormal_score: 0.0447
+Epoch[425/600]  Time:17.3s  loss:0.01189  recon_loss:0.01125  entro_loss:3.18942  |  AUC: 0.8517  AP: 0.7615  normal_score: 0.0202  abnormal_score: 0.0441
+Epoch[450/600]  Time:17.3s  loss:0.01193  recon_loss:0.01129  entro_loss:3.18931  |  AUC: 0.8420  AP: 0.7563  normal_score: 0.0212  abnormal_score: 0.0449
+Epoch[475/600]  Time:17.3s  loss:0.01206  recon_loss:0.01142  entro_loss:3.18943  |  AUC: 0.8300  AP: 0.7427  normal_score: 0.0219  abnormal_score: 0.0444
+Epoch[500/600]  Time:17.3s  loss:0.01049  recon_loss:0.00985  entro_loss:3.18941  |  AUC: 0.8559  AP: 0.7648  normal_score: 0.0199  abnormal_score: 0.0445
+Epoch[525/600]  Time:17.3s  loss:0.01187  recon_loss:0.01123  entro_loss:3.18884  |  AUC: 0.8419  AP: 0.7553  normal_score: 0.0216  abnormal_score: 0.0456
+Epoch[550/600]  Time:17.3s  loss:0.01054  recon_loss:0.00990  entro_loss:3.18856  |  AUC: 0.8448  AP: 0.7568  normal_score: 0.0210  abnormal_score: 0.0454
+Epoch[575/600]  Time:17.3s  loss:0.01125  recon_loss:0.01062  entro_loss:3.18841  |  AUC: 0.8354  AP: 0.7446  normal_score: 0.0219  abnormal_score: 0.0454
+Epoch[600/600]  Time:17.3s  loss:0.01069  recon_loss:0.01006  entro_loss:3.18786  |  AUC: 0.8187  AP: 0.7318  normal_score: 0.0233  abnormal_score: 0.0451

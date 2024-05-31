@@ -1,0 +1,24 @@
+============= Configurations =============
+dataset:rsna
+model:ae
+in_channels:1
+input_size:64
+base_width:16
+expansion:1
+mid_num:1024
+latent_size:16
+en_num_layers:1
+de_num_layers:1
+epochs:250
+batch_size:64
+lr:0.001
+weight_decay:0
+seed:172834
+num_params:2.3512M
+FLOPs:29.8967M
+=> Initial learning rate: 0.001
+Epoch[  1/250]  Time:7.7s  loss:0.16725  |  AUC: 0.55570  AP: 0.55632  normal_score: 0.05786  abnormal_score: 0.06380
+Epoch[ 25/250]  Time:51.6s  loss:0.01997  |  AUC: 0.57599  AP: 0.59052  normal_score: 0.02249  abnormal_score: 0.02647
+Epoch[ 50/250]  Time:53.3s  loss:0.01697  |  AUC: 0.65066  AP: 0.65045  normal_score: 0.01849  abnormal_score: 0.02452
+Epoch[ 75/250]  Time:53.2s  loss:0.01509  |  AUC: 0.65903  AP: 0.65628  normal_score: 0.01745  abnormal_score: 0.02356
+Epoch[100/250]  Time:53.5s  loss:0.01402  |  AUC: 0.67334  AP: 0.66328  normal_score: 0.01790  abnormal_score: 0.02456

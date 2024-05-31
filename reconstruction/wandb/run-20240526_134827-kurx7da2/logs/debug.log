@@ -1,0 +1,36 @@
+2024-05-26 13:48:27,440 INFO    MainThread:193414 [wandb_setup.py:_flush():76] Current SDK version is 0.16.6
+2024-05-26 13:48:27,441 INFO    MainThread:193414 [wandb_setup.py:_flush():76] Configure stats pid to 193414
+2024-05-26 13:48:27,441 INFO    MainThread:193414 [wandb_setup.py:_flush():76] Loading settings from /home/ahmad/.config/wandb/settings
+2024-05-26 13:48:27,441 INFO    MainThread:193414 [wandb_setup.py:_flush():76] Loading settings from /home/ahmad/Desktop/Graduation Proj/MedIAnomaly/reconstruction/wandb/settings
+2024-05-26 13:48:27,441 INFO    MainThread:193414 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2024-05-26 13:48:27,441 INFO    MainThread:193414 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2024-05-26 13:48:27,441 INFO    MainThread:193414 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'reconstruction/train.py', 'program_abspath': '/home/ahmad/Desktop/Graduation Proj/MedIAnomaly/reconstruction/train.py', 'program': '/home/ahmad/Desktop/Graduation Proj/MedIAnomaly/reconstruction/train.py'}
+2024-05-26 13:48:27,441 INFO    MainThread:193414 [wandb_setup.py:_flush():76] Applying login settings: {}
+2024-05-26 13:48:27,441 INFO    MainThread:193414 [wandb_init.py:_log_setup():521] Logging user logs to /home/ahmad/Desktop/Graduation Proj/MedIAnomaly/reconstruction/wandb/run-20240526_134827-kurx7da2/logs/debug.log
+2024-05-26 13:48:27,441 INFO    MainThread:193414 [wandb_init.py:_log_setup():522] Logging internal logs to /home/ahmad/Desktop/Graduation Proj/MedIAnomaly/reconstruction/wandb/run-20240526_134827-kurx7da2/logs/debug-internal.log
+2024-05-26 13:48:27,441 INFO    MainThread:193414 [wandb_init.py:init():561] calling init triggers
+2024-05-26 13:48:27,441 INFO    MainThread:193414 [wandb_init.py:init():568] wandb.init called with sweep_config: {}
+config: {'dataset': 'rsna', 'model': 'ganomaly', 'in_channels': 1, 'input_size': 64, 'base_width': 16, 'expansion': 1, 'mid_num': 1024, 'latent_size': 16, 'en_num_layers': 1, 'de_num_layers': 1, 'epochs': 250, 'batch_size': 64, 'lr': 0.001, 'weight_decay': 1e-05, 'seed': 42, 'num_params': '3.5202M', 'FLOPs': '36.5773M'}
+2024-05-26 13:48:27,441 INFO    MainThread:193414 [wandb_init.py:init():611] starting backend
+2024-05-26 13:48:27,441 INFO    MainThread:193414 [wandb_init.py:init():615] setting up manager
+2024-05-26 13:48:27,442 INFO    MainThread:193414 [backend.py:_multiprocessing_setup():105] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2024-05-26 13:48:27,443 INFO    MainThread:193414 [wandb_init.py:init():623] backend started and connected
+2024-05-26 13:48:27,444 INFO    MainThread:193414 [wandb_init.py:init():715] updated telemetry
+2024-05-26 13:48:27,448 INFO    MainThread:193414 [wandb_init.py:init():748] communicating run to backend with 90.0 second timeout
+2024-05-26 13:48:27,567 WARNING MainThread:193414 [wandb_init.py:init():1203] interrupted
+Traceback (most recent call last):
+  File "/home/ahmad/anaconda3/envs/torch/lib/python3.10/site-packages/wandb/sdk/wandb_init.py", line 1181, in init
+    run = wi.init()
+  File "/home/ahmad/anaconda3/envs/torch/lib/python3.10/site-packages/wandb/sdk/wandb_init.py", line 751, in init
+    result = run_init_handle.wait(
+  File "/home/ahmad/anaconda3/envs/torch/lib/python3.10/site-packages/wandb/sdk/lib/mailbox.py", line 283, in wait
+    found, abandoned = self._slot._get_and_clear(timeout=wait_timeout)
+  File "/home/ahmad/anaconda3/envs/torch/lib/python3.10/site-packages/wandb/sdk/lib/mailbox.py", line 130, in _get_and_clear
+    if self._wait(timeout=timeout):
+  File "/home/ahmad/anaconda3/envs/torch/lib/python3.10/site-packages/wandb/sdk/lib/mailbox.py", line 126, in _wait
+    return self._event.wait(timeout=timeout)
+  File "/home/ahmad/anaconda3/envs/torch/lib/python3.10/threading.py", line 607, in wait
+    signaled = self._cond.wait(timeout)
+  File "/home/ahmad/anaconda3/envs/torch/lib/python3.10/threading.py", line 324, in wait
+    gotit = waiter.acquire(True, timeout)
+KeyboardInterrupt

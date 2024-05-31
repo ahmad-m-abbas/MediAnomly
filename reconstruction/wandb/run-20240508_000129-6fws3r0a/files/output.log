@@ -1,0 +1,47 @@
+============= Configurations =============
+dataset:vin
+model:dae
+in_channels:1
+input_size:128
+base_width:16
+expansion:1
+mid_num:1024
+latent_size:16
+en_num_layers:1
+de_num_layers:1
+epochs:250
+batch_size:16
+lr:0.001
+weight_decay:0
+seed:88572
+num_params:2.7863M
+FLOPs:2148.5322M
+=> Initial learning rate: 0.001
+Traceback (most recent call last):
+  File "/home/ahmad/Desktop/Graduation Proj/MedIAnomaly/reconstruction/train.py", line 43, in <module>
+    main()
+  File "/home/ahmad/Desktop/Graduation Proj/MedIAnomaly/reconstruction/train.py", line 39, in main
+    worker.run_train()
+  File "/home/ahmad/Desktop/Graduation Proj/MedIAnomaly/reconstruction/utils/ae_worker.py", line 214, in run_train
+    train_loss = self.train_epoch()
+  File "/home/ahmad/Desktop/Graduation Proj/MedIAnomaly/reconstruction/utils/dae_worker.py", line 24, in train_epoch
+    net_out = self.net(noisy_img)
+  File "/home/ahmad/anaconda3/envs/torch/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1511, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/ahmad/anaconda3/envs/torch/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1520, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/ahmad/Desktop/Graduation Proj/MedIAnomaly/reconstruction/networks/unet.py", line 100, in forward
+    x = self.get_features(x)
+  File "/home/ahmad/Desktop/Graduation Proj/MedIAnomaly/reconstruction/networks/unet.py", line 105, in get_features
+    return self.forward_without_last(x)
+  File "/home/ahmad/Desktop/Graduation Proj/MedIAnomaly/reconstruction/networks/unet.py", line 96, in forward_without_last
+    x = self.forward_up_without_last(x, blocks)
+  File "/home/ahmad/Desktop/Graduation Proj/MedIAnomaly/reconstruction/networks/unet.py", line 90, in forward_up_without_last
+    x = up(x, skip)
+  File "/home/ahmad/anaconda3/envs/torch/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1511, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/ahmad/anaconda3/envs/torch/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1520, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/ahmad/Desktop/Graduation Proj/MedIAnomaly/reconstruction/networks/unet.py", line 163, in forward
+    out = torch.cat([up, crop1], 1)
+torch.cuda.OutOfMemoryError: CUDA out of memory. Tried to allocate 128.00 MiB. GPU 0 has a total capacity of 2.94 GiB of which 40.50 MiB is free. Including non-PyTorch memory, this process has 2.14 GiB memory in use. Of the allocated memory 1.94 GiB is allocated by PyTorch, and 131.14 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)

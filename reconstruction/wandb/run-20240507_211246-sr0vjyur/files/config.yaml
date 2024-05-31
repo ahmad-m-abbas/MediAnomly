@@ -1,0 +1,85 @@
+wandb_version: 1
+
+dataset:
+  desc: null
+  value: rsna
+model:
+  desc: null
+  value: constrained-ae
+in_channels:
+  desc: null
+  value: 1
+input_size:
+  desc: null
+  value: 64
+base_width:
+  desc: null
+  value: 16
+expansion:
+  desc: null
+  value: 1
+mid_num:
+  desc: null
+  value: 1024
+latent_size:
+  desc: null
+  value: 16
+en_num_layers:
+  desc: null
+  value: 1
+de_num_layers:
+  desc: null
+  value: 1
+epochs:
+  desc: null
+  value: 250
+batch_size:
+  desc: null
+  value: 64
+lr:
+  desc: null
+  value: 0.001
+weight_decay:
+  desc: null
+  value: 0
+seed:
+  desc: null
+  value: 302186
+num_params:
+  desc: null
+  value: 2.3512M
+FLOPs:
+  desc: null
+  value: 29.8967M
+_wandb:
+  desc: null
+  value:
+    python_version: 3.10.13
+    cli_version: 0.16.6
+    framework: torch
+    is_jupyter_run: false
+    is_kaggle_kernel: false
+    start_time: 1715105566.0
+    t:
+      1:
+      - 1
+      - 5
+      - 41
+      - 53
+      - 55
+      2:
+      - 1
+      - 5
+      - 41
+      - 53
+      - 55
+      3:
+      - 2
+      - 16
+      - 23
+      - 61
+      4: 3.10.13
+      5: 0.16.6
+      8:
+      - 5
+      13: linux-x86_64

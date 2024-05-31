@@ -1,0 +1,1 @@
+{"train/loss": 0.006207668179705861, "train/recon_loss": 0.00616291736910296, "train/entro_loss": 0.22375392667132468, "_timestamp": 1716697599.6257136, "val/AUC": 0.6436884152760218, "val/AP": 0.5527040207423264, "val/normal_score": 0.022180737927556038, "val/abnormal_score": 0.03055352345108986, "_runtime": 926.7314116954803, "_step": 250, "_wandb": {"runtime": 925}}

@@ -1,0 +1,1 @@
+{"_wandb": {"runtime": 11}, "train/loss": -0.2342659544245171, "train/recon_loss": 0.2525797075565621, "train/log_var": -0.7489831857721826, "_timestamp": 1716750084.6703079, "_runtime": 6.5510969161987305, "_step": 1}

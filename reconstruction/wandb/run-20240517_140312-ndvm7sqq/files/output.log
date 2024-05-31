@@ -1,0 +1,46 @@
+============= Configurations =============
+dataset:rsna
+model:ae
+in_channels:1
+input_size:64
+base_width:16
+expansion:1
+mid_num:1024
+latent_size:16
+en_num_layers:1
+de_num_layers:1
+epochs:250
+batch_size:64
+lr:0.001
+weight_decay:0
+seed:190441
+num_params:2.3512M
+FLOPs:29.8967M
+=> Initial learning rate: 0.001
+Epoch[  1/250]  Time:7.7s  loss:0.16193  |  AUC: 0.55226  AP: 0.55459  normal_score: 0.06494  abnormal_score: 0.07066
+Epoch[ 25/250]  Time:51.4s  loss:0.01906  |  AUC: 0.62871  AP: 0.63267  normal_score: 0.02034  abnormal_score: 0.02581
+Epoch[ 50/250]  Time:51.8s  loss:0.01682  |  AUC: 0.65358  AP: 0.64969  normal_score: 0.01822  abnormal_score: 0.02438
+Epoch[ 75/250]  Time:51.9s  loss:0.01526  |  AUC: 0.65922  AP: 0.65594  normal_score: 0.01762  abnormal_score: 0.02396
+Epoch[100/250]  Time:52.9s  loss:0.01394  |  AUC: 0.66056  AP: 0.65792  normal_score: 0.01760  abnormal_score: 0.02410
+Epoch[125/250]  Time:52.3s  loss:0.01332  |  AUC: 0.65931  AP: 0.65216  normal_score: 0.01764  abnormal_score: 0.02401
+Epoch[150/250]  Time:52.4s  loss:0.01202  |  AUC: 0.67199  AP: 0.66431  normal_score: 0.01695  abnormal_score: 0.02374
+Epoch[175/250]  Time:51.8s  loss:0.01132  |  AUC: 0.68440  AP: 0.67331  normal_score: 0.01712  abnormal_score: 0.02444
+Epoch[200/250]  Time:52.6s  loss:0.01079  |  AUC: 0.68195  AP: 0.67256  normal_score: 0.01706  abnormal_score: 0.02450
+Epoch[225/250]  Time:52.2s  loss:0.01062  |  AUC: 0.68596  AP: 0.67328  normal_score: 0.01798  abnormal_score: 0.02550
+Epoch[250/250]  Time:52.4s  loss:0.01016  |  AUC: 0.68448  AP: 0.67333  normal_score: 0.01722  abnormal_score: 0.02473
+Traceback (most recent call last):
+  File "/home/ahmad/Desktop/Graduation Proj/MedIAnomaly/reconstruction/train.py", line 43, in <module>
+    main()
+  File "/home/ahmad/Desktop/Graduation Proj/MedIAnomaly/reconstruction/train.py", line 39, in main
+    worker.run_train()
+  File "/home/ahmad/Desktop/Graduation Proj/MedIAnomaly/reconstruction/utils/ae_worker.py", line 241, in run_train
+    self.save_checkpoint()
+  File "/home/ahmad/Desktop/Graduation Proj/MedIAnomaly/reconstruction/utils/base_worker.py", line 272, in save_checkpoint
+    torch.save(self.net.state_dict(), os.path.join(self.opt.train['save_dir'], "checkpoints", "model.pt"))
+  File "/home/ahmad/anaconda3/envs/torch/lib/python3.10/site-packages/torch/serialization.py", line 627, in save
+    with _open_zipfile_writer(f) as opened_zipfile:
+  File "/home/ahmad/anaconda3/envs/torch/lib/python3.10/site-packages/torch/serialization.py", line 501, in _open_zipfile_writer
+    return container(name_or_buffer)
+  File "/home/ahmad/anaconda3/envs/torch/lib/python3.10/site-packages/torch/serialization.py", line 472, in __init__
+    super().__init__(torch._C.PyTorchFileWriter(self.name))
+RuntimeError: Parent directory /home/ahmad/Experiment/MedIAnomaly/rsna/ae/fold_1/checkpoints does not exist.

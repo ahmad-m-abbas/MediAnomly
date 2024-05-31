@@ -1,0 +1,30 @@
+============= Configurations =============
+dataset:vin
+model:memae
+in_channels:1
+input_size:64
+base_width:16
+expansion:1
+mid_num:1024
+latent_size:16
+en_num_layers:1
+de_num_layers:1
+epochs:250
+batch_size:64
+lr:0.001
+weight_decay:1e-05
+seed:42
+num_params:2.3512M
+FLOPs:29.8967M
+=> Initial learning rate: 0.001
+Epoch[  1/250]  Time:9.4s  loss:0.16909  recon_loss:0.16859  entro_loss:2.51547  |  AUC: 0.4953  AP: 0.5246  normal_score: 0.0941  abnormal_score: 0.0955
+Epoch[ 25/250]  Time:56.6s  loss:0.01927  recon_loss:0.01864  entro_loss:3.12607  |  AUC: 0.5222  AP: 0.5596  normal_score: 0.0170  abnormal_score: 0.0188
+Epoch[ 50/250]  Time:58.7s  loss:0.01611  recon_loss:0.01548  entro_loss:3.18471  |  AUC: 0.5184  AP: 0.5697  normal_score: 0.0163  abnormal_score: 0.0181
+Epoch[ 75/250]  Time:58.8s  loss:0.01492  recon_loss:0.01428  entro_loss:3.19532  |  AUC: 0.5669  AP: 0.6064  normal_score: 0.0148  abnormal_score: 0.0181
+Epoch[100/250]  Time:58.9s  loss:0.01423  recon_loss:0.01360  entro_loss:3.19809  |  AUC: 0.5645  AP: 0.6005  normal_score: 0.0146  abnormal_score: 0.0177
+Epoch[125/250]  Time:58.9s  loss:0.01305  recon_loss:0.01241  entro_loss:3.19951  |  AUC: 0.5676  AP: 0.5980  normal_score: 0.0161  abnormal_score: 0.0193
+Epoch[150/250]  Time:58.9s  loss:0.01231  recon_loss:0.01167  entro_loss:3.20014  |  AUC: 0.5620  AP: 0.6017  normal_score: 0.0151  abnormal_score: 0.0183
+Epoch[175/250]  Time:58.9s  loss:0.01233  recon_loss:0.01169  entro_loss:3.20047  |  AUC: 0.5966  AP: 0.6088  normal_score: 0.0182  abnormal_score: 0.0215
+Epoch[200/250]  Time:58.8s  loss:0.01172  recon_loss:0.01108  entro_loss:3.20033  |  AUC: 0.5689  AP: 0.5953  normal_score: 0.0148  abnormal_score: 0.0179
+Epoch[225/250]  Time:58.9s  loss:0.01173  recon_loss:0.01109  entro_loss:3.20041  |  AUC: 0.5999  AP: 0.6174  normal_score: 0.0151  abnormal_score: 0.0187
+Epoch[250/250]  Time:58.9s  loss:0.01163  recon_loss:0.01099  entro_loss:3.20028  |  AUC: 0.5677  AP: 0.5955  normal_score: 0.0163  abnormal_score: 0.0193

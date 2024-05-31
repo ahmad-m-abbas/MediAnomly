@@ -1,0 +1,30 @@
+============= Configurations =============
+dataset:isic
+model:ceae
+in_channels:1
+input_size:64
+base_width:16
+expansion:1
+mid_num:1024
+latent_size:16
+en_num_layers:1
+de_num_layers:1
+epochs:250
+batch_size:64
+lr:0.001
+weight_decay:1e-05
+seed:42
+num_params:2.3512M
+FLOPs:29.8967M
+=> Initial learning rate: 0.001
+Epoch[  1/250]  Time:8.4s  loss:0.07372  |  AUC: 0.64149  AP: 0.52074  normal_score: 0.02978  abnormal_score: 0.04099
+Epoch[ 25/250]  Time:104.1s  loss:0.00666  |  AUC: 0.71533  AP: 0.60475  normal_score: 0.00774  abnormal_score: 0.01324
+Epoch[ 50/250]  Time:108.4s  loss:0.00626  |  AUC: 0.74352  AP: 0.62267  normal_score: 0.00657  abnormal_score: 0.01213
+Epoch[ 75/250]  Time:108.2s  loss:0.00596  |  AUC: 0.73585  AP: 0.61817  normal_score: 0.00687  abnormal_score: 0.01262
+Epoch[100/250]  Time:108.4s  loss:0.00555  |  AUC: 0.74381  AP: 0.62580  normal_score: 0.00577  abnormal_score: 0.01135
+Epoch[125/250]  Time:108.2s  loss:0.00563  |  AUC: 0.74456  AP: 0.62422  normal_score: 0.00591  abnormal_score: 0.01136
+Epoch[150/250]  Time:108.3s  loss:0.00549  |  AUC: 0.73078  AP: 0.61221  normal_score: 0.00678  abnormal_score: 0.01217
+Epoch[175/250]  Time:108.4s  loss:0.00551  |  AUC: 0.74841  AP: 0.63080  normal_score: 0.00577  abnormal_score: 0.01139
+Epoch[200/250]  Time:108.3s  loss:0.00569  |  AUC: 0.74345  AP: 0.62465  normal_score: 0.00594  abnormal_score: 0.01147
+Epoch[225/250]  Time:108.4s  loss:0.00549  |  AUC: 0.74516  AP: 0.62564  normal_score: 0.00579  abnormal_score: 0.01129
+Epoch[250/250]  Time:108.2s  loss:0.00543  |  AUC: 0.74735  AP: 0.62847  normal_score: 0.00620  abnormal_score: 0.01179

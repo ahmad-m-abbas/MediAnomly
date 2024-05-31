@@ -1,0 +1,44 @@
+============= Configurations =============
+dataset:brain
+model:vae
+in_channels:1
+input_size:64
+base_width:16
+expansion:1
+mid_num:1024
+latent_size:16
+en_num_layers:1
+de_num_layers:1
+epochs:600
+batch_size:64
+lr:0.001
+weight_decay:1e-05
+seed:42
+num_params:2.3676M
+FLOPs:29.9131M
+=> Initial learning rate: 0.001
+Epoch[  1/600]  Time:4.3s  loss:0.29427  recon_loss:0.29150  kl_loss:0.42427  |  AUC: 0.5358  AP: 0.4979  normal_score: 0.2000  abnormal_score: 0.2039
+Epoch[ 25/600]  Time:16.2s  loss:0.06506  recon_loss:0.05868  kl_loss:0.90470  |  AUC: 0.3679  AP: 0.4190  normal_score: 0.0592  abnormal_score: 0.0466
+Epoch[ 50/600]  Time:17.1s  loss:0.05428  recon_loss:0.04679  kl_loss:1.04355  |  AUC: 0.4432  AP: 0.4637  normal_score: 0.0488  abnormal_score: 0.0454
+Epoch[ 75/600]  Time:16.6s  loss:0.04718  recon_loss:0.03884  kl_loss:1.14249  |  AUC: 0.5300  AP: 0.5162  normal_score: 0.0414  abnormal_score: 0.0439
+Epoch[100/600]  Time:16.2s  loss:0.04246  recon_loss:0.03385  kl_loss:1.17444  |  AUC: 0.5967  AP: 0.5637  normal_score: 0.0377  abnormal_score: 0.0447
+Epoch[125/600]  Time:16.2s  loss:0.03954  recon_loss:0.03089  kl_loss:1.17848  |  AUC: 0.6426  AP: 0.6024  normal_score: 0.0348  abnormal_score: 0.0447
+Epoch[150/600]  Time:16.2s  loss:0.03724  recon_loss:0.02819  kl_loss:1.22149  |  AUC: 0.6561  AP: 0.6102  normal_score: 0.0343  abnormal_score: 0.0450
+Epoch[175/600]  Time:16.2s  loss:0.03532  recon_loss:0.02638  kl_loss:1.21290  |  AUC: 0.7138  AP: 0.6546  normal_score: 0.0308  abnormal_score: 0.0445
+Epoch[200/600]  Time:16.2s  loss:0.03364  recon_loss:0.02462  kl_loss:1.22238  |  AUC: 0.7112  AP: 0.6516  normal_score: 0.0311  abnormal_score: 0.0449
+Epoch[225/600]  Time:16.2s  loss:0.03362  recon_loss:0.02459  kl_loss:1.22303  |  AUC: 0.7001  AP: 0.6390  normal_score: 0.0323  abnormal_score: 0.0459
+Epoch[250/600]  Time:16.2s  loss:0.03126  recon_loss:0.02218  kl_loss:1.22895  |  AUC: 0.7556  AP: 0.6908  normal_score: 0.0283  abnormal_score: 0.0451
+Epoch[275/600]  Time:16.2s  loss:0.03011  recon_loss:0.02128  kl_loss:1.20139  |  AUC: 0.7538  AP: 0.6858  normal_score: 0.0293  abnormal_score: 0.0458
+Epoch[300/600]  Time:16.2s  loss:0.02950  recon_loss:0.02053  kl_loss:1.21703  |  AUC: 0.7702  AP: 0.7036  normal_score: 0.0273  abnormal_score: 0.0451
+Epoch[325/600]  Time:16.2s  loss:0.02939  recon_loss:0.02056  kl_loss:1.20179  |  AUC: 0.7855  AP: 0.7117  normal_score: 0.0271  abnormal_score: 0.0454
+Epoch[350/600]  Time:16.2s  loss:0.02909  recon_loss:0.02036  kl_loss:1.19110  |  AUC: 0.7838  AP: 0.7034  normal_score: 0.0275  abnormal_score: 0.0457
+Epoch[375/600]  Time:16.2s  loss:0.02819  recon_loss:0.01934  kl_loss:1.20451  |  AUC: 0.7794  AP: 0.7039  normal_score: 0.0278  abnormal_score: 0.0465
+Epoch[400/600]  Time:16.2s  loss:0.02705  recon_loss:0.01832  kl_loss:1.19129  |  AUC: 0.8053  AP: 0.7244  normal_score: 0.0263  abnormal_score: 0.0465
+Epoch[425/600]  Time:16.2s  loss:0.02721  recon_loss:0.01832  kl_loss:1.20853  |  AUC: 0.8043  AP: 0.7267  normal_score: 0.0256  abnormal_score: 0.0462
+Epoch[450/600]  Time:16.2s  loss:0.02764  recon_loss:0.01881  kl_loss:1.20055  |  AUC: 0.8236  AP: 0.7395  normal_score: 0.0250  abnormal_score: 0.0465
+Epoch[475/600]  Time:16.2s  loss:0.02709  recon_loss:0.01822  kl_loss:1.20799  |  AUC: 0.8120  AP: 0.7300  normal_score: 0.0258  abnormal_score: 0.0468
+Epoch[500/600]  Time:16.2s  loss:0.02597  recon_loss:0.01725  kl_loss:1.18826  |  AUC: 0.8022  AP: 0.7238  normal_score: 0.0260  abnormal_score: 0.0467
+Epoch[525/600]  Time:16.2s  loss:0.02587  recon_loss:0.01731  kl_loss:1.17293  |  AUC: 0.8293  AP: 0.7458  normal_score: 0.0244  abnormal_score: 0.0468
+Epoch[550/600]  Time:16.2s  loss:0.02597  recon_loss:0.01746  kl_loss:1.16975  |  AUC: 0.8299  AP: 0.7447  normal_score: 0.0247  abnormal_score: 0.0473
+Epoch[575/600]  Time:16.2s  loss:0.02583  recon_loss:0.01705  kl_loss:1.19714  |  AUC: 0.8261  AP: 0.7446  normal_score: 0.0248  abnormal_score: 0.0475
+Epoch[600/600]  Time:16.2s  loss:0.02513  recon_loss:0.01652  kl_loss:1.17819  |  AUC: 0.8311  AP: 0.7472  normal_score: 0.0245  abnormal_score: 0.0476
