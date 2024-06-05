@@ -249,5 +249,5 @@ class AEWorker(BaseWorker):
                 self.logger.log(step=epoch, data=eval_results)
                 t0 = time.time()
 
-        self.save_checkpoint()
+            self.save_checkpoint()
         self.logger.finish()
