@@ -273,7 +273,7 @@ class BaseWorker:
         torch.save(self.net.state_dict(), os.path.join(self.opt.train['save_dir'], "checkpoints", "model.pt"))
 
     def load_checkpoint(self):
-        model_path = os.path.join(self.opt.train['save_dir'], "checkpoints", "model.pt")
+        model_path = os.path.join(self.opt.train["save_dir"], "checkpoints", "model.pt")
         self.net.load_state_dict(torch.load(model_path, map_location=torch.device("cuda:{}".format(self.opt.gpu))))
         print("=> Load model from {}".format(model_path))
 
