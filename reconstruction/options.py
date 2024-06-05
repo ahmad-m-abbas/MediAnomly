@@ -20,8 +20,8 @@ class Options:
 
         self.data_name = {'rsna': 'RSNA', 'vin': 'VinDr-CXR', 'brain': 'Brain Tumor', 'lag': 'LAG', 'isic': 'ISIC2018',
                           'c16': 'Camelyon16', 'brats': 'BraTS2021'}
-        self.epochs = {'rsna': 150, 'vin': 150, 'brain': 600, 'lag': 150, 'brats': 150,
-                       'oct': 150, 'colon': 150}
+        self.epochs = {'rsna': 250, 'vin': 250, 'brain': 600, 'lag': 250, 'brats': 250,
+                       'oct': 250, 'colon': 250}
         self.in_c = {'c16': 3, 'colon': 1}
 
     def parse(self):
