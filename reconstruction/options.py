@@ -68,7 +68,7 @@ class Options:
         self.dataset = args.dataset
         self.project_name = args.project_name
         self.fold = args.fold
-        self.result_dir = os.path.expanduser("~") + f'/Experiment/MedIAnomaly/{self.dataset}'
+        self.result_dir = '/kaggle/working' + f'/Experiment/MedIAnomaly/{self.dataset}'
 
         self.model['name'] = args.model_name
         self.model['in_c'] = self.in_c.setdefault(self.dataset, 1)
