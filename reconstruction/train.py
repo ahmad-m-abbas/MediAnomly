@@ -37,6 +37,7 @@ def main():
     worker.set_optimizer()
     worker.set_dataloader()
     worker.set_logging()
+    worker.load_checkpoint()
     worker.run_train()
 
 
