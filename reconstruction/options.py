@@ -20,7 +20,7 @@ class Options:
 
         self.data_name = {'rsna': 'RSNA', 'vin': 'VinDr-CXR', 'brain': 'Brain Tumor', 'lag': 'LAG', 'isic': 'ISIC2018',
                           'c16': 'Camelyon16', 'brats': 'BraTS2021'}
-        self.epochs = {'rsna': 125, 'vin': 125, 'brain': 600, 'lag': 125, 'brats': 125,
+        self.epochs = {'rsna': 125, 'vin': 125, 'brain': 600, 'lag': 250, 'brats': 125,
                        'oct': 125, 'colon': 125}
         self.in_c = {'c16': 3, 'colon': 1}
 
