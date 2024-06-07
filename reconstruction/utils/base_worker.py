@@ -191,7 +191,7 @@ class BaseWorker:
 
         if not test:
             self.train_loader = DataLoader(self.train_set, batch_size=self.opt.train['batch_size'], shuffle=True)
-        self.test_loader = DataLoader(self.test_set, batch_size=1, shuffle=False)
+        self.test_loader = DataLoader(self.test_set, num_workers=4, batch_size=1, shuffle=False)
 
     def set_logging(self, test=False):
         example_in = torch.zeros((1, self.opt.model["in_c"],
